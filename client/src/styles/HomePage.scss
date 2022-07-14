@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+h1 {
+    font-family: $header-font;
+    color: green
+}
+
+.Home {
+    font-family: $main-font;
+    color: purple
+}
+
+h1, h2 {
+    font-family: $header-font;
+    color: green
+}

@@ -1,13 +1,15 @@
 
+import '../styles/Nav.scss';
+
 
 const Nav = () => {
     return (
         <>
             <h1>METAL DISTRIBUTORS LTD</h1>
-            <a>Home</a>
-            <a>About Us</a>
-            <a>Products</a>
-            <a>Contact Us</a>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Products</p>
+            <p>Contact Us</p>
     
     
         </>

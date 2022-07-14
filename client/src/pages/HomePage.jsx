@@ -1,4 +1,8 @@
 
+
+import '../styles/HomePage.scss';
+
+
 const HomePage =() => {
   return (
     <>
