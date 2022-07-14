@@ -1,12 +1,14 @@
 import './App.css';
+import Nav from './components/Nav';
+import HomePage from './pages/HomePage';
 
-function App() {
+const App =() => {
   return (
     <div className="App">
-      welcome
-      
+      <Nav/>
+      <HomePage/>
     </div>
   );
-}
+};
 
 export default App;
