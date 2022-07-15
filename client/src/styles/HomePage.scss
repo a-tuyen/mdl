@@ -1,9 +1,5 @@
 @import 'variables.scss';
 
-h1 {
-    font-family: $header-font;
-    //color: green
-}
 
 .Home {
     font-family: $main-font;
@@ -12,5 +8,5 @@ h1 {
 
 h1, h2 {
     font-family: $header-font;
-    color: slategray;
+    color: $main-color;
 }

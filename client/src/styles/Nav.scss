@@ -9,7 +9,7 @@ div.Nav {
 }
 div.logo {
     display: flex;
-    border: solid black;
+    //border: solid black;
     flex-direction: row;
     align-items: flex-end;
     margin:0px;
@@ -20,42 +20,47 @@ div.logo {
 img {
     //border: solid black;
     display: flex;
-    width: 15%;
+    width: 9vw;
     height: auto;
     object-fit: contain;
     margin:0px;
-    padding: 2rem;
-    padding-top: 1rem;
+    margin-bottom: 1.5vw;
+    margin-right: 1vw;
+    //padding: 0vw;
+    //padding-top:.01vw;
     //padding-bottom: 0rem;
 }
 
 h1.title {
     display: flex;
-    font-size: 6rem;
+    font-size: 5vw;
     margin:0px;
     padding-top: 1.5rem;
     //border: solid black;
-    padding-bottom: 0rem;
+    //padding-bottom: 0rem;
     white-space: nowrap;
+    color: $main-color;
 
 }
 
 div.buttonMenu {
     display: flex;
+    font-size: 1.25vw;
     //border: solid black;
     align-items: flex-end;
-    padding-bottom: 1rem;
+    //padding-bottom: 0vh;
     margin: 0rem;
     //margin-left: 5rem;
-    margin-right: 15rem;
+    margin-right: 15vw;
+    margin-left: 10vw;
     white-space: nowrap;
 }
 
 p.button1 {
     display: flex;
-    padding-right: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-right: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
     padding-bottom: 0rem;
 
     font-family: $main-font;

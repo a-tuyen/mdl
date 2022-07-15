@@ -6,7 +6,7 @@ import '../styles/HomePage.scss';
 const HomePage =() => {
   return (
     <>
-        <div>
+        <div className='Home'>
             <p>​​Metal Distributors is a leading non-ferrous metal manufacturer and precision machining company serving a variety of different industries including the marine, nuclear, plumbing, construction and medical industries.
             </p>
             <p>We specialize in lead and lead-based products such as Sheet Lead and Lead Bricks for radiation shielding, Lead Anodes for electroplating and Lead Sash Weights for counter balances. We also offer our Reliance brand of sacrificial anodes​ and custom die casting and CNC services. View our full lineup of products here.
