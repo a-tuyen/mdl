@@ -3,22 +3,20 @@
 div.Nav {
     display: flex;
     justify-content: center;
-    //align-content: center;
-    //border: solid black;
+
 
 }
 div.logo {
     display: flex;
-    //border: solid black;
     flex-direction: row;
     align-items: flex-end;
     margin:0px;
     padding: 0px;
     padding-left: 10rem;
-    //padding-right: 0rem;
+    
 }
 img {
-    //border: solid black;
+
     display: flex;
     width: 9vw;
     height: auto;
@@ -26,9 +24,7 @@ img {
     margin:0px;
     margin-bottom: 1.5vw;
     margin-right: 1vw;
-    //padding: 0vw;
-    //padding-top:.01vw;
-    //padding-bottom: 0rem;
+
 }
 
 h1.title {
@@ -36,8 +32,6 @@ h1.title {
     font-size: 5vw;
     margin:0px;
     padding-top: 1.5rem;
-    //border: solid black;
-    //padding-bottom: 0rem;
     white-space: nowrap;
     color: $main-color;
 
@@ -46,11 +40,8 @@ h1.title {
 div.buttonMenu {
     display: flex;
     font-size: 1.25vw;
-    //border: solid black;
     align-items: flex-end;
-    //padding-bottom: 0vh;
     margin: 0rem;
-    //margin-left: 5rem;
     margin-right: 15vw;
     margin-left: 10vw;
     white-space: nowrap;
@@ -62,9 +53,7 @@ p.button1 {
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     padding-bottom: 0rem;
-
     font-family: $main-font;
-    //color: pink
 }
 
 hr {
