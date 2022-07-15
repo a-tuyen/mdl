@@ -1,10 +1,68 @@
 @import 'variables.scss';
 
-h1 {
-    font-size: 30px;
-    color: coral;
+div.Nav {
+    display: flex;
+    justify-content: center;
+    //align-content: center;
+    //border: solid black;
+
+}
+div.logo {
+    display: flex;
+    border: solid black;
+    flex-direction: row;
+    align-items: flex-end;
+    margin:0px;
+    padding: 0px;
+    padding-left: 10rem;
+    //padding-right: 0rem;
+}
+img {
+    //border: solid black;
+    display: flex;
+    width: 15%;
+    height: auto;
+    object-fit: contain;
+    margin:0px;
+    padding: 2rem;
+    padding-top: 1rem;
+    //padding-bottom: 0rem;
 }
 
-p {
-    font-family: $header-font;
+h1.title {
+    display: flex;
+    font-size: 6rem;
+    margin:0px;
+    padding-top: 1.5rem;
+    //border: solid black;
+    padding-bottom: 0rem;
+    white-space: nowrap;
+
+}
+
+div.buttonMenu {
+    display: flex;
+    //border: solid black;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    margin: 0rem;
+    //margin-left: 5rem;
+    margin-right: 15rem;
+    white-space: nowrap;
+}
+
+p.button1 {
+    display: flex;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 0rem;
+
+    font-family: $main-font;
+    //color: pink
+}
+
+hr {
+    margin: 0rem;
+    padding: 0rem;
 }
