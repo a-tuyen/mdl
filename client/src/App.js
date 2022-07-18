@@ -1,7 +1,8 @@
 import './App.scss';
 import Nav from './components/Nav';
 import HomePage from './pages/HomePage';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+
 
 const App =() => {
   return (
@@ -9,6 +10,7 @@ const App =() => {
       <Nav/>
       <Link to ='/products'>Products</Link>
       <HomePage/>
+      <Outlet />
     </div>
   );
 };
