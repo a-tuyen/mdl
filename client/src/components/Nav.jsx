@@ -1,4 +1,4 @@
-
+import { Link, Outlet } from 'react-router-dom'
 import '../styles/Nav.scss';
 
 
@@ -11,14 +11,17 @@ const Nav = () => {
                     <h1 className='title'>METAL DISTRIBUTORS LTD</h1>
                 </div>
                 <div className='buttonMenu'>
-                    <p className='button1'>Home</p>
-                    <p className='button1'>About Us</p>
-                    <p className='button1'>Products</p>
-                    <p className='button1'>Contact Us</p>
+                    {/* <Link to ='/'><p className='button1'>Home</p></Link> */}
+                    <Link to ='/home'><p className='button1'>Home</p></Link>
+                    <Link to ='/about'><p className='button1'>About Us</p></Link>
+                    <Link to ='/products'><p className='button1'>Products</p></Link>
+                    <Link to ='/contact'><p className='button1'>Contact Us</p></Link>
                 </div>
             </div>
         
             <hr></hr>
+
+            <Outlet />
     
     
         </>
