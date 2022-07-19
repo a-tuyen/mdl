@@ -4,17 +4,32 @@
 .paragraph {
     font-family: $main-font;
     color: $main-color;
-    border: $test;
+    // border: $test;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 
 }
 
-h1, h2 {
+h1 {
+    display: flex;
     font-family: $header-font;
+    font-weight: 400;
     color: $main-color;
     justify-content: center;
 }
+
+
+.Brands {
+    display: flex;
+    font-family: $header-font;
+    font-weight: 400;
+    flex-direction: row;
+    font-family: $header-font;
+    color: $main-color;
+    justify-content: center;
+    border: $test
+}
+
