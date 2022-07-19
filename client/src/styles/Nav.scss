@@ -25,7 +25,9 @@ img {
 }
 
 h1.title {
+    font-family: $title-font;
     display: flex;
+    font-weight: bold;
     font-size: 5vw;
     margin:0px;
     padding-top: 1.5rem;
@@ -35,12 +37,13 @@ h1.title {
 
 div.buttonMenu {
     display: flex;
-    font-size: 1.25vw;
+    font-size: 1.3vw;
     align-items: flex-end;
     margin: 0rem;
-    margin-right: 15vw;
+    margin-right: 14vw;
     margin-left: 10vw;
     white-space: nowrap;
+
 }
 
 p.button1 {
@@ -50,6 +53,11 @@ p.button1 {
     margin-right: 0.5vw;
     padding-bottom: 0rem;
     font-family: $main-font;
+    // border: $test;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 hr {
