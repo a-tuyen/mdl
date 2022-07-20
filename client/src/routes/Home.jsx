@@ -3,7 +3,7 @@
 import '../styles/Home.scss';
 
 
-const Home =() => {
+const Home = () => {
   return (
     <div className='Home'>
       <div className='paragraph'>
