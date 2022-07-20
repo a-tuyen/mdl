@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import './index.scss';
 import App from './App';
 import Products from './routes/Products';
@@ -8,6 +8,9 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 import Nav from './components/Nav';
 import Home from './routes/Home';
+import Lead from './routes/Lead';
+import Anodes from './routes/Anodes';
+import Cnc from './routes/Cnc';
 
 
 
@@ -19,7 +22,11 @@ root.render(
         <Route path='/' element={<Nav />}>
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
-          <Route path='products' element={<Products />} />
+          <Route path='products' element={<Products />} >
+            <Route path='lead' element={<Lead />} />
+            <Route path='anodes' element={<Anodes />} />
+            <Route path='cnc' element={<Cnc />} />
+          </Route>
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
         </Route>

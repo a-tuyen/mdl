@@ -3,7 +3,7 @@
 const Cnc = () => {
     return (
         <div classname='Cnc'>
-            CNC
+            <h1>CNC</h1>
         </div>
     );
 };

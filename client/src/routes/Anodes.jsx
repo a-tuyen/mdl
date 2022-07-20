@@ -3,7 +3,7 @@
 const Anodes = () => {
     return (
         <div className="Anodes">
-            ANODES
+            <h1>ANODES</h1>
         </div>
     );
 };
