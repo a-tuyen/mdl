@@ -11,6 +11,8 @@ import Home from './routes/Home';
 import Lead from './routes/Lead';
 import Anodes from './routes/Anodes';
 import Cnc from './routes/Cnc';
+import Blank from './components/Blank';
+
 
 
 
@@ -23,6 +25,7 @@ root.render(
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
           <Route path='products' element={<Products />} >
+            <Route index element={<Products />} />
             <Route path='lead' element={<Lead />} />
             <Route path='anodes' element={<Anodes />} />
             <Route path='cnc' element={<Cnc />} />

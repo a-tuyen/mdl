@@ -10,16 +10,13 @@ const LeadAnodes = () => {
                 We stock the following metals to produce any alloy you require:
             </h3>
             <ul>
-                Tin (Sn)
-                Lead (Pb)
-                Antimony (Sb)
-                Silver (Ag
-                Bismuth (Bi)
-                Aluminum (Al)
+                <li>Tin (Sn)</li>
+                <li>Lead (Pb)</li>
+                <li>Antimony (Sb)</li>
+                <li>Silver (Ag</li>
+                <li>Bismuth (Bi)</li>
+                <li>Aluminum (Al)</li>
             </ul>
-
-
-
 
         </div>
     );
