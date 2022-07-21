@@ -12,6 +12,7 @@ import Lead from './routes/Lead';
 import Anodes from './routes/Anodes';
 import Cnc from './routes/Cnc';
 import Blank from './components/Blank';
+import Babbitt from './routes/Babbitt';
 
 
 
@@ -26,7 +27,9 @@ root.render(
           <Route path='home' element={<Home />} />
           <Route path='products' element={<Products />} >
             <Route index element={<Products />} />
-            <Route path='lead' element={<Lead />} />
+            <Route path='lead' element={<Lead />} >
+              <Route path='Babbitt' element={<Babbitt/>} />
+            </Route>
             <Route path='anodes' element={<Anodes />} />
             <Route path='cnc' element={<Cnc />} />
           </Route>

@@ -1,9 +1,10 @@
 import '../styles/Sidebar.scss';
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
         <div className="side-bar">
-            <p>Anodes</p>
+            <Link to ='/'><p>Anodes</p></Link>
             <p>Babbitt</p>
             <p>Bricks & Blocks</p>
             <p>Roof Flashings & Caps</p>
