@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import LeadAnodes from './routes/LeadAnodes';
 import { Outlet } from 'react-router-dom';
+import SideBar from './components/SideBar';
 
 
 const App =() => {
@@ -10,6 +11,7 @@ const App =() => {
       <div className="App">
         <Nav/>
         <Footer />
+        <SideBar />
       </div>
   );
 };

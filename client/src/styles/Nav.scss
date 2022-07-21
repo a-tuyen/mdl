@@ -50,17 +50,26 @@ h1.title {
 
 .drop-btn {
     display: flex;
-    // padding-right: 1vw;
-    // margin-left: 0.5vw;
-    // margin-right: 0.5vw;
-    // padding-bottom: 0rem;
     font-family: $main-font;
     margin: 0px;
     padding: 0px;
-    padding-right: 1vh;
-    padding-left: 1vh;
-    // color: $main-color;
-    // border: $test;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    background-color: $menu-bg
+
+}
+
+.drop-btn-middle {
+    display: flex;
+    font-family: $main-font;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    border-right: 0.5px solid white;
+    border-left: 0.5px solid white;
+    background-color: $menu-bg
+
 }
 
 div.buttonMenu {
@@ -103,5 +112,5 @@ hr {
 
 .product-menu:hover .drop-btn {
     // background-color: lightgrey;
-    border: 0.5px solid lightgrey
+    border: $menu-border
 }
