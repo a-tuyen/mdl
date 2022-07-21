@@ -15,23 +15,19 @@ const Nav = () => {
                     <Link to ='/about'><p className='button1'>About Us</p></Link>
                     <div className='product-menu'>
                         <Link to ='/products'><p className='button1'>Products</p></Link>
-                        <div class="dropdown-items">
-                            <Link to ='/products/lead'><p className='button1'>Lead</p></Link>
-                            <Link to ='/products/anodes'><p className='button1'>Sacrificial Anodes</p></Link>
-                            <Link to ='/products/cnc'><p className='button1'>CNC Machining</p></Link>
+                        <div class="dropdown-content">
+                            <Link to ='/products/lead'><p className='drop-btn'>Lead</p></Link>
+                            <Link to ='/products/anodes'><p className='drop-btn'>Sacrificial Anodes</p></Link>
+                            <Link to ='/products/cnc'><p className='drop-btn'>CNC Machining</p></Link>
                         </div>
-                    </div>
-                  
-
+                    </div> 
                     <Link to ='/contact'><p className='button1'>Contact Us</p></Link>
                 </div>
             </div>
         
             <hr></hr>
 
-            <Outlet />
-    
-    
+            <Outlet />   
         </>
     );
 

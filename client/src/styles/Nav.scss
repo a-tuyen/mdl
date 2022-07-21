@@ -35,6 +35,34 @@ h1.title {
     color: $main-color;
 }
 
+.product-menu {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.drop-btn {
+    display: flex;
+    // padding-right: 1vw;
+    // margin-left: 0.5vw;
+    // margin-right: 0.5vw;
+    // padding-bottom: 0rem;
+    font-family: $main-font;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    // color: $main-color;
+    // border: $test;
+}
+
 div.buttonMenu {
     display: flex;
     font-size: 1.3vw;
@@ -63,4 +91,17 @@ a:link {
 hr {
     margin: 0rem;
     padding: 0rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.product-menu:hover .dropdown-content {
+    display: block;
+}
+
+.product-menu:hover .drop-btn {
+    // background-color: lightgrey;
+    border: 0.5px solid lightgrey
 }
