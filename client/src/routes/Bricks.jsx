@@ -5,5 +5,7 @@ const Bricks = () => {
             <h2>IDEAL FOR NUCEAR AND MEDICAL RADIATION SHIELDING AND AS COUNTER-WEIGHTS</h2>
             <h3>Our standard sizes are listed below and custom sizes are available upon request.</h3>
         </div>
-    )
-}
+    );
+};
+
+export default Bricks;

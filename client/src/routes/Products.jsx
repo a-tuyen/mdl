@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router-dom';
+import SideBar from '../components/SideBar';
 
 const Products =() => {
     return (
       <div className="Products">
-        
-        <div>
           <h1>Products</h1>
-        </div>
-        <Outlet />
+          <SideBar/>
+
 
       </div>
     );

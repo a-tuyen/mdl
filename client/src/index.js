@@ -9,10 +9,17 @@ import Contact from './routes/Contact';
 // import Nav from './components/Nav';
 import Home from './routes/Home';
 import Lead from './routes/Lead';
-import Anodes from './routes/Anodes';
+import SacrificialAnodes from './routes/SacrificialAnodes';
 import Cnc from './routes/Cnc';
-import Blank from './components/Blank';
 import Babbitt from './routes/Babbitt';
+import LeadAnodes from './routes/LeadAnodes';
+import Bricks from './routes/Bricks';
+import Flashings from './routes/Flashings';
+import PipeTube from './routes/PipeTube';
+import SashWeights from './routes/SashWeights';
+import SheetLead from './routes/SheetLead';
+import SilFos from './routes/SilFos';
+import StubsBends from './routes/StubsBends';
 
 
 
@@ -26,12 +33,19 @@ root.render(
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
           <Route path='products' element={<Products />} >
-            <Route index element={<Products />} />
-            <Route path='lead' element={<Lead />} >
-              <Route path='Babbitt' element={<Babbitt/>} />
-            </Route>
-            <Route path='anodes' element={<Anodes />} />
+            {/* <Route index element={<Products />} /> */}
+            <Route path='lead' element={<Lead />} />
+            <Route path='sacrificialanodes' element={<SacrificialAnodes />} />
             <Route path='cnc' element={<Cnc />} />
+            <Route path='leadanodes' element={<LeadAnodes />} />
+            <Route path='babbitt' element={<Babbitt/>} />
+            <Route path='bricks' element={<Bricks />} />
+            <Route path='flashings' element={<Flashings />} />
+            <Route path='pipetube' element={<PipeTube />} />
+            <Route path='sashweights' element={<SashWeights />} />
+            <Route path='sheetlead' element={<SheetLead />} />
+            <Route path='silfos' element={<SilFos />} />
+            <Route path='stubsbends' element={<StubsBends />} />
           </Route>
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />

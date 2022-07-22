@@ -1,13 +1,12 @@
-import SideBar from '../components/SideBar'
+import SideBar from '../components/SideBar';
 import { Outlet } from 'react-router-dom';
+
 
 const Lead = () => {
     return (
         <div className="Lead">
             <h1>LEAD</h1>
             <div>
-                <SideBar />
-
                 <h2>We offer a variety of lead and lead-based products and services</h2>
                 <ul>
                     <li>Anodes</li>
