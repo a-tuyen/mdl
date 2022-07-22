@@ -13,8 +13,10 @@
 .side-bar > a {
     font-family: $main-font;
     color: $main-color;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 1vw;
+    padding-left: 1vw;
     border: $menu-border;
     background-color: lightgray;
     width: 13vw;
