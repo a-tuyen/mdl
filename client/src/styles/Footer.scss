@@ -1,18 +1,42 @@
  @import 'variables.scss';
 
- .Footer {
+ .Main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: $test;
     padding: 0%;
-    margin: 0%;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    // line-height:0vh;
  }
 
  .Contact {
-    border: $test;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+    line-height: 0.5vh;
+    margin-right: 10vh;
+    margin-top: 1vh;
+    padding: 0;
  }
 
  .Address {
-    border: $test;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    line-height: 0.5vh;
+    // margin-right: 10vh;
+ }
+
+ .Hours {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+    margin-top: 1vh;
+    line-height:0vh;
+ }
+
+ h3 {
+    // border: $test;
+    margin-bottom: 3vh
  }
