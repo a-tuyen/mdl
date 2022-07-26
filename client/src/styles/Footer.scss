@@ -1,0 +1,18 @@
+ @import 'variables.scss';
+
+ .Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: $test;
+    padding: 0%;
+    margin: 0%;
+ }
+
+ .Contact {
+    border: $test;
+ }
+
+ .Address {
+    border: $test;
+ }
