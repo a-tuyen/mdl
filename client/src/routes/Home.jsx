@@ -19,7 +19,8 @@ const Home = () => {
         <h2>CNC Machining</h2>
         <img src='https://user-images.githubusercontent.com/77664153/179861454-25ce6c5b-a44e-4783-bb3b-22bb4d8ac0ec.png'></img>
         <img src='https://user-images.githubusercontent.com/77664153/179861617-a0d0c58a-5449-4719-bcc4-e142e635c262.jpg'></img>
-      </div>
+        <img src='https://cdn.pixabay.com/photo/2019/08/11/07/44/laser-4398314_960_720.jpg'></img>
+        </div>
     </div>
 
   );
