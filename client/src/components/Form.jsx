@@ -2,7 +2,7 @@ const Form = () => {
     return (
         <div className="Form">
             <h1> Send us a Message!</h1>
-            <form>
+            <form onSubmit={()=> {}}>
                 <label>Name</label>
                 <input type='text' required />
                 <label>Email</label>
@@ -11,7 +11,7 @@ const Form = () => {
                 <input type='text' required />
                 <label>Message</label>
                 <input type='text' required /> 
-                <button>Submit</button>
+                <button type='submit'>Submit</button>
             </form>
         </div>
     );
