@@ -1,9 +1,12 @@
 const express = require('express');
-const app = express();
+const cors = require('cors');
+const bodyParser = require('body-parser');
+
 require('dotenv').config();
 
-const bodyParser = require('body-parser');
-const cors = require('cors');
+const app = express();
+const port = process.env.PORT || 4000;
+
 const nodemailer = require('nodemailer');
 
 
@@ -38,9 +41,9 @@ app.post('/contact', cors(), async (req, res) => {
 
 })
 
-app.listen(
-    (process.env.PORT || 4000,
-        () => {
-            console.log('Server is listening')
+app.listen((port, error => {
+    if (error) throw error;
+    
+    console.log('Server is listening on port' + port)
         })
 )
