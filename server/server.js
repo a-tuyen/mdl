@@ -37,27 +37,28 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
-    const name = req.body.name;
-    const email = req.body.email;
-    const message = req.body.message;
-    const mail = {
-        from: name,
-        to: "salesdesk@metaldist.com",
-        subject: "Contact Form Submission",
-        html: `<p>Name: ${name}</p>
-             <p>Email: ${email}</p>
-             <p>Message: ${message}</p>`,
-    };
-    contactEmail.sendMail(mail, (error) => {
-        if (error) {
-            res.json({ status: "ERROR" });
-        } else {
-            res.json({ status: "Message Sent" });
-        }
-    });
+    console.log('BODY: ', req.body)
+    // const name = req.body.name;
+    // const email = req.body.email;
+    // const message = req.body.message;
+    // const mail = {
+    //     from: name,
+    //     to: "salesdesk@metaldist.com",
+    //     subject: "Contact Form Submission",
+    //     html: `<p>Name: ${name}</p>
+    //          <p>Email: ${email}</p>
+    //          <p>Message: ${message}</p>`,
+    // };
+    // contactEmail.sendMail(mail, (error) => {
+    //     if (error) {
+    //         res.json({ status: "ERROR" });
+    //     } else {
+    //         res.json({ status: "Message Sent" });
+    //     }
+    // });
 });
 
-const welcomeMsg= 'Welcome!!';
+const welcomeMsg= 'Welcome to the contact page!!';
 
 app.get('/contact', (req, res) => {
     res.json(welcomeMsg);
