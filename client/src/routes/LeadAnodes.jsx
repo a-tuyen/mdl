@@ -13,7 +13,7 @@ const LeadAnodes = () => {
                 <li>Tin (Sn)</li>
                 <li>Lead (Pb)</li>
                 <li>Antimony (Sb)</li>
-                <li>Silver (Ag</li>
+                <li>Silver (Ag)</li>
                 <li>Bismuth (Bi)</li>
                 <li>Aluminum (Al)</li>
             </ul>

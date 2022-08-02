@@ -6,8 +6,6 @@ const Products =() => {
       <div className="Products">
           <h1>Products</h1>
           <SideBar/>
-
-
       </div>
     );
   };

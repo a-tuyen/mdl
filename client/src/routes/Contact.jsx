@@ -1,20 +1,20 @@
 import axios from 'axios';
-import React, {useState} from 'react'
+// import React, {useState} from 'react'
 import { useState } from 'react'
 
-import ContactForm from "../components/ContactForm";
+import Form from "../components/Form";
 
 const Contact = () => {
 
     axios.get('http://localhost:5000/contact')
         .then(res => {
             console.log('data has come back');
-            console.log(res.data);
+            console.log('data: ' + res.data);
         })
     return (
         <div className='Contact-us'>
             <h1>Contact Us</h1>
-            <ContactForm />
+            <Form />
         </div>
     );
 };
