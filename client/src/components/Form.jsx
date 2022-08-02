@@ -13,20 +13,6 @@ const Form = () => {
         console.log('message:', message);
         
     }
-    
-    // const [sent, setSent] = useState(false)
-    // const [text, setText] = useState('')
-
-    // const handleSend = async () => {
-    //     setSent(true)
-    //     try {
-    //         await axios.post('http://localhost:3000/', {
-    //             text
-    //         })
-    //     } catch (error) {
-    //         console.log(error)
-    //     }
-    // }
 
     return (
         <div className="Form">
