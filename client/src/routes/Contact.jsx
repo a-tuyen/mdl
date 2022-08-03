@@ -4,7 +4,13 @@ import { useState } from 'react'
 
 import Form from "../components/Form";
 
-const Contact = () => {
+const Contact = (props) => {
+
+    const sendEmail = (name, message) => {
+        console.log('props: ', props)
+        return axios.post('/contact', { name, message});
+        
+    };
 
     axios.get('http://localhost:5000/contact')
         .then(res => {
@@ -14,7 +20,7 @@ const Contact = () => {
     return (
         <div className='Contact-us'>
             <h1>Contact Us</h1>
-            <Form />
+            <Form onSubmit={sendEmail} />
         </div>
     );
 };

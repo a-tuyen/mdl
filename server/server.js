@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const cors = require('cors');
 const morgan = require('morgan');
-// const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 
 require('dotenv').config();
 
@@ -61,7 +61,7 @@ router.post("/contact", (req, res) => {
 const welcomeMsg= 'Welcome to the contact page!!';
 
 app.get('/contact', (req, res) => {
-    res.json(welcomeMsg);
+    res.json('welcome: ' + req.body);
 })
 
 // app.post('/contact', cors(), async (req, res) => {
