@@ -36,7 +36,7 @@ contactEmail.verify((error) => {
     }
 });
 
-router.post("/contact", (req, res) => {
+app.post("/contact", (req, res) => {
     console.log('BODY: ', req.body)
     // const name = req.body.name;
     // const email = req.body.email;
