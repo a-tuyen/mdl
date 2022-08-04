@@ -3,9 +3,10 @@
 
 body {
   justify-content: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
   font-family: $main-font;
+  font-size: larger;
   // background-color: orange;
 
 
@@ -15,7 +16,7 @@ h1, h2 {
   font-family: $header-font;
   font-weight: 400;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
