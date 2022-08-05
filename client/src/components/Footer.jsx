@@ -14,8 +14,9 @@ const Footer = () => {
                     <p>FRIDAY...............8:00am - 3:30pm</p>
                     <p>WEEKENDS...................CLOSED</p> */}
 
-                    <p>MONDAY - FRIDAY.........8:00am - 3:30pm</p>
-                    <p>WEEKENDS................................CLOSED</p>
+                    <p>MONDAY - THURSDAY.........8:00am - 3:30pm</p>
+                    <p>FRIDAY...................................8:00am - 2:00pm</p>
+                    <p>WEEKENDS.......................................CLOSED</p>
 
                 </div>
                 <div className='Contact'>
