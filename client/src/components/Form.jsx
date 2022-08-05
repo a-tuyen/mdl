@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 
 
-const Form = () => {
+const Form = (props) => {
 
   // const [name, setName] = useState('');
   // const [email, setEmail] = useState('');
@@ -22,10 +22,19 @@ const Form = () => {
     // console.log('NAME:', name);
     // console.log('message:', message);
     // console.log('email: ', email);
-    // return axios.post('http://localhost:3000/contact', {message, name})
+    props.onSubmit(inputs);
+    setInputs({
+      name: "",
+      email:"",
+      message:""
+    })
+    // return axios.post('http://localhost:3000/contact', {inputs})
     // console.log('event ', evt.target.elements)
 
+
   }
+
+
 
   return (
     <div className="Form">
