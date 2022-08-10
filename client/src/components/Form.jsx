@@ -28,8 +28,8 @@ const Form = (props) => {
       email:"",
       message:""
     })
-    // return axios.post('http://localhost:3000/contact', {inputs})
-    // console.log('event ', evt.target.elements)
+    return axios.post('http://localhost:3000/contact', {inputs})
+    console.log('event ', evt.target.elements)
 
 
   }

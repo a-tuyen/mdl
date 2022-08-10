@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useState } from 'react'
 
 import Form from "../components/Form";
+import ContactForm from "../components/ContactForm";
 
 const Contact = (props) => {
 
@@ -20,7 +21,8 @@ const Contact = (props) => {
     return (
         <div className='Contact-us'>
             <h1>Contact Us</h1>
-            <Form onSubmit={(inputs) => console.log('Submitted!', inputs)} />
+            {/* <Form /> */}
+            <ContactForm />
         </div>
     );
 };
