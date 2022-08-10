@@ -1,4 +1,4 @@
-
+import '../styles/LeadAnodes.scss';
 
 const LeadAnodes = () => {
     return (
