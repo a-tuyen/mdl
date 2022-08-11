@@ -1,6 +1,10 @@
 @import 'variables.scss';
 
 .LeadAnodes {
-    border: $test;
-    // display: flex;
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+    width: 70%;
+    
 }

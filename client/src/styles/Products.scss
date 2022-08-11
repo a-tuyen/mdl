@@ -1,13 +1,16 @@
 @import 'variables.scss';
 
 .Products {
-    border: $test;
+    // border: $test;
     display: flex;
     flex-direction: row;
 }
 
-h1.Title {
-    display: flex;
+.side-bar {
     // border: $test;
-    margin-left: 40%;
-}
+
+// h1.Title {
+    display: flex;
+flex-direction: row;
+//     margin-left: 40%;
+ }
