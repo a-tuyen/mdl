@@ -8,7 +8,7 @@ const Products = () => {
       <section>
       <SideBar />
       </section>
-      <h1 className='Title'>Products</h1>
+      {/* <h1 className='Title'>Products</h1> */}
 
     </div>
   );

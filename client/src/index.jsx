@@ -33,12 +33,20 @@ root.render(
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
           <Route path='products' element={<Products />} >
+            <Route
+              index
+              element={
+                <index>
+                  <h1>Products</h1>
+                </index>
+              }
+            />
             {/* <Route index element={<Products />} /> */}
             <Route path='lead' element={<Lead />} />
             <Route path='sacrificialanodes' element={<SacrificialAnodes />} />
             <Route path='cnc' element={<Cnc />} />
             <Route path='leadanodes' element={<LeadAnodes />} />
-            <Route path='babbitt' element={<Babbitt/>} />
+            <Route path='babbitt' element={<Babbitt />} />
             <Route path='bricks' element={<Bricks />} />
             <Route path='flashings' element={<Flashings />} />
             <Route path='pipetube' element={<PipeTube />} />
