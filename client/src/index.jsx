@@ -39,14 +39,13 @@ root.render(
                 <index>
                   <h1>Products</h1>
                   <section>
-                  <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png'></img>
-                  <img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' />
-                  <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png'></img>
+                    <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png'></img>
+                    <img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' />
+                    <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png'></img>
                   </section>
                 </index>
               }
             />
-            {/* <Route index element={<Products />} /> */}
             <Route path='lead' element={<Lead />} />
             <Route path='sacrificialanodes' element={<SacrificialAnodes />} />
             <Route path='cnc' element={<Cnc />} />

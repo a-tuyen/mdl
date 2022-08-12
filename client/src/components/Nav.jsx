@@ -27,7 +27,7 @@ const Nav = () => {
         
             <hr></hr>
 
-            <Outlet />   
+            {/* <Outlet />    */}
         </>
     );
 

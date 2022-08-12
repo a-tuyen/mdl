@@ -16,7 +16,7 @@ const SideBar = () => {
                 <a href='/products/silfos'>Sil-Fos</a>
                 <a href='/products/sacrificialanodes'>Sacrificial Anodes</a>
                 <a href='/products/cnc'>CNC Machining</a>
-                <Outlet />
+                {/* <Outlet /> */}
             </div>
         </nav>
     );
