@@ -2,13 +2,13 @@ import '../styles/LeadAnodes.scss';
 
 const LeadAnodes = () => {
     return (
-        <div className="LeadAnodes">
+        <div className="main">
             <h1>Lead Anodes</h1>
             <h3>TYPICALLY USED IN ELECTROPLATING PROCESSES TO ALTER THE CHEMICAL AND PHYSICAL PROPERTIES OF METAL SURFACES</h3>
 
             <p>We offer a variety of cast or extruded anodes in a wide range of configurations, such as Grids and Baskets. Each of our anodes go through the same process to produce a fine grain structure essential to even plate-out and maximum throwing power of the plating solution.
-                We stock the following metals to produce any alloy you require:
             </p>
+            <p> We stock the following metals to produce any alloy you require:</p>
             <div className='list'>
                 <ul>
                     <li>Tin (Sn)</li>
