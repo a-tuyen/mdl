@@ -5,10 +5,10 @@ const SideBar = () => {
     return (
         <nav>
             <div className="side-bar">
-                <a href='/products/leadanodes'>Anodes</a>
+                <a href='/products/leadanodes'>Lead Anodes</a>
                 <a href='/products/babbitt'>Babbitt</a>
                 <a href='/products/bricks'>Bricks & Blocks</a>
-                <a href='/products/flashings'>Roof Flashings & Caps</a>
+                <a href='/products/flashings'>Flashings & Caps</a>
                 <a href='/products/stubsbends'>Stubs and Bends</a>
                 <a href='/products/pipetube'>Pipe & Tube</a>
                 <a href='/products/sheetlead'>Sheet Lead</a>
