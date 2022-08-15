@@ -1,4 +1,4 @@
-import '../styles/LeadAnodes.scss';
+import '../styles/ProductsList.scss';
 
 const Babbitt = () => {
     return (
@@ -12,9 +12,10 @@ const Babbitt = () => {
             <ul>
                 <li>MD-4X (also called Nickel Genuine)</li>
                 <li>Heavy Pressure (also called Harris Heavy Pressure)</li>
-                <li>Saw Guide Babbitt</li>
+                
             </ul>
             <ul>
+            <li>Saw Guide Babbitt</li>
                 <li>#4 Babbitt</li>
                 <li>Mill Anchor</li>
                 <li>Soft Choker</li>
