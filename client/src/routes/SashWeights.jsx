@@ -1,4 +1,4 @@
-import '../styles/ProductsList.scss';
+import '../styles/ProductsWithList.scss';
 
 const SashWeights = () => {
     return (

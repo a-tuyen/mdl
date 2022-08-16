@@ -2,10 +2,10 @@ import '../styles/SilFos.scss';
 
 const SilFos = () => {
     return (
-        <div className='main'>
+        <div className='main-silfos'>
             <h1>Sil-Fos</h1>
             <h3>SILVER BRAZING ALLOYS USED TO BRAZE/JOIN COPPER AND COPPER BASED ALLOYS TOGETHER</h3>
-            <p>Extensively used on copper and brass equipment such as refrigeration units. air conditioning coils and electrical conductors.</p>
+            <p>Extensively used on copper and brass equipment such as refrigeration units, air conditioning coils and electrical conductors.</p>
             <p>We carry the following types of Sil-Fos:</p>
 
             <div className='list-silfos'>
