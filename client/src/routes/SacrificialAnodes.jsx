@@ -1,8 +1,8 @@
-
+import '../styles/ProductsWithList.scss';
 
 const SacrificialAnodes = () => {
     return (
-        <div className="Anodes">
+        <div className="main">
             <h1>Sacrificial Anodes</h1>
             <img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png'></img>
             <p>In 1988 Metal Distributors branched out of the lead industry and entered the Marine Industry with our Reliance brand of Sacrificial Anodes. Produced in Aluminum and Zinc Alloys, all our anodes are produced in-house at our facility in Burnaby, BC.</p>

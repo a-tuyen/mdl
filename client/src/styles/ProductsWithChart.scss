@@ -1,0 +1,72 @@
+@import 'variables.scss';
+
+.main {
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    color: $main-color;
+    width: 60vw;
+    margin-left: 10vw;
+    margin-right: 24vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    text-align: left;
+
+    p {
+        text-align: left;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+
+    }
+
+    h3 {
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+    }
+}
+
+.first-col {
+    font-size: xx-large;
+    // border: $test;
+    // font-weight: bold;
+    
+}
+
+table {
+    border: $chart-border;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 3vh;
+
+
+
+
+    th {
+        border: $chart-border;
+        color: white;
+        background-color: black;
+        padding: 1vw;
+    }
+
+    .metric {
+        border-bottom: $chart-border;
+        padding-bottom: 1vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .imperial {
+        padding-top: 1vh;
+    }
+
+    td {
+        border-right: $chart-border;
+        color: $main-color;
+        background-color: $menu-bg;
+    }
+
+
+
+}

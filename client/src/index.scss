@@ -22,3 +22,17 @@ h1, h2 {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
 // }
+
+index {
+  border: $test;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  border: $test;
+}
