@@ -32,13 +32,14 @@
 .list {
     // border: $test;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    // margin-left: 0%;
 
     ul {
         // border: $test;
         // margin: 0;
-        // margin-right: 8vw;
+        margin-right: 3vw;
         // padding: 0;
         width: 100%;
         display: flex;
@@ -47,10 +48,12 @@
         
         h4 {
             // border: $test;
+//  margin-right: 10vw;
+//  padding-left: 0vw;       
             display: flex;
             justify-content: center;
             // padding-top: 10vh;
-            width: 100%;
+            // width: 100%;
             // text-align: center!important;
                 // flex-direction: column;
         }
