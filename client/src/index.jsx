@@ -36,14 +36,28 @@ root.render(
             <Route
               index
               element={
-                <index>
+                <article>
                   <h1>Products</h1>
+
                   <section className='img-container'>
-                    <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png'></img>
-                    <img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' />
-                    <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png'></img>
+                    <div className='image-title'>
+                      <a href='/products/lead'>
+                        <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' />
+                        <h2><a href='/products/lead'>LEAD</a></h2>
+                      </a>
+                    </div>
+                    <div className='image-title'>
+                      <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' /></a>
+                      <h2><a href='/products/sacrificialanodes'>SACRIFICIAL ANODES</a></h2>
+                    </div>
+                    <div className='image-title'>
+                      <a href='/products/cnc'>
+                        <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png' />
+                      </a>
+                      <h2><a href='/products/cnc'>CNC SERVICES</a></h2>
+                    </div>
                   </section>
-                </index>
+                </article>
               }
             />
             <Route path='lead' element={<Lead />} />
@@ -64,7 +78,7 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode >
 );
 
 // If you want to start measuring performance in your app, pass a function
