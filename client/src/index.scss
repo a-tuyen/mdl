@@ -9,16 +9,9 @@ body {
   font-size: larger;
 }
 
-h1 {
-  font-family: $header-font;
-  font-weight: 700;
-  // border: $test;
-}
 
-h2 {
-  font-family: $header-font;
-  font-weight: 400;
-}
+
+
 // code {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
@@ -32,6 +25,13 @@ article {
   align-items: center;
   width: 100%;
 
+  h1 {
+    font-family: $header-font;
+    font-size: 3vw;
+    font-weight: bold;
+    // border: $test;
+  }
+
   .img-container {
     display: flex;
     // border: $test;
@@ -40,6 +40,8 @@ article {
       margin-top: 0% ;
       margin-bottom: 10vh;
       padding-bottom: 10%;
+      font-family: $header-font;
+      font-weight: 400;
     }
     img {
       // border: $test;

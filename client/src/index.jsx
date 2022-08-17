@@ -37,7 +37,7 @@ root.render(
               index
               element={
                 <article>
-                  <h1>Products</h1>
+                  <h1>PRODUCTS</h1>
 
                   <section className='img-container'>
                     <div className='image-title'>
