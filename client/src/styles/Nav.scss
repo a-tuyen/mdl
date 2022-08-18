@@ -102,9 +102,9 @@ hr {
     padding: 0rem;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
+// .dropdown-content a:hover {
+//     background-color: #ddd;
+// }
 
 .product-menu:hover .dropdown-content {
     display: block;
@@ -112,5 +112,13 @@ hr {
 
 .product-menu:hover .drop-btn {
     // background-color: lightgrey;
-    border: $menu-border
+    border: $menu-border;
+    // background-color: $accent-color;
+    // color: white;
 }
+
+.dropdown-content p:hover {
+    background-color: #0e9e8b;
+    color: white;
+}
+

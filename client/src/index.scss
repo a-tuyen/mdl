@@ -11,6 +11,14 @@ body {
   // margin: 0%;
 }
 
+a:visited {
+  color: $main-color;
+}
+
+a:hover {
+  color: $accent-color;
+}
+
 h1 {
   font-family: $header-font;
   font-size: 3vw;

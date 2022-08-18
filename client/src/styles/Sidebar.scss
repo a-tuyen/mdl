@@ -28,3 +28,10 @@ left: 0;
     background-color: lightgray;
     width: 12vw;
 }
+
+.side-bar > a:hover {
+    background-color: $accent-color;
+    color: white;
+
+
+}

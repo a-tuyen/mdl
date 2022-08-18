@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.scss';
 import App from './App';
 import Products from './routes/Products';
@@ -41,17 +41,17 @@ root.render(
                   <section className='img-container'>
                     <div className='image-title'>
                       <a href='/products/lead'>
-                        <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' />
+                        <img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' alt='MDL logo' />
                         <h2><a href='/products/lead'>LEAD</a></h2>
                       </a>
                     </div>
                     <div className='image-title'>
-                      <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' /></a>
+                      <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' alt='Reliance logo'/></a>
                       <h2><a href='/products/sacrificialanodes'>SACRIFICIAL ANODES</a></h2>
                     </div>
                     <div className='image-title'>
                       <a href='/products/cnc'>
-                        <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png' />
+                        <img src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png' alt='Maxum CNC logo' />
                       </a>
                       <h2><a href='/products/cnc'>CNC SERVICES</a></h2>
                     </div>
