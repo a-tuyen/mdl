@@ -39,6 +39,7 @@ table {
     text-align: center;
     border-collapse: collapse;
     margin-top: 3vh;
+    
 
 
 
@@ -50,14 +51,14 @@ table {
         padding: 1vw;
     }
 
-    .metric {
+    .even-row {
         border-bottom: $chart-border;
         padding-bottom: 1vh;
         padding-left: 2vw;
         padding-right: 2vw;
     }
 
-    .imperial {
+    .odd-row {
         padding-top: 1vh;
     }
 

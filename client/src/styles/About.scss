@@ -1,0 +1,45 @@
+@import 'variables.scss';
+
+.about {
+    // border: $test;
+    font-family: $main-font;
+    color: $main-color;
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8vh;
+
+
+    .main-section {
+        // border: $test;
+        margin-top: 6vh;
+        display: flex;
+        flex-direction: row;
+       
+       
+        .robot {
+            // border: $test;
+            width: 15vw;
+            border-radius: 12px;
+        }
+
+
+        .text {
+            // border: $test;
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            margin-right: 5vw;
+            text-align: left;
+            // margin-bottom: 10vh;
+
+            h1{
+                margin: 2vw
+            }
+
+        }
+
+
+    }
+}

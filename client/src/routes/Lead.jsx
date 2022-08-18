@@ -1,13 +1,14 @@
 import SideBar from '../components/SideBar';
 import { Outlet } from 'react-router-dom';
-
+import '../styles/ProductsWithList.scss';
 
 const Lead = () => {
     return (
-        <div className="Lead">
+        <div className="main">
             <h1>LEAD</h1>
-            <div>
-                <h2>We offer a variety of lead and lead-based products and services</h2>
+
+            <h2>We offer a variety of lead and lead-based products and services</h2>
+            <div className='list'>
                 <ul>
                     <li>Anodes</li>
                     <li>Babbitt</li>
@@ -20,6 +21,8 @@ const Lead = () => {
                     <li>Custom Fabricated Items</li>
                     <li>Die Casting</li>
                     <li>Extrusions</li>
+                </ul>
+                <ul>
                     <li>Ingots: Bars and Pigs</li>
                     <li>Roof Flashings & Spun Caps</li>
                     <li>Lead Shot</li>

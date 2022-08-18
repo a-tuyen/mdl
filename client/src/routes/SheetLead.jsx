@@ -1,8 +1,8 @@
-import '../styles/ProductsWithChart.scss'
+import '../styles/Sheetlead.scss'
 
 const SheetLead = () => {
     return (
-        <div className='main'>
+        <div className='sheet-lead'>
             <h1>Sheet Lead</h1>
             <h2>COMMONLY USED FOR RADIATION SHIELDING AND SOUND PROOFING</h2>
             <p>Manufactured from refined pure leads that conforms to ASTM B-29, B-749 and Federal QQ-L-201F, QQ-L-171E specifications for lead.</p>

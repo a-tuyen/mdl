@@ -1,0 +1,28 @@
+@import 'variables.scss';
+
+.cnc {
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+    align-items: center;
+    width: 70%;
+    color: $main-color;
+    width: 60vw;
+    margin-left: 10vw ;
+    margin-right: 24vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    text-align: left;
+}
+
+// h1 {
+
+//     border: $test;
+
+// }
+
+
+.img-maxum-logo {
+    margin-top: 5vh;
+}
