@@ -33,39 +33,7 @@ h1 {
 }
 
 
-// .Brands {
-//     display: flex;
-//     font-family: $header-font;
-//     font-weight: 400;
-//     flex-direction: column;
-//     font-family: $header-font;
-//     color: $main-color;
-//     justify-content: center;
-//     border: $test
-// }
-
-// .titles {
-//     font-family: $header-font;
-//     color: $main-color;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-
-//     h2 {
-//         // border: $test;
-//         padding-right: 1vw;
-//         padding-left: 1vw;
-//     }
-// }
-
-// .images {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-
-// }
-
-.section > img {
+.section > a > img {
     // border: $test;
     border-radius: 10px;
     display: flex;
@@ -90,4 +58,17 @@ h1 {
     align-items: center;
     padding: 2vw;
     color: $main-color;
+
+}
+
+    
+a > .logo {
+    // border: $test;
+    height: 10vh;
+    margin-bottom: 0%;
+}
+
+a > h2 {
+    // border: $test;
+    margin-top: 2vh;
 }

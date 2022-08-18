@@ -3,7 +3,7 @@ import '../styles/StubsBends.scss';
 const StubsBends = () => {
     return (
         <div className='stubs-bends'>
-            <h1>Stub Bends</h1>
+            <h1>Stubs and Bends</h1>
             <h3>KNOWN FOR ITS RESILIENCY TO PINHOLE LEAKS AND DURABILITY, LEAD USE IN PLUMBING DATES BACK TO ANCIENT TIMES</h3>
             <p>Available with either ABS or MJ Metalloy.</p>
             <p>We carry the following sizes and are able to make custom sizes upon request:</p>
