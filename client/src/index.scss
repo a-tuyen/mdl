@@ -7,30 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $main-font;
   font-size: larger;
+  // padding: 0%;
+  // margin: 0%;
 }
 
+h1 {
+  font-family: $header-font;
+  font-size: 3vw;
+  font-weight: bold;
+  // border: $test;
+}
 
-
-
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// }
-
+//for Product index page
 article {
   // border: $test;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  align-items: center;
+  // align-content: flex-start;
+  align-items: flex-start;
   width: 100%;
+  margin-left: 5vw;
+  // padding: 0%;
+  // margin: 0%;
 
-  h1 {
-    font-family: $header-font;
-    font-size: 3vw;
-    font-weight: bold;
-    // border: $test;
-  }
+h1 {
+  margin-left: 23vw;
+}
+
 
   .img-container {
     display: flex;
@@ -47,7 +50,7 @@ article {
       // border: $test;
       margin: 3vw;
       margin-bottom: 0vh;
-      width: 18vw;
+      width: 13vw;
       height: 18vw;
     }
   
