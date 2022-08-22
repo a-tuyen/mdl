@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import axios from 'axios';
+import '../styles/ContactForm.scss'
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Submit");
+  const [status, setStatus] = useState("SUBMIT");
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
+    setStatus("SENDING...");
     const { name, email, message } = e.target.elements;
     let details = {
       name: name.value,
@@ -19,7 +19,7 @@ const ContactForm = () => {
       },
       body: JSON.stringify(details),
     });
-    setStatus("Submit");
+    setStatus("SUBMIT");
     let result = await response.json();
     alert(result.status);
   };
@@ -27,7 +27,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input placeholder='Name' type="text" id="name" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>

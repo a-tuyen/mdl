@@ -1,0 +1,43 @@
+@import 'variables.scss';
+
+label {
+    // border: $test;
+    font-family: $main-font;
+    color: $main-color;
+    // padding: 1vw;
+    margin: 0.5rem;
+
+}
+
+input, textarea {
+    border: 1px solid $main-color;
+    border-radius: 3px;
+    height: 2rem;
+    width: 20rem;
+    margin: 0.5rem;
+   
+
+    // border: $test;
+
+}
+
+input:focus, textarea:focus {
+    background-color: $accent-color;
+
+}
+
+button {
+    border: 1px solid $main-color;
+    // background-color: $accent-color;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+    font-family: $header-font;
+    font-size: large;
+
+}
+
+
+form {
+    margin: 3rem;
+}
