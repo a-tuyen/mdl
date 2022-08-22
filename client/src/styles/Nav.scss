@@ -85,6 +85,9 @@ div.buttonMenu {
 
 }
 
+
+
+
 p.button1 {
     display: flex;
     padding-right: 1vw;
@@ -94,6 +97,10 @@ p.button1 {
     font-family: $main-font;
     // border: $test;
 }
+
+p.button1:hover {
+    text-decoration: underline;
+  }
 
 hr {
     margin: 0rem;
@@ -106,14 +113,11 @@ hr {
 }
 
 .product-menu:hover .drop-btn {
-    // background-color: lightgrey;
     border: $menu-border;
-    // background-color: $accent-color;
-    // color: white;
 }
 
 .dropdown-content p:hover {
-    background-color: #0e9e8b;
+    background-color: $accent-color;
     color: white;
 }
 
