@@ -24,7 +24,7 @@ img {
     margin-right: 1vw;
 }
 
-h1.title {
+.logo > a > h1.title {
     font-family: $title-font;
     display: flex;
     font-weight: bold;
@@ -33,6 +33,8 @@ h1.title {
     padding-top: 1.5rem;
     white-space: nowrap;
     color: $main-color;
+    
+
 }
 
 .product-menu {
@@ -93,18 +95,11 @@ p.button1 {
     // border: $test;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 hr {
     margin: 0rem;
     padding: 0rem;
 }
 
-// .dropdown-content a:hover {
-//     background-color: #ddd;
-// }
 
 .product-menu:hover .dropdown-content {
     display: block;

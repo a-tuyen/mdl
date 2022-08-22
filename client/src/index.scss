@@ -15,8 +15,13 @@ p:visited, a:visited {
   color: $main-color;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a:hover {
   color: $accent-color;
+  text-decoration: underline;
 }
 
 h1 {
