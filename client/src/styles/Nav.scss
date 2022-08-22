@@ -100,6 +100,7 @@ p.button1 {
 
 p.button1:hover {
     text-decoration: underline;
+    text-underline-offset: 0.3em;
   }
 
 hr {
@@ -121,3 +122,7 @@ hr {
     color: white;
 }
 
+
+// .logo > a > .title:hover {
+//     color: $accent-color;
+// }

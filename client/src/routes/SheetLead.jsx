@@ -14,8 +14,8 @@ const SheetLead = () => {
                 <tr>
                     <th>INCHES (DECIMAL)</th>
                     <th>INCHES (FRACTION)</th>
-                    <th>APPROX LBS/FT²</th>
                     <th>METRIC (mm)</th>
+                    <th>APPROX LBS/FT²</th>
                     <th>APPROX KG/M²</th>
                 </tr>
                 <tr>
