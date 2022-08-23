@@ -1,7 +1,6 @@
 import './App.scss';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import LeadAnodes from './routes/LeadAnodes';
 import { Outlet } from 'react-router-dom';
 import Favicon from "react-favicon";
 

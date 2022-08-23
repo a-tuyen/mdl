@@ -6,9 +6,10 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("SENDING...");
-    const { name, email, message } = e.target.elements;
+    const { name, company, email, message } = e.target.elements;
     let details = {
       name: name.value,
+      company: company.value,
       email: email.value,
       message: message.value,
     };
@@ -23,11 +24,16 @@ const ContactForm = () => {
     let result = await response.json();
     alert(result.status);
   };
+  
   return (
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
         <input placeholder='Name' type="text" id="name" required />
+      </div>
+      <div>
+        <label htmlFor="company">Company:</label>
+        <input type="text" id="company" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
