@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../styles/Nav.scss';
 
 
@@ -27,7 +27,6 @@ const Nav = () => {
         
             <hr></hr>
 
-            {/* <Outlet />    */}
         </>
     );
 

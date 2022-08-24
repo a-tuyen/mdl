@@ -33,7 +33,7 @@ const ContactForm = () => {
       </div>
       <div>
         <label htmlFor="company">Company:</label>
-        <input type="text" id="company" required />
+        <input type="text" id="company" />
       </div>
       <div>
         <label htmlFor="email">Email:</label>

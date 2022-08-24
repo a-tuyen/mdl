@@ -30,16 +30,15 @@ const contactEmail = nodemailer.createTransport({
 contactEmail.verify((error) => {
     if (error) {
         console.log('error: ' + error)
-        console.log('options: ' + contactEmail[1]);
     } else {
         console.log("Ready to Send");
-        console.log('options: ' + contactEmail);
     }
 });
 
 app.post("/contact", (req, res) => {
     console.log('BODY: ', req.body)
     const name = req.body.name;
+    const company = req.body.company;
     const email = req.body.email;
     const message = req.body.message;
     const mail = {
@@ -47,6 +46,8 @@ app.post("/contact", (req, res) => {
         to: "salesdesk@metaldist.com",
         subject: "Contact Form Submission",
         html: `<p>Name: ${name}</p>
+        <p>Company: ${company}</p>
+
              <p>Email: ${email}</p>
              <p>Message: ${message}</p>`,
     };
@@ -59,7 +60,7 @@ app.post("/contact", (req, res) => {
     });
 });
 
-const welcomeMsg= 'Welcome to the contact page!!';
+const welcomeMsg = 'Welcome to the contact page!!';
 
 app.get('/contact', (req, res) => {
     res.json('welcome: ' + req.body);
