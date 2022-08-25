@@ -13,7 +13,7 @@ const Cnc = () => {
             <h1>CNC Machining</h1>
             <img className='img-maxum-logo' src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png'></img>
             <p></p>
-            <h3>To learn more about our CNC Machining Services, please visit <a href='http://www.maxumcnc.com'>maxumcnc.com</a></h3>
+            <h3>To learn more about our CNC Machining Services, please visit <a href='http://www.maxumcnc.com' target="_blank">maxumcnc.com</a></h3>
         </div>
     );
 };

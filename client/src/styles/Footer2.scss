@@ -1,0 +1,14 @@
+@import '_variables.scss';
+
+
+.footer2 {
+    background-color: $main-color;
+    // border: $test;
+    width: 100%;
+    bottom: 0;
+    height: $footer-height;
+    margin: 0%;
+    color: white;
+    position: absolute;
+
+}

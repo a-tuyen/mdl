@@ -1,6 +1,13 @@
+@import './styles/variables';
+
 .App {
   text-align: center;
-  //background-color: orange;
+  position: relative;
+  min-height: 100vh;
 }
 
 
+.page-contents {
+  padding-bottom: $footer-height;
+
+}
