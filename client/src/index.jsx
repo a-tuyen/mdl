@@ -20,6 +20,7 @@ import SashWeights from './routes/SashWeights';
 import SheetLead from './routes/SheetLead';
 import SilFos from './routes/SilFos';
 import StubsBends from './routes/StubsBends';
+import Order from './routes/Order'
 
 
 
@@ -32,6 +33,7 @@ root.render(
         <Route path='/*' element={<App />}>
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
+          <Route path='about' element={<About />} />
           <Route path='products' element={<Products />} >
             <Route
               index
@@ -72,7 +74,7 @@ root.render(
             <Route path='silfos' element={<SilFos />} />
             <Route path='stubsbends' element={<StubsBends />} />
           </Route>
-          <Route path='about' element={<About />} />
+          <Route path='order' element={<Order />} />
           <Route path='contact' element={<Contact />} />
         </Route>
       </Routes>
