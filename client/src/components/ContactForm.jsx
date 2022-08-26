@@ -29,7 +29,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input placeholder='Name' type="text" id="name" required />
+        <input type="text" id="name" required />
       </div>
       <div>
         <label htmlFor="company">Company:</label>

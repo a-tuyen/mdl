@@ -6,6 +6,10 @@ label {
     color: $main-color;
     // padding: 1vw;
     margin: 0.5rem;
+    width: 4em;
+    display: inline-block;
+    text-align: right;
+
 
 }
 
@@ -15,10 +19,14 @@ input, textarea {
     height: 2rem;
     width: 20rem;
     margin: 0.5rem;
-   
+     // border: $test;
 
-    // border: $test;
+}
 
+textarea {
+        vertical-align: middle;
+        width: 20rem;
+        height: 10rem
 }
 
 input:focus, textarea:focus {
@@ -34,10 +42,13 @@ button {
     border-radius: 3px;
     font-family: $header-font;
     font-size: large;
+    margin-top: 2rem
+
 
 }
 
 
 form {
     margin: 3rem;
+    //  border: $test;
 }
