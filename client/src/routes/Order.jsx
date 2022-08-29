@@ -33,13 +33,17 @@ const Order = () => {
         <div className="order">
             <h1> Place An Order</h1>
             <form onSubmit={handleSubmit}>
-      <div>
+      {/* <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
       </div>
       <div>
         <label htmlFor="company">Company:</label>
         <input type="text" id="company" />
+      </div>
+      <div>
+        <label htmlFor="phone">Phone #:</label>
+        <input type="phone" id="phone" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
@@ -60,6 +64,39 @@ const Order = () => {
       <div>
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
+      </div> */}
+
+<div>
+        {/* <label placeholder="name">Name:</label> */}
+        <input type="text" placeholder="Name" id="name" required />
+      </div>
+      <div>
+        {/* <label placeholder="company">Company:</label> */}
+        <input type="text" placeholder="Company" id="company" />
+      </div>
+      <div>
+        {/* <label placeholder="phone">Phone #:</label> */}
+        <input type="phone" placeholder="Phone" id="phone" required />
+      </div>
+      <div>
+        {/* <label placeholder="email">Email:</label> */}
+        <input type="email" placeholder="Email" id="email" required />
+      </div>
+      <div>
+        {/* <label placeholder="thickness">Thickness:</label> */}
+        <input type="number" placeholder="Thickness" id="thickness" required />
+      </div>
+      <div>
+        {/* <label placeholder="Width">Width:</label> */}
+        <input type="number" placeholder="Width" id="width" required />
+      </div>
+      <div>
+        {/* <label placeholder="thickness">Length:</label> */}
+        <input type="number" placeholder="Length" id="length" required />
+      </div>
+      <div>
+        {/* <label placeholder="message">Message:</label> */}
+        <textarea id="message" placeholder="Message" />
       </div>
       <button type="submit">{status}</button>
     </form>

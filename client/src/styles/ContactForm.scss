@@ -42,7 +42,7 @@ button {
     border-radius: 3px;
     font-family: $header-font;
     font-size: large;
-    margin-top: 2rem
+    margin-top: 2rem;
 
 
 }
@@ -51,4 +51,13 @@ button {
 form {
     margin: 3rem;
     //  border: $test;
+}
+
+::placeholder {
+    font-family: $main-font;
+    font-size: x-large;
+    padding-left: 0.25rem;
+padding-top: .25rem;
+// border: $test;
+
 }
