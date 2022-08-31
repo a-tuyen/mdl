@@ -95,6 +95,14 @@ const Order = () => {
         <input type="number" placeholder="Length" id="length" required />
       </div>
       <div>
+        {/* <label placeholder="thickness">Length:</label> */}
+        <input type="number" placeholder="Quantity" id="quantity" required />
+      </div>
+      <div>
+        {/* <label placeholder="thickness">Length:</label> */}
+        <input type="text" placeholder="Date Required" id="date-required" required />
+      </div>
+      <div>
         {/* <label placeholder="message">Message:</label> */}
         <textarea id="message" placeholder="Message" />
       </div>

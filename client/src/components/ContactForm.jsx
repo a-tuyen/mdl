@@ -6,10 +6,11 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("SENDING...");
-    const { name, company, email, message } = e.target.elements;
+    const { name, company, phone, email, message } = e.target.elements;
     let details = {
       name: name.value,
       company: company.value,
+      phone: phone.value,
       email: email.value,
       message: message.value,
     };
@@ -38,6 +39,10 @@ const ContactForm = () => {
       <div>
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" required />
+      </div>
+      <div>
+        <label htmlFor="phone">Phone #:</label>
+        <input type="tel" id="phone" required />
       </div>
       <div>
         <label htmlFor="message">Message:</label>

@@ -20,12 +20,22 @@ app.use(morgan('dev'));
 app.use('/contact', router)
 
 const contactEmail = nodemailer.createTransport({
+    // service:'goDaddy',
     host: process.env.MAIL_HOST,
+    // secure: true,
+    // secureConnection: false, // TLS requires secureConnection to be false
+    // tls: {
+    //     ciphers: 'SSLv3'
+    // },
+    // requireTLS: true,
+    port: process.env.MAIL_PORT,
+    // debug: true,
     auth: {
         user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
-    },
+        pass: process.env.MAIL_PASS
+    }
 });
+
 
 contactEmail.verify((error) => {
     if (error) {
@@ -43,7 +53,7 @@ app.post("/contact", (req, res) => {
     const message = req.body.message;
     const mail = {
         from: name,
-        to: "salesdesk@metaldist.com",
+        to: process.env.MAIL_FROM,
         subject: "Contact Form Submission",
         html: `<p>Name: ${name}</p>
         <p>Company: ${company}</p>
@@ -53,7 +63,8 @@ app.post("/contact", (req, res) => {
     };
     contactEmail.sendMail(mail, (error) => {
         if (error) {
-            res.json({ status: "ERROR" });
+            // res.json({ status: "ERROR" });
+            return console.log(error.message);
         } else {
             res.json({ status: "Message Sent" });
         }
