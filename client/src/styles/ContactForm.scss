@@ -13,33 +13,40 @@ label {
 
 }
 
-input, textarea {
-    border: 1px solid $main-color;
+input,
+textarea {
+    // border: 1px solid $main-color;
     border-radius: 3px;
     height: 2rem;
     width: 20rem;
     margin: 0.5rem;
-     // border: $test;
+    // border: $test;
+    font-family: $main-font;
+    font-size: large;
+    padding-left: .5rem;
 
 }
 
 textarea {
-        vertical-align: middle;
-        width: 20rem;
-        height: 10rem
+    vertical-align: middle;
+    width: 20rem;
+    height: 10rem
 }
 
-input:focus, textarea:focus {
-    background-color:#11cfb5;
+input:focus,
+textarea:focus {
+    border: 2px soild #11cfb5;
+    // background-color: $accent-color;
 
 }
 
 button {
-    border: 1px solid $main-color;
-    // background-color: $accent-color;
-    width: 7rem;
-    height: 2rem;
-    border-radius: 3px;
+    border:none;
+    background-color: $accent-color;
+    color: white;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 20px;
     font-family: $header-font;
     font-size: large;
     margin-top: 2rem;
@@ -57,7 +64,7 @@ form {
     font-family: $main-font;
     font-size: x-large;
     padding-left: 0.25rem;
-padding-top: .25rem;
-// border: $test;
+    padding-top: .25rem;
+    // border: $test;
 
 }

@@ -4,7 +4,8 @@ const Footer = () => {
     return (
         <div className='footer2'>
             {/* <hr></hr> */}
-            <p>Copyright 2022 Metal Distributors LTD</p>
+            <a href='/order'>Place an order</a>
+            <p>Copyright © 2022 Metal Distributors LTD</p>
         </div>
 
     );
