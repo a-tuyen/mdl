@@ -5,17 +5,21 @@ label {
     font-family: $main-font;
     color: $main-color;
     // padding: 1vw;
-    margin: 0.5rem;
-    width: 4em;
-    display: inline-block;
-    text-align: right;
-
-
+    // margin: 0.5rem;
+    // width: 8em;
+    // display: inline-block;
+    // text-align: right;
+    // white-space: nowrap;
+  float:left;
+  width:25%;
+  text-align:right;
+  margin-right:5px;
+  vertical-align:middle;
 }
 
 input,
-textarea {
-    // border: 1px solid $main-color;
+textarea, select {
+    border: 1px solid $main-color;
     border-radius: 3px;
     height: 2rem;
     width: 20rem;
@@ -24,13 +28,17 @@ textarea {
     font-family: $main-font;
     font-size: large;
     padding-left: .5rem;
+    display: table;
+    // float: left;
+
 
 }
 
 textarea {
     vertical-align: middle;
     width: 20rem;
-    height: 10rem
+    height: 10rem;
+    display: table;
 }
 
 input:focus,
@@ -56,8 +64,11 @@ button {
 
 
 form {
-    margin: 3rem;
-    //  border: $test;
+    // margin: 3rem;
+     border: $test;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
 
 ::placeholder {
@@ -68,3 +79,30 @@ form {
     // border: $test;
 
 }
+
+// fieldset > label {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+
+//     display: inline-block;
+//     width:4empx;
+//     text-align: right;
+
+//     label {
+//         // border: $test;
+//         font-family: $main-font;
+//         color: $main-color;
+//         // padding: 1vw;
+//         margin: 0.5rem;
+//         width: 4em;
+//         display: inline-block;
+//         text-align: right;
+    
+    
+//     }
+// }
+
+// #thickness:focus {
+//     background-color: $accent-color;
+// }
