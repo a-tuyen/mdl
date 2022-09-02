@@ -9,14 +9,19 @@ const Order = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("SENDING...");
-    const { name, company, email, message } = e.target.elements;
+    const { name, company, phone, email, thickness, width, long, custom, notes } = e.target.elements;
     let details = {
       name: name.value,
       company: company.value,
+      phone: phone.value,
       email: email.value,
-      message: message.value,
+      thickness: thickness.value,
+      width: width.value,
+      long: long.value,
+      custom: custom.value,
+      notes: notes.value,
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:5000/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -49,10 +54,10 @@ const Order = () => {
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" required />
         </div>
-        {/* <fieldset> */}
           <div>
             <label htmlFor="thickness">Thickness:</label>
             <select name="thickness" id="thickness">
+            <option label=" "></option>
               <option value='1#'>1#/ft² - 1/64" - 0.4mm</option>
               <option value='2#'>2#/ft² - 1/32" - 0.8mm</option>
               <option value='3#'>3#/ft² - 3/64" - 1.2mm</option>
@@ -62,13 +67,13 @@ const Order = () => {
             </select>
           </div>
           <div>
-            <label htmlFor="Width">Width:</label>
+            <label htmlFor="width">Width:</label>
             <input type="number" id="width" required />
             <label>inches</label>
           </div>
           <div>
-            <label htmlFor="thickness">Length:</label>
-            <input type="number" id="length" required />
+            <label htmlFor="long">Length:</label>
+            <input type="number" id="long" required />
             <label>inches</label>
           </div>
           <div>
@@ -76,7 +81,6 @@ const Order = () => {
             <input id="custom" />
             <label>(thickness x length x width)</label>
           </div>
-        {/* </fieldset> */}
         <div>
           <label htmlFor="notes">Additional Notes:</label>
           <textarea id="notes" required />

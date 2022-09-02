@@ -1,21 +1,6 @@
 @import 'variables.scss';
 
-label {
-    // border: $test;
-    font-family: $main-font;
-    color: $main-color;
-    // padding: 1vw;
-    // margin: 0.5rem;
-    // width: 8em;
-    // display: inline-block;
-    // text-align: right;
-    // white-space: nowrap;
-  float:left;
-  width:25%;
-  text-align:right;
-  margin-right:5px;
-  vertical-align:middle;
-}
+
 
 input,
 textarea, select {
@@ -27,18 +12,18 @@ textarea, select {
     // border: $test;
     font-family: $main-font;
     font-size: large;
-    padding-left: .5rem;
-    display: table;
+    // padding-left: .5rem;
+    // display: table;
     // float: left;
 
 
 }
 
 textarea {
-    vertical-align: middle;
+    // vertical-align: middle;
     width: 20rem;
     height: 10rem;
-    display: table;
+    // display: table;
 }
 
 input:focus,
@@ -62,14 +47,47 @@ button {
 
 }
 
-
 form {
     // margin: 3rem;
      border: $test;
      display: flex;
      flex-direction: column;
      justify-content: center;
+
+     div {
+        // border: $test;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        label {
+            border: $test;
+            font-family: $main-font;
+            color: $main-color;
+            display: inline-block;
+            width: 150px;
+
+            // padding: 1vw;
+            // margin: 0.5rem;
+            // width: 8em;
+            // display: inline-block;
+            // text-align: right;
+            // white-space: nowrap;
+        //   float:left;
+        //   width:10%;
+        //   text-align:right;
+        //   margin-right:5px;
+        //   vertical-align:middle;
+        }
+    }
+
+    // input {
+    //     width: 100px;
+    // }
 }
+
+
 
 ::placeholder {
     font-family: $main-font;
@@ -79,6 +97,8 @@ form {
     // border: $test;
 
 }
+
+
 
 // fieldset > label {
 //     display: flex;

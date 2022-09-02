@@ -72,6 +72,42 @@ app.post("/contact", (req, res) => {
     });
 });
 
+app.post("/order", (req, res) => {
+    console.log('BODY: ', req.body)
+    const name = req.body.name;
+    const company = req.body.company;
+    const phone = req.body.phone;
+    const email = req.body.email;
+    const thickness = req.body.thickness;
+    const width = req.body.width;
+    const long = req.body.long;
+    const custom = req.body.custom;
+    const notes = req.body.notes;
+    const mail = {
+        from: name,
+        to: process.env.MAIL_FROM,
+        subject: "Contact Form Submission",
+        html: `<p>Name: ${name}</p>
+        <p>Company: ${company}</p>
+            <p>Phone #: ${phone}<p>
+             <p>Email: ${email}</p>
+             <p>Thickness: ${thickness}</p>
+             <p>Width: ${width}</p>
+             <p>Length: ${long}</p>
+             <p>Custom: ${custom}</p>
+             <p>Additional Notes: ${notes}</p>
+             `,
+    };
+    contactEmail.sendMail(mail, (error) => {
+        if (error) {
+            // res.json({ status: "ERROR" });
+            return console.log(error.message);
+        } else {
+            res.json({ status: "Message Sent" });
+        }
+    });
+});
+
 const welcomeMsg = 'Welcome to the contact page!!';
 
 app.get('/contact', (req, res) => {
