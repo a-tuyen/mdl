@@ -1,5 +1,45 @@
 @import 'variables.scss';
 
+form {
+    margin: 3rem;
+    //  border: $test;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+     div {
+        // border: $test;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        label {
+            // border: $test;
+            font-family: $main-font;
+            color: $main-color;
+            display: inline-block;
+            width: 10rem;
+            word-wrap: break-word;            
+
+            // padding: 1vw;
+            // margin: 0.5rem;
+            // width: 8em;
+            // display: inline-block;
+            // text-align: right;
+            // white-space: nowrap;
+        //   float:left;
+        //   width:10%;
+        //   text-align:right;
+        //   margin-right:5px;
+        //   vertical-align:middle;
+        }
+    }
+
+    // input {
+    //     width: 100px;
+    // }
+}
 
 
 input,
@@ -47,45 +87,6 @@ button {
 
 }
 
-form {
-    // margin: 3rem;
-     border: $test;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-
-     div {
-        // border: $test;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-
-        label {
-            border: $test;
-            font-family: $main-font;
-            color: $main-color;
-            display: inline-block;
-            width: 150px;
-
-            // padding: 1vw;
-            // margin: 0.5rem;
-            // width: 8em;
-            // display: inline-block;
-            // text-align: right;
-            // white-space: nowrap;
-        //   float:left;
-        //   width:10%;
-        //   text-align:right;
-        //   margin-right:5px;
-        //   vertical-align:middle;
-        }
-    }
-
-    // input {
-    //     width: 100px;
-    // }
-}
 
 
 
