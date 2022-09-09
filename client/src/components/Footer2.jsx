@@ -16,14 +16,14 @@ const Footer = () => {
                     <p>info@metaldist.com</p>
                 </div>
                 <div className='info'>
-                    <img src="https://user-images.githubusercontent.com/77664153/189238979-6ab01b09-c0bf-4d64-8539-b8104bd73035.png" />
-                    <p>7220 Winston Street, Burnaby, BC V5A 2G9</p>
+                    <img src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png" />
+                    <p>7220 Winston Street, Burnaby, BC  V5A 2G9</p>
                 </div>
+                <p className='copyright'>Copyright © 2022 Metal Distributors LTD</p>
 
-            </section>
+            </section>          
 
-            <button><a href='/order'>Place an order</a></button>
-            <p>Copyright © 2022 Metal Distributors LTD</p>
+            <div className='submit'><button><a href='/order'>Place an order</a></button></div>
         </div>
 
     );
