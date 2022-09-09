@@ -83,14 +83,6 @@
         // border: $test;
     }
 
-    button {
-        width: 15rem;
-        height: 5rem;
-        // position: sticky;
-        // margin: 0%;
-        // border: $test;
-    }
-
 
 }
 
@@ -99,10 +91,16 @@
     display: flex;
     align-items: flex-end;
     position: fixed;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
     bottom: 0;
     right: 0;
+
+    button {
+        width: 15rem;
+        height: 5rem;
+
+    }
 }
 
 .copyright {
@@ -110,6 +108,7 @@
     display: flex;
     align-items: flex-end;
     margin-top: 30px;
+    font-size: x-large;
     // margin-left: 110px
 }
 
