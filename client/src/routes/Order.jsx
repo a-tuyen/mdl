@@ -59,11 +59,11 @@ const Order = () => {
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" required />
         </div>
-        <fieldset>
+        {/* <fieldset> */}
 
         <p>---- Sheet Lead Size ----</p>
 
-        <div>
+        <div className="dropdown">
           <label htmlFor="thickness">Thickness:</label>
           <select name="thickness" id="thickness">
             <option label=" "></option>
@@ -71,7 +71,7 @@ const Order = () => {
             <option value='2#'>2#/ft² - 1/32" - 0.8mm</option>
             <option value='3#'>3#/ft² - 3/64" - 1.2mm</option>
             <option value='4#'>4#/ft² - 1/16" - 1.6mm</option>
-            <option value='5#'>5#/ft² - 5/64" - 2mm</option>
+            <option value='5#'>5#/ft² - 5/64" - 2.0mm</option>
             <option value='6#'>6#/ft² - 3/32" - 2.4mm</option>
           </select>
         </div>
@@ -92,7 +92,7 @@ const Order = () => {
           <input id="custom" />
           {/* <label>(thickness x length x width)</label> */}
         </div>
-        </fieldset>
+        {/* </fieldset> */}
         {/* <p>--------</p> */}
         <div>
           <label htmlFor="quantity">Quantity:</label>

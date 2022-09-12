@@ -41,12 +41,19 @@ form {
     // }
 }
 
+.dropdown > select {
+    // background-color: red;
+    font-size: xx-large;
+    width: 20.5rem;
+    height: 3.25rem;
+        padding-left: 2rem;
+}
 
 input,
 textarea, select {
     border: 1px solid $main-color;
     border-radius: 3px;
-    height: 2rem;
+    height: 2.5rem;
     width: 20rem;
     margin: 0.5rem;
     // border: $test;
@@ -92,14 +99,22 @@ button {
 
 ::placeholder {
     font-family: $main-font;
-    font-size: x-large;
+    font-size: xx-large;
     padding-left: 0.25rem;
     padding-top: .25rem;
     // border: $test;
 
 }
 
+option {
+    font-size: xx-large;
+}
 
+optgroup select {
+    font-size: xx-large;
+
+
+}
 
 // fieldset > label {
 //     display: flex;
