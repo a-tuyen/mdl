@@ -41,16 +41,15 @@ const SheetLeadOrder = () => {
       <h1> Place An Order</h1>
       <form onSubmit={handleSubmit}>
         <section>
-        <div>
-          <label htmlFor="name">Full Name:</label>
-          <input type="text" id="name" required />
-        </div>
-        <div>
-          <label htmlFor="company">Company:</label>
-          <input type="text" id="company" />
-        </div>
+          <div>
+            <label htmlFor="name">Full Name:</label>
+            <input type="text" id="name" required />
+          </div>
+          <div>
+            <label htmlFor="company">Company:</label>
+            <input type="text" id="company" />
+          </div>
         </section>
-        <div></div>
         <div>
           <label htmlFor="phone">Phone #:</label>
           <input type="phone" id="phone" required />
@@ -61,8 +60,7 @@ const SheetLeadOrder = () => {
         </div>
         {/* <fieldset> */}
 
-        <p>---- Sheet Lead Size ----</p>
-        <hr></hr> <h2>Sheet Lead Size</h2>
+        <h2>SHEET LEAD SIZE</h2>
 
         <div className="dropdown">
           <label htmlFor="thickness">Thickness:</label>
@@ -76,30 +74,39 @@ const SheetLeadOrder = () => {
             <option value='6#'>6#/ft² - 3/32" - 2.4mm</option>
           </select>
         </div>
-        <div>
-          <label htmlFor="width">Width:</label>
-          <input type="number" id="width" required />
-          <label>inches</label>
+        <div className="dimensions">
+          <div>
+            <label htmlFor="width">Width:</label>
+            <input type="number" id="width" required />
+            <label className="unit">inches</label>
+          </div>
+          <div>
+            <label htmlFor="long">Length:</label>
+            <input type="number" id="long" required />
+            <label className="unit">inches</label>
+          </div>
+          <div>
+          <label htmlFor="quantity">Quantity Needed:</label>
+          <input type="number" id="quantity" required />
+          <label className="unit">rolls</label>
         </div>
-        <div>
-          <label htmlFor="long">Length:</label>
-          <input type="number" id="long" required />
-          <label>inches</label>
         </div>
         <p>---- Or customize your size ----</p>
         <div>
           <label htmlFor="custom">Custom Size:
-          (thickness x length x width)</label>
+            (thickness x length x width)</label>
           <input id="custom" />
           {/* <label>(thickness x length x width)</label> */}
         </div>
         {/* </fieldset> */}
         {/* <p>--------</p> */}
-        <div>
+        {/* <hr></hr> */}
+        <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
           <input type="number" id="quantity" required />
-          {/* <label>inches</label> */}
+          <label className="unit">rolls</label>
         </div>
+
         <div>
           <label htmlFor="date">Date Needed By</label>
           <input type="text" id="date" required />
@@ -109,7 +116,7 @@ const SheetLeadOrder = () => {
           <textarea id="notes" required />
         </div>
         <div>
-        <button type="submit">{status}</button>
+          <button type="submit">{status}</button>
         </div>
       </form>
     </div>

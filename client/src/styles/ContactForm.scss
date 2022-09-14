@@ -3,11 +3,28 @@
 form {
     margin: 3rem;
     //  border: $test;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-     div {
+
+
+    div > .unit{
+        // border: $test;
+        display: flex;
+        margin-left: 0rem;
+        padding-left: 0.5rem
+    }
+
+    .dimensions {
+        display: flex;
+        flex-direction: column;
+        // border: $test;
+        padding-left: 180px;
+
+    }
+    
+    div {
         // border: $test;
         display: flex;
         align-items: center;
@@ -20,7 +37,7 @@ form {
             color: $main-color;
             display: inline-block;
             width: 10rem;
-            word-wrap: break-word;            
+            word-wrap: break-word;
 
             // padding: 1vw;
             // margin: 0.5rem;
@@ -28,29 +45,39 @@ form {
             // display: inline-block;
             // text-align: right;
             // white-space: nowrap;
-        //   float:left;
-        //   width:10%;
-        //   text-align:right;
-        //   margin-right:5px;
-        //   vertical-align:middle;
+            //   float:left;
+            //   width:10%;
+            //   text-align:right;
+            //   margin-right:5px;
+            //   vertical-align:middle;
+
+           
         }
     }
 
+    .quantity {
+        display: flex;
+        // flex-direction: column;
+        // border: $test;
+        padding-left: 180px;
+
+    }
     // input {
     //     width: 100px;
     // }
 }
 
-.dropdown > select {
+.dropdown>select {
     // background-color: red;
     font-size: xx-large;
     width: 20.5rem;
     height: 3.25rem;
-        padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 input,
-textarea, select {
+textarea,
+select {
     border: 1px solid $main-color;
     border-radius: 3px;
     height: 2.5rem;
@@ -81,7 +108,7 @@ textarea:focus {
 }
 
 button {
-    border:none;
+    border: none;
     background-color: $accent-color;
     color: white;
     width: 20rem;
@@ -134,11 +161,12 @@ optgroup select {
 //         width: 4em;
 //         display: inline-block;
 //         text-align: right;
-    
-    
+
+
 //     }
 // }
 
 // #thickness:focus {
 //     background-color: $accent-color;
 // }
+
