@@ -20,6 +20,7 @@ import SashWeights from './routes/SashWeights';
 import SheetLead from './routes/SheetLead';
 import SilFos from './routes/SilFos';
 import StubsBends from './routes/StubsBends';
+import SheetLeadOrder from './routes/SheetLeadOrder'
 import Order from './routes/Order'
 
 
@@ -48,7 +49,7 @@ root.render(
                       </a>
                     </div>
                     <div className='image-title'>
-                      <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' alt='Reliance logo'/></a>
+                      <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' alt='Reliance logo' /></a>
                       <h2><a href='/products/sacrificialanodes'>SACRIFICIAL ANODES</a></h2>
                     </div>
                     <div className='image-title'>
@@ -74,7 +75,18 @@ root.render(
             <Route path='silfos' element={<SilFos />} />
             <Route path='stubsbends' element={<StubsBends />} />
           </Route>
-          <Route path='order' element={<Order />} />
+          <Route path='order' element={<Order />} >
+            <Route index element={
+              <div>
+                <h1>Place an order</h1>
+                <div className="order-type">
+                  <a href='/order/sheetlead'><h2>SHEET LEAD</h2></a>
+                  <a href='/order/other'><h2>OTHER LEAD PRODUCTS</h2></a>
+                </div>
+              </div>
+            } />
+            <Route path='sheetlead' element={<SheetLeadOrder />} />
+          </Route>
           <Route path='contact' element={<Contact />} />
         </Route>
       </Routes>
