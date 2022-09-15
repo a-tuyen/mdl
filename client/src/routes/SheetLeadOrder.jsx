@@ -38,7 +38,8 @@ const SheetLeadOrder = () => {
 
   return (
     <div className="order">
-      <h1> Place An Order</h1>
+      <h1> Place A Sheet Lead Order</h1>
+      <p>Please fill out the form below and we will be in touch</p>
       <form onSubmit={handleSubmit}>
         <section>
           <div>
@@ -58,9 +59,9 @@ const SheetLeadOrder = () => {
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" required />
         </div>
-        {/* <fieldset> */}
+        <fieldset>
 
-        <h2>SHEET LEAD SIZE</h2>
+        <h2>SELECT A SIZE</h2>
 
         <div className="dropdown">
           <label htmlFor="thickness">Thickness:</label>
@@ -91,22 +92,23 @@ const SheetLeadOrder = () => {
           <label className="unit">rolls</label>
         </div>
         </div>
-        <p>---- Or customize your size ----</p>
+        <h3>- Or Customize Your Size -</h3>
         <div>
           <label htmlFor="custom">Custom Size:
             (thickness x length x width)</label>
           <input id="custom" />
           {/* <label>(thickness x length x width)</label> */}
         </div>
-        {/* </fieldset> */}
+
         {/* <p>--------</p> */}
         {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" id="quantity" required />
+          <input type="number" id="quantity-custom" required />
           <label className="unit">rolls</label>
         </div>
-
+        </fieldset>
+{/* <hr></hr> */}
         <div>
           <label htmlFor="date">Date Needed By</label>
           <input type="text" id="date" required />
