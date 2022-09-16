@@ -19,13 +19,11 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 3vw;
-        padding-right: 3vw;
-        // margin-left: 3vw;
-        // border: $test;
+        padding-left: 3%;
+        padding-right: 3%;
         background-color: rgba(0,0,0,0.3);
         box-sizing: border-box;
-        margin-left: 2vw;
+        margin-left: 2%;
 
         // .address {
         //     display: flex;
@@ -35,8 +33,8 @@
         h2 {
             letter-spacing: 1px;
             font-weight: 400;
-            margin-top: 40px;
-            margin-bottom: 30px;
+            margin-top: 5%;
+            margin-bottom: 1%;
             color: white;
         }
         // border: $test;
@@ -47,9 +45,17 @@
             // border: $test;
             justify-content: center;
             align-items: center;
-            font-size: xx-large;
+            font-size: large;
             flex-wrap: nowrap;
-            margin-top: 10px;
+            margin-top: 0px;
+   
+
+
+            .map-icon {
+                margin-right : 3%;
+                width: 11%;
+                // border: $test;
+            }
 
             img {
                 height: 50px;
@@ -57,7 +63,7 @@
                 // border: $test;
                 // align-items: center;
                 margin: 0px;
-                margin-right: 25px;
+                margin-right: 7%;
                 padding-right: 0px;
                 width: 15%;
 
@@ -65,14 +71,12 @@
 
             p {
                 // border: $test;
-                display: flex;
-                align-items: center;
+                // display: flex;
+                // align-items: center;
                 // flex-wrap: nowrap;
                 white-space: nowrap;
                 margin: 0px;
-                padding: 0px;
-
-
+                // padding: 0px;
             }
         }
 
@@ -80,7 +84,8 @@
 
     a {
         color: white;
-        font-size: xx-large;
+        font-size: x-large;
+        letter-spacing: 0.75px;
         // border: $test;
     }
 
@@ -92,14 +97,14 @@
     display: flex;
     align-items: flex-end;
     position: fixed;
-    margin-right: 2vw;
-    margin-bottom: 3vh;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
     bottom: 0;
     right: 0;
 
     button {
-        width: 15rem;
-        height: 5rem;
+        width: 11rem;
+        height: 3rem;
         box-shadow: 5px 7px rgb(0 0 0 / 16%), 1px 2px rgb(0 0 0 / 23%);
 
     }
@@ -109,8 +114,8 @@
     // border: $test;
     display: flex;
     align-items: flex-end;
-    margin-top: 30px;
-    font-size: x-large;
+    margin-top: 4%;
+    font-size: large;
     // margin-left: 110px
 }
 

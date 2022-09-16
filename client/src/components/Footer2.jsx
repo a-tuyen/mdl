@@ -16,7 +16,7 @@ const Footer = () => {
                     <p>info@metaldist.com</p>
                 </div>
                 <div className='info'>
-                    <img src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png" />
+                    <img className='map-icon' src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png" />
                     <p>7220 Winston Street, Burnaby, BC  V5A 2G9</p>
                 </div>
                 <p className='copyright'>Copyright © 2022 Metal Distributors LTD</p>
