@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Blank from "../components/Blank";
+
 import '../styles/ContactForm.scss'
 
 
@@ -33,6 +35,10 @@ const SheetLeadOrder = () => {
     setStatus("SUBMIT");
     let result = await response.json();
     alert(result.status);
+    return (
+      <Blank/>
+    )
+
   };
 
 
@@ -78,17 +84,17 @@ const SheetLeadOrder = () => {
         <div className="dimensions">
           <div>
             <label htmlFor="width">Width:</label>
-            <input type="number" id="width" required />
+            <input type="number" id="width" />
             <label className="unit">inches</label>
           </div>
           <div>
             <label htmlFor="long">Length:</label>
-            <input type="number" id="long" required />
+            <input type="number" id="long" />
             <label className="unit">inches</label>
           </div>
           <div>
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" id="quantity" required />
+          <input type="number" id="quantity" />
           <label className="unit">rolls</label>
         </div>
         </div>
@@ -104,7 +110,7 @@ const SheetLeadOrder = () => {
         {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" id="quantity-custom" required />
+          <input type="number" id="quantity-custom" />
           <label className="unit">rolls</label>
         </div>
         </fieldset>

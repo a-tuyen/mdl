@@ -1,6 +1,6 @@
 const Blank = () => {
     return (
-        <div></div>
+        <div>TESTING BLANK PAGE</div>
 
     );
 };
