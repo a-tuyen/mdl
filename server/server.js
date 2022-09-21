@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
 
+app.use(express.static('../client/build'));
+
 app.use('/contact', router)
 
 const contactEmail = nodemailer.createTransport({
