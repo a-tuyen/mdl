@@ -7,7 +7,7 @@ const Nav = () => {
         <>
             <div className='Nav'>
                 <div className='logo'>
-                    <a href='/'><img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png'></img></a>
+                    <a href='/'><img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' alt='Metal Distributors Logo'></img></a>
                     <a href='/'><h1 className='title'>METAL DISTRIBUTORS LTD</h1></a>
                 </div>
                 <div className='buttonMenu'>
