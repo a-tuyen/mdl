@@ -29,7 +29,7 @@ const Form = (props) => {
       message:""
     })
     return axios.post('http://localhost:3000/contact', {inputs})
-    console.log('event ', evt.target.elements)
+    // console.log('event ', evt.target.elements)
 
 
   }

@@ -1,8 +1,8 @@
 import axios from 'axios';
 // import React, {useState} from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 
-import Form from "../components/Form";
+// import Form from "../components/Form";
 import ContactForm from "../components/ContactForm";
 
 const Contact = (props) => {
