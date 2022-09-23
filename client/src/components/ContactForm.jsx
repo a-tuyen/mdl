@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import React, { useState } from "react";
-import '../styles/ContactForm.scss'
+import '../styles/ContactForm.scss';
 
 const ContactForm = () => {
+
+  const navigate = useNavigate();
   const [status, setStatus] = useState("SUBMIT");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("SENDING...");
@@ -23,7 +27,8 @@ const ContactForm = () => {
     });
     setStatus("SUBMIT");
     let result = await response.json();
-    alert(result.status);
+    // navigate('/');
+    // alert(result.status);
   };
   
   return (
