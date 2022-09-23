@@ -22,15 +22,15 @@ app.use(express.static('../client/build'));
 app.use('/contact', router)
 
 const contactEmail = nodemailer.createTransport({
-    // service:'goDaddy',
-    host: process.env.MAIL_HOST,
+    service:'gmail',
+    // host: process.env.MAIL_HOST,
     // secure: true,
     // secureConnection: false, // TLS requires secureConnection to be false
     // tls: {
     //     ciphers: 'SSLv3'
     // },
     // requireTLS: true,
-    port: process.env.MAIL_PORT,
+    // port: process.env.MAIL_PORT,
     // debug: true,
     auth: {
         user: process.env.MAIL_USER,
