@@ -27,7 +27,7 @@ const ContactForm = () => {
     });
     setStatus("SUBMIT");
     let result = await response.json();
-    // navigate('/');
+    navigate('/contact/thankyou');
     // alert(result.status);
   };
   

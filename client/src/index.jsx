@@ -22,6 +22,8 @@ import SilFos from './routes/SilFos';
 import StubsBends from './routes/StubsBends';
 import SheetLeadOrder from './routes/SheetLeadOrder'
 import Order from './routes/Order'
+import OrderSubmission from './components/OrderSubmission';
+import ContactSubmission from './components/ContactSubmission';
 
 
 
@@ -86,8 +88,13 @@ root.render(
               </div>
             } />
             <Route path='sheetlead' element={<SheetLeadOrder />} />
+            <Route path='thankyou' element={<OrderSubmission />} />
           </Route>
-          <Route path='contact' element={<Contact />} />
+          <Route path='contact' element={<Order />} >
+            <Route index element={<Contact />} />
+            <Route path='thankyou' element={<ContactSubmission />} />
+          </Route>
+
         </Route>
       </Routes>
     </BrowserRouter>

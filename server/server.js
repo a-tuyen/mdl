@@ -83,20 +83,28 @@ app.post("/order", (req, res) => {
     const thickness = req.body.thickness;
     const width = req.body.width;
     const long = req.body.long;
+    const quantity = req.body.quantity;
     const custom = req.body.custom;
+    const quantityCustom = req.body.quantityCustom;
+    const date = req.body.date;
     const notes = req.body.notes;
     const mail = {
         from: name,
         to: process.env.MAIL_FROM,
-        subject: "Contact Form Submission",
+        subject: "Order Form Submission",
         html: `<p>Name: ${name}</p>
         <p>Company: ${company}</p>
             <p>Phone #: ${phone}<p>
              <p>Email: ${email}</p>
+             <p>SHEET LEAD SIZE:</p>
              <p>Thickness: ${thickness}</p>
-             <p>Width: ${width}</p>
-             <p>Length: ${long}</p>
-             <p>Custom: ${custom}</p>
+             <p>Width: ${width} inches</p>
+             <p>Length: ${long} inches</p>
+             <p>Quantity: ${quantity} rolls<p>
+             <p> ------CUSTOM SIZE --------</p>
+             <p>Custom Size: ${custom}</p>
+             <p>Custom-Quantity: ${quantityCustom} rolls</p>
+             <p>Date Required: ${date}</p>
              <p>Additional Notes: ${notes}</p>
              `,
     };

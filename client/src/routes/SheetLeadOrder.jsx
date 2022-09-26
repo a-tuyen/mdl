@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { useNavigate } from 'react-router-dom';
+
 import Blank from "../components/Blank";
 
 import '../styles/ContactForm.scss'
@@ -7,11 +9,12 @@ import '../styles/ContactForm.scss'
 
 const SheetLeadOrder = () => {
 
+  const navigate = useNavigate();
   const [status, setStatus] = useState("SUBMIT");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("SENDING...");
-    const { name, company, phone, email, thickness, width, long, custom, quantity, date, notes } = e.target.elements;
+    const { name, company, phone, email, thickness, width, long, quantity, custom, quantityCustom, date, notes } = e.target.elements;
     let details = {
       name: name.value,
       company: company.value,
@@ -20,8 +23,9 @@ const SheetLeadOrder = () => {
       thickness: thickness.value,
       width: width.value,
       long: long.value,
-      custom: custom.value,
       quantity: quantity.value,
+      custom: custom.value,
+      quantityCustom: quantityCustom.value,
       date: date.value,
       notes: notes.value,
     };
@@ -34,10 +38,9 @@ const SheetLeadOrder = () => {
     });
     setStatus("SUBMIT");
     let result = await response.json();
-    alert(result.status);
-    return (
-      <Blank/>
-    )
+    navigate('/order/thankyou');
+    // alert(result.status);
+
 
   };
 
@@ -110,7 +113,7 @@ const SheetLeadOrder = () => {
         {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" id="quantity-custom" />
+          <input type="number" id="quantityCustom" />
           <label className="unit">rolls</label>
         </div>
         </fieldset>
