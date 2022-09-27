@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
   
   return (
-    <form action="POST" data-netlify="true" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
