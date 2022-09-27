@@ -35,25 +35,25 @@ const ContactForm = () => {
     <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name"/>
+        <input type="text" name="name"/>
       </div>
-      <div>
+      {/* <div>
         <label htmlFor="company">Company:</label>
         <input type="text" id="company" />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <label htmlFor="phone">Phone #:</label>
         <input type="tel" id="phone" required />
-      </div>
+      </div> */}
       <div>
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email"/>
+        <input type="email" name="email"/>
       </div>
 
-      <div>
+      {/* <div>
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
-      </div>
+      </div> */}
       <button type="submit">Send</button>
     </form>
   );
