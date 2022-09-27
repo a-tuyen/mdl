@@ -32,10 +32,10 @@ const ContactForm = () => {
   };
   
   return (
-    <form action="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input type="text" id="name" required name="name"/>
       </div>
       <div>
         <label htmlFor="company">Company:</label>
@@ -47,7 +47,7 @@ const ContactForm = () => {
       </div>
       <div>
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <input type="email" id="email" required name="email"/>
       </div>
 
       <div>
