@@ -43,23 +43,23 @@ const ContactForm = () => {
     <input type="hidden" name="form-name" value="contact" />
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="name"/>
+        <input type="text" name="name" required/>
       </div>
       <div>
         <label htmlFor="company">Company:</label>
-        <input type="text" id="company" />
+        <input type="text" name="company" />
       </div>
       <div>
         <label htmlFor="phone">Phone #:</label>
-        <input type="tel" id="phone" required />
+        <input type="tel" name="phone" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
-        <input type="email" name="email"/>
+        <input type="email" name="email" required/>
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <textarea name="message" required />
       </div>
       <button type="submit">Send</button>
     </form>
