@@ -46,7 +46,64 @@
         <textarea name="message"></textarea>
       </div>
     </form>
+
+
     <div id="root"></div>
+
+  <form name="sheet-lead" netlify netlify-honeypot="bot-field" style="display:none" >
+        <input type="hidden" name="form-name" value="sheet-lead" />
+        <section>
+          <div>
+            <input type="text" name="name" required />
+          </div>
+          <div>
+            <input type="text" name="company" />
+          </div>
+        </section>
+        <div>
+          <input type="phone" name="phone" required />
+        </div>
+        <div>
+          <input type="email" name="email" required />
+        </div>
+        <fieldset>
+          <div className="dropdown">
+          <select type="text" name="thickness">
+            <option label=" "></option>
+            <option value='1#'>1#/ft² - 1/64" - 0.4mm</option>
+            <option value='2#'>2#/ft² - 1/32" - 0.8mm</option>
+            <option value='3#'>3#/ft² - 3/64" - 1.2mm</option>
+            <option value='4#'>4#/ft² - 1/16" - 1.6mm</option>
+            <option value='5#'>5#/ft² - 5/64" - 2.0mm</option>
+            <option value='6#'>6#/ft² - 3/32" - 2.4mm</option>
+          </select>
+        </div>
+        <div className="dimensions">
+          <div>
+            <input type="number" name="width" />
+          </div>
+          <div>
+            <input type="number" name="long" />
+          </div>
+          <div>
+             <input type="number" name="quantity" />
+        </div>
+        </div>
+
+        <div>
+          <input type="text" name="custom" />
+        </div>
+        <div className="quantity">
+           <input type="number" name="quantityCustom" />
+        </div>
+        </fieldset>
+        <div>
+          <input type="text" name="date" required />
+        </div>
+        <div>
+          <textarea name="notes" required></textarea>
+        </div>
+      </form>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -9,29 +9,64 @@ import '../styles/ContactForm.scss'
 
 const SheetLeadOrder = () => {
 
+  const navigate = useNavigate();
+  const [status, setStatus] = useState("SUBMIT");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("SENDING...");
+    const { name, company, phone, email, thickness, width, long, quantity, custom, quantityCustom, date, notes } = e.target.elements;
+    let details = {
+      name: name.value,
+      company: company.value,
+      phone: phone.value,
+      email: email.value,
+      thickness: thickness.value,
+      width: width.value,
+      long: long.value,
+      quantity: quantity.value,
+      custom: custom.value,
+      quantityCustom: quantityCustom.value,
+      date: date.value,
+      notes: notes.value,
+    };
+    let response = await fetch("http://localhost:5000/order", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("SUBMIT");
+    let result = await response.json();
+    navigate('/order/thankyou');
+    // alert(result.status);
+
+
+  };
+
+
   return (
     <div className="order">
       <h1> Place A Sheet Lead Order</h1>
       <p>Please fill out the form below and we will be in touch</p>
-      <form name="contact" method="post">
-        <input type="hidden" name="form-name" value="sheet-lead" />
+      <form onSubmit={handleSubmit}>
         <section>
           <div>
             <label htmlFor="name">Full Name:</label>
-            <input type="text" name="name" required />
+            <input type="text" id="name" required />
           </div>
           <div>
             <label htmlFor="company">Company:</label>
-            <input type="text" name="company" />
-          </div>s
+            <input type="text" id="company" />
+          </div>
         </section>
         <div>
           <label htmlFor="phone">Phone #:</label>
-          <input type="phone" name="phone" required />
+          <input type="phone" id="phone" required />
         </div>
         <div>
           <label htmlFor="email">Email:</label>
-          <input type="email" name="email" required />
+          <input type="email" id="email" required />
         </div>
         <fieldset>
 
@@ -39,7 +74,7 @@ const SheetLeadOrder = () => {
 
         <div className="dropdown">
           <label htmlFor="thickness">Thickness:</label>
-          <select type="text" name="thickness">
+          <select name="thickness" id="thickness">
             <option label=" "></option>
             <option value='1#'>1#/ft² - 1/64" - 0.4mm</option>
             <option value='2#'>2#/ft² - 1/32" - 0.8mm</option>
@@ -52,17 +87,17 @@ const SheetLeadOrder = () => {
         <div className="dimensions">
           <div>
             <label htmlFor="width">Width:</label>
-            <input type="number" name="width" />
+            <input type="number" id="width" />
             <label className="unit">inches</label>
           </div>
           <div>
             <label htmlFor="long">Length:</label>
-            <input type="number" name="long" />
+            <input type="number" id="long" />
             <label className="unit">inches</label>
           </div>
           <div>
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" name="quantity" />
+          <input type="number" id="quantity" />
           <label className="unit">rolls</label>
         </div>
         </div>
@@ -70,7 +105,7 @@ const SheetLeadOrder = () => {
         <div>
           <label htmlFor="custom">Custom Size:
             (thickness x length x width)</label>
-          <input name="custom" />
+          <input id="custom" />
           {/* <label>(thickness x length x width)</label> */}
         </div>
 
@@ -78,21 +113,21 @@ const SheetLeadOrder = () => {
         {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" name="quantityCustom" />
+          <input type="number" id="quantityCustom" />
           <label className="unit">rolls</label>
         </div>
         </fieldset>
 {/* <hr></hr> */}
         <div>
           <label htmlFor="date">Date Needed By</label>
-          <input type="text" name="date" required />
+          <input type="text" id="date" required />
         </div>
         <div>
           <label htmlFor="notes">Additional Notes:</label>
-          <textarea name="notes" required />
+          <textarea id="notes" required />
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button type="submit">{status}</button>
         </div>
       </form>
     </div>
