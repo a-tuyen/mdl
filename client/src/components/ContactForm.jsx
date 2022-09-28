@@ -38,7 +38,10 @@ const ContactForm = () => {
   // };
   
   return (
-    <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+    // <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+    <form name="contact" method="post">
+    <input type="hidden" name="form-name" value="contact" />
+
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" name="name"/>
