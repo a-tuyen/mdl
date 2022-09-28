@@ -56,8 +56,8 @@ const SheetLeadOrder = () => {
             <label className="unit">inches</label>
           </div>
           <div>
-            <label htmlFor="long">Length:</label>
-            <input type="number" name="long-inches" />
+            <label htmlFor="length">Length:</label>
+            <input type="number" name="length-inches" />
             <label className="unit">inches</label>
           </div>
           <div>
@@ -71,18 +71,15 @@ const SheetLeadOrder = () => {
           <label htmlFor="custom">Custom Size:
             (thickness x length x width)</label>
             <input type="text" name="custom-size" />
-          {/* <label>(thickness x length x width)</label> */}
-        </div>
+               </div>
 
-        {/* <p>--------</p> */}
-        {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
           <input type="number" name="quantity-custom-rolls" />
           <label className="unit">rolls</label>
         </div>
         </fieldset>
-{/* <hr></hr> */}
+
         <div>
           <label htmlFor="date">Date Needed By</label>
           <input type="text" name="date-needed" required />
