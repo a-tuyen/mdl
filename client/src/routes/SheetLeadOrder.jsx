@@ -13,8 +13,8 @@ const SheetLeadOrder = () => {
     <div className="order">
       <h1> Place A Sheet Lead Order</h1>
       <p>Please fill out the form below and we will be in touch</p>
-      <form name="contact" method="post">
-        <input type="hidden" name="form-name" value="sheet-lead" />
+      <form name="Order-Sheet-Lead" method="post">
+        <input type="hidden" name="form-name" value="Order-Sheet-Lead" />
         <section>
           <div>
             <label htmlFor="name">Full Name:</label>
@@ -23,7 +23,7 @@ const SheetLeadOrder = () => {
           <div>
             <label htmlFor="company">Company:</label>
             <input type="text" name="company" />
-          </div>s
+          </div>
         </section>
         <div>
           <label htmlFor="phone">Phone #:</label>
@@ -52,17 +52,17 @@ const SheetLeadOrder = () => {
         <div className="dimensions">
           <div>
             <label htmlFor="width">Width:</label>
-            <input type="number" name="width" />
+            <input type="number" name="width-inches" />
             <label className="unit">inches</label>
           </div>
           <div>
             <label htmlFor="long">Length:</label>
-            <input type="number" name="long" />
+            <input type="number" name="long-inches" />
             <label className="unit">inches</label>
           </div>
           <div>
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" name="quantity" />
+          <input type="number" name="quantity-rolls" />
           <label className="unit">rolls</label>
         </div>
         </div>
@@ -70,7 +70,7 @@ const SheetLeadOrder = () => {
         <div>
           <label htmlFor="custom">Custom Size:
             (thickness x length x width)</label>
-          <input name="custom" />
+            <input type="text" name="custom-size" />
           {/* <label>(thickness x length x width)</label> */}
         </div>
 
@@ -78,14 +78,14 @@ const SheetLeadOrder = () => {
         {/* <hr></hr> */}
         <div className="quantity">
           <label htmlFor="quantity">Quantity Needed:</label>
-          <input type="number" name="quantityCustom" />
+          <input type="number" name="quantity-custom-rolls" />
           <label className="unit">rolls</label>
         </div>
         </fieldset>
 {/* <hr></hr> */}
         <div>
           <label htmlFor="date">Date Needed By</label>
-          <input type="text" name="date" required />
+          <input type="text" name="date-needed" required />
         </div>
         <div>
           <label htmlFor="notes">Additional Notes:</label>

@@ -50,8 +50,8 @@
 
     <div id="root"></div>
 
-  <form name="sheet-lead" netlify netlify-honeypot="bot-field" style="display:none" >
-        <input type="hidden" name="form-name" value="sheet-lead" />
+  <form name="Order-Sheet-Lead" netlify netlify-honeypot="bot-field" style="display:none" >
+        <input type="hidden" name="form-name" value="Order-Sheet-Lead" />
         <section>
           <div>
             <input type="text" name="name" required />
@@ -80,25 +80,25 @@
         </div>
         <div className="dimensions">
           <div>
-            <input type="number" name="width" />
+            <input type="number" name="width-inches" />
           </div>
           <div>
-            <input type="number" name="long" />
+            <input type="number" name="long-inches" />
           </div>
           <div>
-             <input type="number" name="quantity" />
+             <input type="number" name="quantity-rolls" />
         </div>
         </div>
 
         <div>
-          <input type="text" name="custom" />
+          <input type="text" name="custom-size" />
         </div>
         <div className="quantity">
-           <input type="number" name="quantityCustom" />
+           <input type="number" name="quantity-custom-rolls" />
         </div>
         </fieldset>
         <div>
-          <input type="text" name="date" required />
+          <input type="text" name="date-needed" required />
         </div>
         <div>
           <textarea name="notes" required></textarea>
