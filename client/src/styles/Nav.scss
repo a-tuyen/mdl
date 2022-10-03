@@ -147,6 +147,12 @@ hr {
 // @media only screen and (max-width: 850px) {}
 
 @media only screen and (max-width: 650px) {
+
+    .Nav {
+        // border: $test;
+        margin-right: 4vw;
+
+    }
     .Nav .buttonMenu {
         display: none;
     }
@@ -163,10 +169,13 @@ hr {
 
     .left-side > a > h1.title {
         font-size: 8vw;
+        margin-left: 1vw;
+        margin-bottom: 0.5vh;
     }
 
     .left-side > a > img {
     display: flex;
+    margin-bottom: 1vh;
         // border: $test;
      width: 10vh;
     }
