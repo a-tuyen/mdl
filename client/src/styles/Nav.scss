@@ -3,16 +3,20 @@
 div.Nav {
     display: flex;
     justify-content: center;
+
     // border: $test;
 }
 
-div.logo {
+div.left-side {
     display: flex;
+    flex: 80%;
     flex-direction: row;
     align-items: flex-end;
     margin:0px;
     padding: 0px;
     padding-left: 16%;
+
+    // border: $test;
 }
 
 img {
@@ -25,7 +29,7 @@ img {
     margin-right: 1vw;
 }
 
-.logo > a > h1.title {
+.left-side > a > h1.title {
     font-family: $title-font;
     display: flex;
     font-weight: bold;
@@ -34,7 +38,7 @@ img {
     padding-top: 1.5rem;
     white-space: nowrap;
     color: $main-color;
-    letter-spacing: 2px;
+    letter-spacing: .15vw;
     
 
 }
@@ -124,7 +128,33 @@ hr {
     color: white;
 }
 
+.burger-menu {
+    background-color: white;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    // border: $test;
+    width: 6vw;
+    margin-right: 4vw;
 
-// .logo > a > .title:hover {
+    img {
+
+        height: 3vh;
+        // border: $test;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+.Nav .buttonMenu {
+    display:none;
+
+}
+
+}
+// .left-side > a > .title:hover {
 //     color: $accent-color;
 // }

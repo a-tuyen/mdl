@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <>
             <div className='Nav'>
-                <div className='logo'>
+                <div className='left-side'>
                     <a href='/'><img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' alt='Metal Distributors Logo'></img></a>
                     <a href='/'><h1 className='title'>METAL DISTRIBUTORS LTD</h1></a>
                 </div>
@@ -23,6 +23,7 @@ const Nav = () => {
                     </div> 
                     <Link to ='/contact'><p className='button1'>Contact Us</p></Link>
                 </div>
+                <button className='burger-menu'><img src='https://user-images.githubusercontent.com/77664153/193146639-29a09769-c716-471b-9b48-48b825cfc856.png'></img></button>
             </div>
         
             <hr></hr>

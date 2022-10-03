@@ -23,7 +23,7 @@ const Footer = () => {
 
             </section>          
 
-            <div className='submit'><button><a href='/order'>Place an order</a></button></div>
+            <div className='submit'><button className='order'><a href='/order'>Place an order</a></button></div>
         </div>
 
     );
