@@ -12,7 +12,7 @@ div.left-side {
     flex: 80%;
     flex-direction: row;
     align-items: flex-end;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     padding-left: 16%;
 
@@ -24,22 +24,22 @@ img {
     width: 9vw;
     height: auto;
     object-fit: contain;
-    margin:0px;
+    margin: 0px;
     margin-bottom: 1.5vw;
     margin-right: 1vw;
 }
 
-.left-side > a > h1.title {
+.left-side>a>h1.title {
     font-family: $title-font;
     display: flex;
     font-weight: bold;
     font-size: 5vw;
-    margin:0px;
+    margin: 0px;
     padding-top: 1.5rem;
     white-space: nowrap;
     color: $main-color;
     letter-spacing: .15vw;
-    
+
 
 }
 
@@ -64,7 +64,6 @@ img {
     padding-right: 2vh;
     padding-left: 2vh;
     background-color: $menu-bg
-
 }
 
 .drop-btn-middle {
@@ -77,7 +76,6 @@ img {
     border-right: 0.5px solid white;
     border-left: 0.5px solid white;
     background-color: $menu-bg
-
 }
 
 div.buttonMenu {
@@ -107,7 +105,7 @@ p.button1 {
 p.button1:hover {
     text-decoration: underline;
     text-underline-offset: 0.3em;
-  }
+}
 
 hr {
     margin: 0rem;
@@ -136,6 +134,8 @@ hr {
     // border: $test;
     width: 6vw;
     margin-right: 4vw;
+    margin-top: 5vh;
+    margin-left: 1vw;;
 
     img {
 
@@ -144,17 +144,39 @@ hr {
     }
 }
 
-@media only screen and (max-width: 850px) {
-
-}
+// @media only screen and (max-width: 850px) {}
 
 @media only screen and (max-width: 650px) {
-.Nav .buttonMenu {
-    display:none;
+    .Nav .buttonMenu {
+        display: none;
+    }
+
+.Nav .left-side {
+    // padding-left: 0;
+    // border: $test;
+    display: flex;
+    justify-content: center;
+    margin-right: 3vw;
+
+}
+    
+
+    .left-side > a > h1.title {
+        font-size: 8vw;
+    }
+
+    .left-side > a > img {
+    display: flex;
+        // border: $test;
+     width: 10vh;
+    }
+
+
+
+
 
 }
 
-}
 // .left-side > a > .title:hover {
 //     color: $accent-color;
 // }
