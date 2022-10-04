@@ -15,30 +15,19 @@ const Home = () => {
       <h1>Our Brands and Products</h1>
       <div className='products'>
         <div className='section'>
-          <a href='/products/lead'>
-            <img className='logo' src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' alt='MDL logo' />
-          </a>
-          <a href='/products/lead'><h2>LEAD</h2></a>
-          <a href='/products/lead'>
-            <img src="https://user-images.githubusercontent.com/77664153/182916916-76b1cd90-51e3-4917-8ffe-894333f5dc14.png" alt='diagonal side view of rolls of sheet lead on a shelf' />
+           <a href='/products/lead'>
+            <img src="https://user-images.githubusercontent.com/77664153/193941443-ee28bda5-bd00-496a-a331-c73e90cf396d.png" alt='diagonal side view of rolls of sheet lead on a shelf' />
           </a>
         </div>
         <div className='section'>
           <a href='/products/sacrificialanodes'>
-            <img className='logo' src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' alt='Reliance logo' />
-          </a>
-          <a href='/products/sacrificialanodes'><h2>SACRIFICIAL ANODES</h2></a>
-          <a href='/products/sacrificialanodes'>
-            <img src="https://user-images.githubusercontent.com/77664153/182916917-a5437d32-1c0f-4e27-8764-1f1d075e3e51.png" alt='closeup of various sizes of rudder anodes' />
+            <img src="https://user-images.githubusercontent.com/77664153/193941446-f16f8e7f-5ebe-42b9-a571-340d258ed0c6.png" alt='closeup of various sizes of rudder anodes' />
           </a>
         </div>
         <div className='section'>
-          <a href='/products/cnc'>
-            <img className='logo' src='https://user-images.githubusercontent.com/77664153/180502025-d02877f3-628c-4f40-9fee-662ed406c23c.png' alt='Maxum CNC logo' />
-          </a>
-          <a href='/products/cnc'><h2>CNC MACHINING</h2></a>
 
-          <a href='/products/cnc'><img src="https://user-images.githubusercontent.com/77664153/182916915-f5d4938f-1a1d-49e7-a59e-273ee64283b9.png" alt='CNC machine working on a piece of lead giving off spartks' /></a>
+
+          <a href='/products/cnc'><img src="https://user-images.githubusercontent.com/77664153/193941450-560744fb-848d-4fc4-8d6d-a0fa6d9b1755.png" alt='CNC machine working on a piece of lead giving off spartks' /></a>
         </div>
       </div>
       <div className='Brands'>
