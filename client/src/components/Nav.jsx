@@ -7,12 +7,35 @@ const Nav = () => {
     const [showFullMenu, setShowFullMenu] = useState(true)
     return (
         <>
+
+            {/* <section class="top-nav">
+                <div>
+                    Logo Here
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                </ul>
+            </section> */}
+
+
             <div className='Nav'>
                 <div className='left-side'>
                     <a href='/'><img src='https://user-images.githubusercontent.com/77664153/179275176-1d25fcfe-6d5e-478d-a1b2-2b461e6da938.png' alt='Metal Distributors Logo'></img></a>
                     <a href='/'><h1 className='title'>METAL DISTRIBUTORS LTD</h1></a>
                 </div>
-                <div className='buttonMenu' id={showFullMenu ? 'hidden' : ''}>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <div className='buttonMenu'>
                     <Link to='/home'><p className='button1'>Home</p></Link>
                     <Link to='/about'><p className='button1'>About Us</p></Link>
                     <div className='product-menu'>
