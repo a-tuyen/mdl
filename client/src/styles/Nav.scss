@@ -1,24 +1,24 @@
 @import 'variables.scss';
 
 .Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 8vw;
+  border-bottom: 1.5px solid darkgrey;
+
+
+  .left-side {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 8vw;
-    border-bottom: 1.5px solid darkgrey ;
-
-
-.left-side {
-    display: flex;
-    flex-direction: row;
     align-items: flex-end;
 
-}
+  }
 
-//logo
+  //logo
 
-img {
+  img {
     display: flex;
     width: 9vw;
     height: auto;
@@ -26,9 +26,9 @@ img {
     margin-bottom: 1.5vw;
     margin-right: 1vw;
     margin-left: 5vw;
-}
+  }
 
-.left-side> a > h1.title {
+  .left-side>a>h1.title {
     font-family: $title-font;
     display: flex;
     font-weight: bold;
@@ -38,32 +38,32 @@ img {
     white-space: nowrap;
     color: $main-color;
     letter-spacing: .15vw;
-}
+  }
 
 
-.buttonMenu {
+  .buttonMenu {
     display: flex;
     font-size: 1.3vw;
     align-items: flex-end;
     margin: 0rem;
-    margin-right: 5vw;
+    // margin-right: 5vw;
     // margin-left: 10vw;
     white-space: nowrap;
-}
+  }
 
-.product-menu {
+  .product-menu {
     position: relative;
     display: inline-block;
-}
+  }
 
-.dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
     z-index: 1;
 
-}
+  }
 
-.drop-item {
+  .drop-item {
     display: flex;
     font-family: $main-font;
     margin: 0px;
@@ -72,33 +72,35 @@ img {
     padding-left: 2vh;
     background-color: $menu-bg;
     border: $menu-border;
-}
+  }
 
-p.button1 {
+  p.button1 {
     display: flex;
     padding-right: 1vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     padding-bottom: 0rem;
     font-family: $main-font;
-}
+  }
 
-p.button1:hover {
+  p.button1:hover {
     text-decoration: underline;
     text-underline-offset: 0.3em;
-}
+  }
 
-.product-menu:hover .dropdown-content {
+  .product-menu:hover .dropdown-content {
     display: block;
-}
+  }
 
-.product-menu:hover .drop-btn {
+  .product-menu:hover .drop-btn {
     border: $menu-border;
-}
+  }
 
-.dropdown-content p:hover {
+  .dropdown-content p:hover {
     background-color: $accent-color;
     color: white;
+  }
+
 }
 
 // .burger-menu {
@@ -126,7 +128,34 @@ p.button1:hover {
 
 // // @media only screen and (max-width: 850px) {}
 
-// @media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
+
+  .buttonMenu {
+    margin-right: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 2px;
+    width: 100%;
+    background-color: $main-color;
+    position: fixed;
+    top: 8vw;
+    padding-top: 3.5rem;
+
+    p {
+      color: white;
+      font-size: large;
+      margin-right: 5rem;
+      margin-left: 5rem;
+
+
+
+
+    }
+
+  }
+
+
+}
 
 
 //     // .burger-menu {
@@ -153,7 +182,7 @@ p.button1:hover {
 //         font-size: 2rem;
 //         margin-right: 40vw;
 //         // background-color: $main-color;
-        
+
 //     }
 
 
@@ -174,7 +203,7 @@ p.button1:hover {
 //     border: $test;
 
 // }
-    
+
 //     .left-side > a > h1.title {
 //         font-size: 8vw;
 //         margin-left: 1vw;
@@ -193,7 +222,7 @@ p.button1:hover {
 
 
 
-}
+
 
 // // .left-side > a > .title:hover {
 // //     color: $accent-color;

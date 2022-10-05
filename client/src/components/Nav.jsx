@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Nav.scss';
+import Burger from '../components/Burger'
 
 
 const Nav = () => {
@@ -25,7 +26,7 @@ const Nav = () => {
                     </div>
                     <Link to='/contact'><p className='button1'>Contact Us</p></Link>
                 </div>
-                {/* <button className='burger-menu' onClick={() => setShowFullMenu(!showFullMenu)}><img src='https://user-images.githubusercontent.com/77664153/193863578-19407891-0c7f-4a86-be70-62e013e4b9c5.png'></img></button> */}
+               <Burger />
             </div>
 
             {/* <hr></hr> */}
