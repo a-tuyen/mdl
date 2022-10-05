@@ -1,172 +1,56 @@
 @import 'variables.scss';
 
-// .top-nav {
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   justify-content: space-between;
-//   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-//   color: #FFF;
-//   height: 50px;
-//   padding: 1em;
-//   background-color: grey;
-// }
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
- 
-
-
-.menu > li {
-  margin: 0 1rem;
-  overflow: hidden;
- 
-}
-}
-
-.menu-button-container {
-  display: none;
-  height: 100%;
-  width: 30px;
-  cursor: pointer;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#menu-toggle {
-  display: none;
-}
-
-.menu-button,
-.menu-button::before,
-.menu-button::after {
-  display: block;
-  background-color: $accent-color;
-  position: absolute;
-  height: 4px;
-  width: 30px;
-  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  border-radius: 2px;
-}
-
-.menu-button::before {
-  content: '';
-  margin-top: -8px;
-}
-
-.menu-button::after {
-  content: '';
-  margin-top: 8px;
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button::before {
-  margin-top: 0px;
-  transform: rotate(405deg);
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button {
-  background: rgba(255, 255, 255, 0);
-}
-
-#menu-toggle:checked + .menu-button-container .menu-button::after {
-  margin-top: 0px;
-  transform: rotate(-405deg);
-}
-
-@media (max-width: 700px) {
-  .menu-button-container {
-    display: flex;
-  }
-  .menu {
-    position: absolute;
-    top: 0;
-    margin-top: 50px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  #menu-toggle ~ .menu li {
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: $test;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  #menu-toggle:checked ~ .menu li {
-    border: 1px solid #333;
-    height: 2.5em;
-    padding: 0.5em;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  .menu > li {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0.5em 0;
-    width: 100%;
-    color: white;
-    background-color: #222;
-  }
-  .menu > li:not(:last-child) {
-    border-bottom: 1px solid #444;
-  }
-}
-
 ////////////////
 
-div.Nav {
+.Nav {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 8vw;
+    border-bottom: 1.5px solid darkgrey ;
 
-    // border: $test;
-}
 
-div.left-side {
+.left-side {
     display: flex;
-    flex: 80%;
     flex-direction: row;
     align-items: flex-end;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 16%;
-
 
 }
 
-.Nav .buttonMenu #hidden {
-    display: flex;
-    border: $test;
-}
 
 img {
     display: flex;
     width: 9vw;
     height: auto;
-    object-fit: contain;
     margin: 0px;
     margin-bottom: 1.5vw;
     margin-right: 1vw;
-    margin-left: 2vw;
+    margin-left: 5vw;
 }
 
-.left-side>a>h1.title {
+.left-side> a > h1.title {
     font-family: $title-font;
     display: flex;
     font-weight: bold;
     font-size: 5vw;
     margin: 0px;
-    padding-top: 1.5rem;
+    // padding-top: 1.5rem;
     white-space: nowrap;
     color: $main-color;
     letter-spacing: .15vw;
+}
+
+
+.buttonMenu {
+    display: flex;
+    font-size: 1.3vw;
+    align-items: flex-end;
+    margin: 0rem;
+    margin-right: 5vw;
+    // margin-left: 10vw;
+    white-space: nowrap;
+
 }
 
 .product-menu {
@@ -204,19 +88,6 @@ img {
     background-color: $menu-bg
 }
 
-div.buttonMenu {
-    display: flex;
-    font-size: 1.3vw;
-    align-items: flex-end;
-    margin: 0rem;
-    margin-right: 14vw;
-    margin-left: 10vw;
-    white-space: nowrap;
-
-}
-
-
-
 
 p.button1 {
     display: flex;
@@ -233,10 +104,10 @@ p.button1:hover {
     text-underline-offset: 0.3em;
 }
 
-hr {
-    margin: 0rem;
-    padding: 0rem;
-}
+// hr {
+//     margin: 0rem;
+//     padding: 0rem;
+// }
 
 
 .product-menu:hover .dropdown-content {
@@ -252,88 +123,100 @@ hr {
     color: white;
 }
 
-.burger-menu {
-    background-color: white;
-    border-radius: 0px;
-    display: flex;
-    justify-content: center;
-    // align-items: baseline;
-    // border: $test;
-    width: 6vw;
-    margin-right: 18vw;
-    margin-top: 4.6vh;
-    // margin-left: 1vw;
-    height: 100%;
-    display:none;
+// .burger-menu {
+//     background-color: white;
+//     border-radius: 0px;
+//     display: flex;
+//     justify-content: center;
+//     // align-items: baseline;
+//     // border: $test;
+//     width: 6vw;
+//     margin-right: 18vw;
+//     margin-top: 4.6vh;
+//     // margin-left: 1vw;
+//     height: 100%;
+//     display:none;
 
-    img {
+//     img {
 
-        height: 3vh;
-        width: 6vw;
-        // border: $test;
+//         height: 3vh;
+//         width: 6vw;
+//         // border: $test;
 
-    }
-}
-
-// @media only screen and (max-width: 850px) {}
-
-@media only screen and (max-width: 650px) {
-
-    .burger-menu {
-        display:flex;
-    }
-
-    div.buttonMenu {
-        display: none;
-    }
-    .Nav {
-        // border: $test;
-        margin-right: 4vw;
-        margin-top: 0;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-
-    }
-
-    .Nav .buttonMenu {
-        display: none;
-    }
-
-.Nav .left-side {
-    // padding-left: 0;
-    // border: $test;
-    display: flex;
-    justify-content: center;
-    margin-right: 3vw;
-
-}
-
-.Nav .buttonMenu #hidden{
-    border: $test;
-
-}
-    
-    .left-side > a > h1.title {
-        font-size: 8vw;
-        margin-left: 1vw;
-        margin-bottom: 0.5vh;
-    }
-
-    .left-side > a > img {
-    display: flex;
-    margin-bottom: 2.5vh;
-        // border: $test;
-        margin-left: 6vw;
-     width: 10vh;
-    }
-
-
-
-
-
-}
-
-// .left-side > a > .title:hover {
-//     color: $accent-color;
+//     }
 // }
+
+// // @media only screen and (max-width: 850px) {}
+
+// @media only screen and (max-width: 650px) {
+
+
+//     // .burger-menu {
+//     //     display:flex;
+//     // }
+
+//     .Nav {
+//       // border: $test;
+//       margin-right: 4vw;
+//       margin-top: 0;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       align-items: flex-start;
+//       border: $test;
+//   }
+
+//     .Nav .buttonMenu {
+//         // display: none;
+
+//         border: $test;
+//         display: none;
+//         flex-direction: column;
+//         font-size: 2rem;
+//         margin-right: 40vw;
+//         // background-color: $main-color;
+        
+//     }
+
+
+//     // .Nav .buttonMenu {
+//     //     display: none;
+//     // }
+
+// .Nav .left-side {
+//     // padding-left: 0;
+//     // border: $test;
+//     display: flex;
+//     justify-content: center;
+//     margin-right: 3vw;
+
+// }
+
+// .Nav .buttonMenu #hidden{
+//     border: $test;
+
+// }
+    
+//     .left-side > a > h1.title {
+//         font-size: 8vw;
+//         margin-left: 1vw;
+//         margin-bottom: 0.5vh;
+//     }
+
+//     .left-side > a > img {
+//     display: flex;
+//     margin-bottom: 2.5vh;
+//         // border: $test;
+//         margin-left: 6vw;
+//      width: 10vh;
+//     }
+
+
+
+
+
+}
+
+// // .left-side > a > .title:hover {
+// //     color: $accent-color;
+// // }
