@@ -18,9 +18,9 @@ const Nav = () => {
                     <div className='product-menu'>
                         <Link to='/products'><p className='button1'>Products</p></Link>
                         <div className="dropdown-content">
-                            <Link to='/products/lead'><p className='drop-btn'>Lead</p></Link>
-                            <Link to='/products/sacrificialanodes'><p className='drop-btn'>Sacrificial Anodes</p></Link>
-                            <Link to='/products/cnc'><p className='drop-btn'>CNC Machining</p></Link>
+                            <Link to='/products/lead'><p className='drop-item'>Lead</p></Link>
+                            <Link to='/products/sacrificialanodes'><p className='drop-item'>Sacrificial Anodes</p></Link>
+                            <Link to='/products/cnc'><p className='drop-item'>CNC Machining</p></Link>
                         </div>
                     </div>
                     <Link to='/contact'><p className='button1'>Contact Us</p></Link>
