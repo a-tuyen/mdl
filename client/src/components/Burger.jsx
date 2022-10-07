@@ -3,13 +3,31 @@ import '../styles/Burger.scss';
 
 const Burger = () => {
 
-    const [open, setOpen] = useState(false)
+    // to change burger classes
+    const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
+    const [menu_class, setMenuClass] = useState("menu hidden")
+    const [isMenuClicked, setIsMenuClicked] = useState(false)
+
+    // toggle burger menu change
+    const updateMenu = () => {
+        if (!isMenuClicked) {
+            setBurgerClass("burger-bar clicked")
+            setMenuClass("menu visible")
+        }
+        else {
+            setBurgerClass("burger-bar unclicked")
+            setMenuClass("menu hidden")
+        }
+        setIsMenuClicked(!isMenuClicked)
+    }
 
     return (
-        <div className='Burger' open={open} onClick={() => setOpen(!open)}>
-            <div />
-            <div />
-            <div />
+        <div className='burger-menu' onClick={updateMenu}>
+            <nav>
+                <div className={burger_class} ></div>
+                <div className={burger_class} ></div>
+                <div className={burger_class} ></div>
+            </nav>
         </div>
     )
 }

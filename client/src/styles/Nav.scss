@@ -102,29 +102,37 @@
   }
 
 }
+/* ------------- sliding menu ------------------ */
+.hidden {
+  display: none;
+}
 
-// .burger-menu {
-//     background-color: white;
-//     border-radius: 0px;
-//     display: flex;
-//     justify-content: center;
-//     // align-items: baseline;
-//     // border: $test;
-//     width: 6vw;
-//     margin-right: 18vw;
-//     margin-top: 4.6vh;
-//     // margin-left: 1vw;
-//     height: 100%;
-//     display:none;
+.visible {
+  display: inherit;
+}
 
-//     img {
+.burger-menu {
+    background-color: white;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    // align-items: baseline;
+    // border: $test;
+    width: 6vw;
+    margin-right: 18vw;
+    margin-top: 4.6vh;
+    // margin-left: 1vw;
+    height: 100%;
+    display:none;
 
-//         height: 3vh;
-//         width: 6vw;
-//         // border: $test;
+    img {
 
-//     }
-// }
+        height: 3vh;
+        width: 6vw;
+        // border: $test;
+
+    }
+}
 
 // // @media only screen and (max-width: 850px) {}
 
