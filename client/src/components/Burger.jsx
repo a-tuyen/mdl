@@ -13,6 +13,7 @@ const Burger = () => {
         if (!isMenuClicked) {
             setBurgerClass("burger-bar clicked")
             setMenuClass("menu visible")
+            console.log('this has been clicked!')
         }
         else {
             setBurgerClass("burger-bar unclicked")
