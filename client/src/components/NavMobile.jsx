@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Burger from './Burger';
-import '../styles/Nav.scss';
+// import '../styles/Nav.scss';
 import NavLinks from './NavLinks';
 
 const NavMobile = () => {
