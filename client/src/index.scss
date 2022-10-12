@@ -19,7 +19,8 @@ button:hover {
   cursor: pointer;
 }
 
-p:visited, a:visited {
+p:visited,
+a:visited {
   color: $main-color;
 }
 
@@ -43,8 +44,7 @@ h1 {
 h2 {
   font-family: $header-font;
   font-size: 2rem;
-  color: $main-color
-  // font-weight: bold;
+  color: $main-color // font-weight: bold;
 }
 
 ////for Product index page////
@@ -58,28 +58,30 @@ article {
   margin-left: 5vw;
 
 
-h1 {
-  // border: $test;
-  margin-left: 22vw;
-}
+  h1 {
+    // border: $test;
+    margin-left: 22vw;
+  }
 
 
   .img-container {
     display: flex;
     // border: $test;
-  
+
     h2 {
-      margin-top: 0% ;
+      margin-top: 0%;
       margin-bottom: 10vh;
       padding-bottom: 10%;
       font-family: $header-font;
       font-weight: 400;
     }
+
     .mdlImg {
       margin-top: 5.75rem;
       width: auto;
       height: 6vw;
     }
+
     img {
       // border: $test;
       margin: 3vw;
@@ -87,20 +89,56 @@ h1 {
       width: auto;
       height: 8.5vw;
     }
-  
+
     .image-title {
       // border: $test;
       display: flex;
       flex-direction: column;
       margin-bottom: 5vw;
-  
+
       // padding: 0%;
-      
-  
-  }
-  
-    
+
+
+    }
+
+
   }
 }
 
+@media only screen and (max-width: 780px) {
 
+  article {
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 5vw;
+  }
+
+  article .img-container {
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .image-title {
+    // border: $test;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-title > a > img {
+    width: 40vw;
+    height: auto;
+  }
+
+  .image-title > h2 > a {
+    font-size: xx-large;
+    
+
+  }
+}
