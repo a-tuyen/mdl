@@ -139,7 +139,7 @@ p.button1:hover {
 .menu {
     width: 20vw;
     // height: 100vh;
-    background-color: darkgrey;
+    background-color: $accent-color;
     position: absolute;
     left: 81vw; 
     top: 0;
@@ -174,7 +174,7 @@ p.button1:hover {
         }
 
         a:hover {
-            color: $accent-color;
+            color: $main-color;
         }
 
         
