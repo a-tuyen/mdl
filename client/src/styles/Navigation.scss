@@ -134,7 +134,7 @@ p.button1:hover {
     // position: absolute;
     // flex-direction: column;
    // justify-content: center;
-    width: 40px;
+    width: 30px;
     height: 40px;
     background-color: darkgray;
     border-radius: 0.5em;
@@ -237,6 +237,7 @@ p.button1:hover {
 
 @media only screen and (max-width: 780px) {
 
+
 .buttonMenu {
     display: none;
 }
@@ -253,7 +254,7 @@ p.button1:hover {
         padding-top: 0;
         padding-bottom: 0;
         z-index: 3;
-        margin-top: 8px
+        margin-top: 12px
      
     }
 
@@ -266,6 +267,7 @@ p.button1:hover {
         height: auto;
         // border: $test;
         padding-bottom: 1vw;
+        margin-top: 10px;
     }
       a>h1.title {
         font-size: 7vw;
