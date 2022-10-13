@@ -10,9 +10,6 @@ nav {
     // padding: 1em;
     padding-bottom: 1.5rem;
     z-index: 2;
-    position: fixed;
-    top: 0;
-    background:white;
 }
 
 
@@ -216,7 +213,7 @@ p.button1:hover {
 /* ----- animations--------- */
 /* clicked */
 .burger-bar.clicked:nth-child(1) {
-    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transform: rotate(45deg) translate(0.05em, 1.4em);
     transition: ease-out 0.5s;
 }
 
@@ -226,7 +223,7 @@ p.button1:hover {
 }
 
 .burger-bar.clicked:nth-child(3) {
-    transform: rotate(135deg) translate(-0.5em, 1em);
+    transform: rotate(135deg) translate(.4em, 1em);
     transition: ease-out 0.5s;
 }
 
@@ -241,6 +238,7 @@ p.button1:hover {
 @media only screen and (max-width: 780px) {
 
     nav {
+
         min-height: 4%;
         
     }

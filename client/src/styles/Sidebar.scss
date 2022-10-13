@@ -13,7 +13,7 @@ left: 0;
     font-family: $main-font;
     margin-top: 10vh;
     // padding: 0%;
-    // border: $test;
+
 
 }
 
@@ -27,12 +27,14 @@ left: 0;
     border: $menu-border;
     background-color: lightgray;
     width: 12vw;
+    
 }
 
 .side-bar > a:hover {
     background-color: $accent-color;
     color: white;
     text-decoration: none;
+    
 
 
 }
