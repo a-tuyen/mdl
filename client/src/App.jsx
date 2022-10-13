@@ -1,5 +1,4 @@
 import './App.scss';
-import NavBar from './components/NavBar';
 import Footer from './components/Footer2';
 import { Outlet } from 'react-router-dom';
 import Favicon from "react-favicon";

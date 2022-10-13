@@ -6,7 +6,6 @@ import App from './App';
 import Products from './routes/Products';
 import About from './routes/About';
 import Contact from './routes/Contact';
-// import Nav from './components/Nav';
 import Home from './routes/Home';
 import Lead from './routes/Lead';
 import SacrificialAnodes from './routes/SacrificialAnodes';
