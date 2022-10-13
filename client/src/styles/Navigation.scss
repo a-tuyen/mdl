@@ -148,7 +148,7 @@ p.button1:hover {
 
 .menu {
     width: 20vw;
-    min-width: 200px;
+    min-width: 150px;
     // height: 100vh;
     background-color: $accent-color;
     position: absolute;
@@ -156,6 +156,7 @@ p.button1:hover {
     top: 0;
     bottom:0;
     z-index: 1;
+    white-space: nowrap;
 }
 
 .menuLinks {
@@ -174,10 +175,12 @@ p.button1:hover {
 
     li {
         display: flex;
-        width: 18vw;
+        width: 86%;
         justify-content: center;
-            //  border: $menu-border;
+            //  border: $test;
         padding-top: 15px;
+        padding-right: 5px;
+        padding-left: 0px;
         font-size: x-large;
         font-weight: bold;
         letter-spacing: .2vw;
