@@ -43,7 +43,7 @@ const Navigation = () => {
                     <Link to='/products/cnc'><p className='drop-item'>CNC Machining</p></Link>
                 </div>
             </div>
-            <Link to='/contact'><p className='button1'>Contact Us</p></Link>
+            <Link to='/contact'><p className='buttonLast'>Contact Us</p></Link>
         </div>
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>

@@ -7,7 +7,8 @@ nav {
     border-bottom: 1px solid black;
     display: flex;
     justify-content: flex-end;
-    padding: 1em;
+    // padding: 1em;
+    padding-bottom: 1.5rem;
     z-index: 2;
 }
 
@@ -49,10 +50,13 @@ a>h1.title {
 
 .buttonMenu {
     display: flex;
+    // flex-direction: row;
     font-size: 1.3vw;
+    height: 130%;
     align-items: flex-end;
     margin: 0rem;
-    margin-right: 4vw;
+    padding-bottom: 0;
+    // margin-right: 4vw;
     // margin-left: 10vw;
     white-space: nowrap;
     // border: $test;
@@ -88,6 +92,11 @@ p.button1 {
     margin-right: 0.5vw;
     padding-bottom: 0rem;
     font-family: $main-font;
+}
+
+a > p.buttonLast {
+    margin-right: 4vw;
+    border: $test;
 }
 
 p.button1:hover {
@@ -139,10 +148,11 @@ p.button1:hover {
 
 .menu {
     width: 20vw;
+    min-width: 200px;
     // height: 100vh;
     background-color: $accent-color;
     position: absolute;
-    left: 81vw; 
+    right: 0; 
     top: 0;
     bottom:0;
     z-index: 1;
@@ -152,20 +162,22 @@ p.button1:hover {
 
     display: inline;
     margin: 0;
+    width: 91%;
     // flex-direction: column;
     text-align: center;
-    list-style-position: inside;
+    // list-style-position: inside;
     position: absolute;
-    top: 9vw;
+    top: 8%;
     right: 0vw;
     list-style: none;
+    // border: $test;
 
     li {
         display: flex;
         width: 18vw;
         justify-content: center;
-             // border: $menu-border;
-        padding:1vw;
+            //  border: $menu-border;
+        padding-top: 15px;
         font-size: x-large;
         font-weight: bold;
         letter-spacing: .2vw;
@@ -178,9 +190,6 @@ p.button1:hover {
             color: $main-color;
         }
 
-        
-
-        // text-align: center;
     }
 }
 
