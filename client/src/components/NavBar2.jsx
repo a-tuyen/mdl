@@ -5,6 +5,7 @@
 const NavBar = () => {
     return (
         <div>
+            NavBar
             {/* <Nav />
             <NavMobile /> */}
         </div>

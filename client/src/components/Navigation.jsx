@@ -60,7 +60,6 @@ const Navigation = () => {
                     <li><a href="/contact">Contact Us</a></li>
 
                 </ul>
-                {/* <h1>Home</h1> */}
             </div>
         </div>
 

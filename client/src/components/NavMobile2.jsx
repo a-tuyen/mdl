@@ -9,6 +9,7 @@ const [open, setOpen] = useState(false)
 
     return (
         <div className='NavMobile'>
+            NavMobile
             {/* <NavLinks /> */}
             {/* <Burger onClick={() => console.log('this has been clicked!')}/> */}
         </div>

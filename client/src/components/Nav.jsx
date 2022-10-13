@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import '../styles/Nav.scss';
 // import Burger from '../components/Burger'
-import NavLinks from './NavLinks';
+// import NavLinks from './NavLinks';
 
 
 const Nav = () => {
