@@ -145,6 +145,14 @@ p.button1:hover {
     // margin-bottom: -5px;
     // float: left;
     margin: 3px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
     
    
 }
@@ -154,7 +162,7 @@ p.button1:hover {
     min-width: 150px;
     // height: 100vh;
     background-color: $accent-color;
-    position: absolute;
+    position: fixed;
     right: 0; 
     top: 0;
     bottom:0;
@@ -166,11 +174,11 @@ p.button1:hover {
 
     display: inline;
     margin: 0;
-    width: 91%;
+    width: 20%;
     // flex-direction: column;
     text-align: center;
     // list-style-position: inside;
-    position: absolute;
+    position: fixed;
     top: 8%;
     right: 0vw;
     list-style: none;
@@ -212,19 +220,48 @@ p.button1:hover {
 
 /* ----- animations--------- */
 /* clicked */
-.burger-bar.clicked:nth-child(1) {
-    transform: rotate(45deg) translate(0.05em, 1.4em);
-    transition: ease-out 0.5s;
-}
+// .burger-bar.clicked:nth-child(1) {
+//     transform: rotate(45deg) translate(0.05em, 1.4em);
+//     transition: ease-out 0.5s;
+// }
+
+// .burger-bar.clicked:nth-child(2) {
+//     transform: scale(0.1);
+//     transition: ease-out 0.5s;
+// }
+
+// .burger-bar.clicked:nth-child(3) {
+//     transform: rotate(135deg) translate(.4em, 1em);
+//     transition: ease-out 0.5s;
+// }
 
 .burger-bar.clicked:nth-child(2) {
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
+    top: 200px;
+    width: 0%;
+    left: 50%;
+}
+
+.burger-bar.clicked:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(9px, 7px);
+    -moz-transform: rotate(45deg) translate(9px, 7px);
+    -o-transform: rotate(45deg) translate(9px, 7px);
+    transform: rotate(45deg) translate(9px, 7px);
+    width: 40px;
+    
 }
 
 .burger-bar.clicked:nth-child(3) {
-    transform: rotate(135deg) translate(.4em, 1em);
-    transition: ease-out 0.5s;
+    -webkit-transform: rotate(-45deg) translate(10px, -9px);
+    -moz-transform: rotate(-45deg) translate(10px, -9px);
+    -o-transform: rotate(-45deg) translate(10px, -9px);
+    transform: rotate(-45deg) translate(10px, -9px);
+    width: 40px;
+}
+
+burger-bar.clicked:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
 }
 
 /* unclicked */
