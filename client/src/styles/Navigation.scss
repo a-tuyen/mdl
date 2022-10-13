@@ -10,6 +10,9 @@ nav {
     // padding: 1em;
     padding-bottom: 1.5rem;
     z-index: 2;
+    position: fixed;
+    top: 0;
+    background:white;
 }
 
 
@@ -237,6 +240,10 @@ p.button1:hover {
 
 @media only screen and (max-width: 780px) {
 
+    nav {
+        min-height: 4%;
+        
+    }
 
 .buttonMenu {
     display: none;
@@ -244,7 +251,7 @@ p.button1:hover {
 
     .burger-menu {
         display: flex;
-        height: 120%;
+        height: 4%;
         // border: $test;
         width: 4em;
         // margin-top: 1.25em;
@@ -254,7 +261,8 @@ p.button1:hover {
         padding-top: 0;
         padding-bottom: 0;
         z-index: 3;
-        margin-top: 12px
+        margin-top: 12px;
+        position: fixed;
      
     }
 
@@ -263,14 +271,15 @@ p.button1:hover {
       }
 
     img {
-        width: 11vw;
+        width: 5.5rem;
         height: auto;
         // border: $test;
         padding-bottom: 1vw;
         margin-top: 10px;
     }
       a>h1.title {
-        font-size: 7vw;
+        font-size: 2.5rem;
+        padding-bottom: 1vw;
         // border: $test;
       }
 
