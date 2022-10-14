@@ -26,6 +26,7 @@
             width: 20vw;
             height: 30vw;
             border-radius: 12px;
+            margin-left: 5vw;
         }
 
 
@@ -34,7 +35,6 @@
             display: flex;
             flex-direction: column;
             width: 20rem;
-            margin-right: 5vw;
             text-align: left;
             // margin-bottom: 10vh;
 
@@ -67,7 +67,8 @@
     
     .about .main-section .robot {
         width: 60vw;
-        height:auto
+        height:auto;
+        margin-left: 0px;  
     }
 
     .about .main-section .text {
