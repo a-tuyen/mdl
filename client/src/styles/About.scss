@@ -11,19 +11,20 @@
 
 
     .main-section {
-        border: $test;
+        // border: $test;
         margin-top: 6vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         width: 100%;
         flex-direction: row;
        
        
         .robot {
             // border: $test;
-            width: 30vw;
-            height: 50vw;
+            width: 20vw;
+            height: 30vw;
             border-radius: 12px;
         }
 
@@ -32,7 +33,7 @@
             // border: $test;
             display: flex;
             flex-direction: column;
-            width: 20vw;
+            width: 20rem;
             margin-right: 5vw;
             text-align: left;
             // margin-bottom: 10vh;
@@ -44,5 +45,33 @@
         }
 
 
+    }
+}
+
+@media only screen and (max-width: $med-screen) {
+
+    .about .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.about .main-section .robot {
+    width: 40vw;
+    height:auto
+}
+    
+}
+
+@media only screen and (max-width: $med-screen) {
+    
+    .about .main-section .robot {
+        width: 60vw;
+        height:auto
+    }
+
+    .about .main-section .text {
+        width: 60vw;
+  
     }
 }
