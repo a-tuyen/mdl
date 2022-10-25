@@ -4,8 +4,6 @@ import '../styles/About.scss';
 const About = () => {
   return (
     <div className="about">
-
-
       <div className='main-section'>
         <div className='text'>
           <h1>About Us</h1>

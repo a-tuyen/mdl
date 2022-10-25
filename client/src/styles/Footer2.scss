@@ -19,16 +19,10 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 3%;
+        padding-left: 1%;
         padding-right: 6%;
         background-color: rgba(0,0,0,0.3);
         margin-left: 2%;
-        // border: $test;
-
-        // .address {
-        //     display: flex;
-        //     flex-direction: row;
-        // }
 
         h2 {
             letter-spacing: 1px;
@@ -37,52 +31,43 @@
             margin-bottom: 1%;
             color: white;
         }
-        // border: $test;
+        
+        
+li {
+    display: flex;
+        // border: 2px solid white;
+        margin-top: 10px;
+}
 
-        .info {
-            display: flex;
-            flex-direction: row;
-            // border: $test;
-            justify-content: center;
-            align-items: center;
-            font-size: large;
-            flex-wrap: nowrap;
-            margin-top: 0px;
-   
+ul {
+    // border: 2px solid white;
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    margin: 0;
 
+    img {
+        width: 25px;
+        height: 20px;
+        // border: 2px solid white;
+        // align-items: center;
+        margin: 0;
+        margin-right: 10px;
+    }
 
-            .map-icon {
-                margin-right : 3%;
-                width: 11%;
-                // border: $test;
-            }
+    p {
+        display: flex;
+        // align-items: center;
+        margin: 0;
+        // border: 2px solid white;
+    }
 
-            img {
-                height: 50px;
-                display: flex;
-                // border: $test;
-                // align-items: center;
-                margin: 0px;
-                margin-right: 7%;
-                padding-right: 0px;
-                width: 15%;
-                height: 40%;
+}
 
-            }
-
-            p {
-                // border: $test;
-                // display: flex;
-                // align-items: center;
-                // flex-wrap: nowrap;
-                white-space: nowrap;
-                margin-bottom: 0px;
-                margin-top: 0;
-                // padding: 0px;
-            }
-        }
+        
 
     }
+
 
     a {
         color: white;
@@ -90,7 +75,6 @@
         letter-spacing: 0.75px;
         // border: $test;
     }
-
 
 }
 
@@ -113,21 +97,6 @@
     }
 }
 
-.copyright {
-    // border: $test;
-    display: flex;
-    align-items: flex-end;
-    margin-top: 4%;
-    font-size: large;
-    // margin-left: 110px
-}
-
-
-ul > .testing {
-    border: $test;
-    display: flex;
-    flex-direction: row;
-}
 
 
 @media only screen and (max-width: 768px) {
