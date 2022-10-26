@@ -238,10 +238,10 @@ p.button1:hover {
 // }
 
 .burger-bar.clicked:nth-child(1) {
-    -webkit-transform: rotate(45deg) translate(9px, 7px);
-    -moz-transform: rotate(45deg) translate(9px, 7px);
-    -o-transform: rotate(45deg) translate(9px, 7px);
-    transform: rotate(45deg) translate(8px, 9px);
+    -webkit-transform: rotate(45deg) translate(10px, 9px);
+    -moz-transform: rotate(45deg) translate(10px, 9px);
+    -o-transform: rotate(45deg) translate(10px, 9px);
+    transform: rotate(45deg) translate(10px, 9px);
     width: 50px;
 
 }
@@ -253,9 +253,9 @@ p.button1:hover {
 }
 
 .burger-bar.clicked:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate(10px, -9px);
-    -moz-transform: rotate(-45deg) translate(10px, -9px);
-    -o-transform: rotate(-45deg) translate(5px, -9px);
+    -webkit-transform: rotate(-45deg) translate(16px, -16px);
+    -moz-transform: rotate(-45deg) translate(16px, -16px);
+    -o-transform: rotate(-45deg) translate(16px, -16px);
     transform: rotate(-45deg) translate(16px, -16px);
     width: 50px;
 }
@@ -306,7 +306,7 @@ burger-bar.clicked:nth-child(4) {
 
         div {
             width: 100%;
-            height: 15%;
+            height: 10px;
             // margin-bottom: 1rem;
         }
 
@@ -402,18 +402,18 @@ burger-bar.clicked:nth-child(4) {
 }
 
 .burger-bar.clicked:nth-child(1) {
-    -webkit-transform: rotate(45deg) translate(9px, 7px);
-    -moz-transform: rotate(45deg) translate(9px, 7px);
-    -o-transform: rotate(45deg) translate(9px, 7px);
+    -webkit-transform: rotate(45deg) translate(4px, 9px);
+    -moz-transform: rotate(45deg) translate(4px, 9px);
+    -o-transform: rotate(45deg) translate(4px, 9px);
     transform: rotate(45deg) translate(4px, 9px);
     width: 40px;
 
 }
 
 .burger-bar.clicked:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate(10px, -9px);
-    -moz-transform: rotate(-45deg) translate(10px, -9px);
-    -o-transform: rotate(-45deg) translate(5px, -9px);
+    -webkit-transform: rotate(-45deg) translate(9px, -15px);
+    -moz-transform: rotate(-45deg) translate(9px, -15px);
+    -o-transform: rotate(-45deg) translate(9px, -15px);
     transform: rotate(-45deg) translate(9px, -15px);
     width: 40px;
 }
