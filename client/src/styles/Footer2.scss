@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 1%;
+        padding-left: 0%;
         padding-right: 6%;
         background-color: rgba(0, 0, 0, 0.3);
         margin-left: 2%;
@@ -29,6 +29,7 @@
             font-weight: 400;
             margin-top: 5%;
             margin-bottom: 1%;
+            // margin-left: 0%;
             color: white;
         }
 
@@ -45,6 +46,7 @@
             // align-items: center;
             flex-direction: column;
             margin: 0;
+            padding-left: 1rem;
 
             img {
                 width: 25px;
@@ -60,6 +62,7 @@
                 // align-items: center;
                 margin: 0;
                 // border: 2px solid white;
+                white-space: nowrap;
             }
 
         }
@@ -99,7 +102,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: $sm-screen) {
 
     .order {
         background-color: darkgray;
