@@ -94,7 +94,7 @@ p.button1 {
     font-family: $main-font;
 }
 
-a > p.buttonLast {
+a>p.buttonLast {
     margin-right: 4vw;
 }
 
@@ -126,14 +126,14 @@ p.button1:hover {
 
 }
 
-    
+
 .burger-bar {
-    
+
     display: flex;
     justify-content: space-around;
     // position: absolute;
     // flex-direction: column;
-   // justify-content: center;
+    // justify-content: center;
     width: 30px;
     height: 40px;
     background-color: darkgray;
@@ -153,8 +153,8 @@ p.button1:hover {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    
-   
+
+
 }
 
 .menu {
@@ -163,9 +163,9 @@ p.button1:hover {
     // height: 100vh;
     background-color: $accent-color;
     position: fixed;
-    right: 0; 
+    right: 0;
     top: 0;
-    bottom:0;
+    bottom: 0;
     z-index: 1;
     white-space: nowrap;
     // border: $test;
@@ -189,7 +189,7 @@ p.button1:hover {
         display: flex;
         width: 86%;
         justify-content: center;
-            //  border: $test;
+        //  border: $test;
         padding-top: 15px;
         padding-right: 5px;
         padding-left: 0px;
@@ -197,7 +197,7 @@ p.button1:hover {
         font-weight: bold;
         letter-spacing: .2vw;
 
-        a{
+        a {
             color: white;
         }
 
@@ -248,7 +248,7 @@ p.button1:hover {
     -o-transform: rotate(45deg) translate(9px, 7px);
     transform: rotate(45deg) translate(3px, 9px);
     width: 40px;
-    
+
 }
 
 .burger-bar.clicked:nth-child(3) {
@@ -279,18 +279,19 @@ burger-bar.clicked:nth-child(4) {
 
         min-height: 4%;
         padding-bottom: 5vw;
-        
+
     }
 
-.buttonMenu {
-    display: none;
-}
+    .buttonMenu {
+        display: none;
+    }
 
     .burger-menu {
         display: flex;
-        height: 4%;
+        height: 10%;
         // border: $test;
-        width: 4em;
+        height: 7%;
+        width: 8%;
         // margin-top: 1.25em;
         flex-direction: column;
         align-items: center;
@@ -298,14 +299,20 @@ burger-bar.clicked:nth-child(4) {
         padding-top: 1vw;
         padding-bottom: 0;
         z-index: 3;
-        margin-top: 12px;
+        margin-top: 1.5%;
         position: fixed;
-     
+
+        div {
+            width: 100%;
+            height: 15%;
+            // margin-bottom: 1rem;
+        }
+
     }
 
     .burger-menu:hover {
         cursor: pointer;
-      }
+    }
 
     img {
         width: 13vw;
@@ -314,24 +321,26 @@ burger-bar.clicked:nth-child(4) {
         padding-bottom: 0.5vw;
         margin-top: 10px;
     }
-      a>h1.title {
+
+    a>h1.title {
         font-size: 7vw;
         // padding-bottom: 2vw;
         // border: $test;
-      }
+    }
 
-      .menuLinks {
+    .menuLinks {
         width: 130px;
         // border: $test;
-      }
+    }
 
 }
 
 @media only screen and (max-width: $sm-screen) {
-    
+
     nav {
-        padding-bottom:  6vw;
+        padding-bottom: 6vw;
     }
+
     nav .leftSide {
         // border: $test;
         display: flex;
@@ -349,17 +358,37 @@ burger-bar.clicked:nth-child(4) {
         margin-left: 0px;
         padding-left: 0%;
     }
-      a>h1.title {
+
+    a>h1.title {
         font-size: 7vw;
         padding-bottom: 1vw;
         // border: $test;
-}
+    }
 
-.burger-menu {
-height: 30px;
-width: 45px;
-margin-top: 10px;
-}
 
+
+    .burger-menu {
+        // width: 4em;
+        // margin-top: 1.25em;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-evenly;
+        padding-top: 1vw;
+        padding-bottom: 0;
+        z-index: 3;
+        margin-top: 12px;
+        margin-right: 8px;
+        position: fixed;
+        height: 6vw;
+        // width: 45px;
+        // border: $test;
+
+        div {
+
+            height: 100%;
+        }
+
+
+    }
 
 }
