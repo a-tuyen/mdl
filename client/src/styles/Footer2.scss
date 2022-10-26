@@ -95,6 +95,7 @@
     .order {
         width: 11rem;
         height: 3rem;
+        background-color: $dark-accent;
         box-shadow: 5px 7px rgb(0 0 0 / 16%), 1px 2px rgb(0 0 0 / 23%);
 
     }
@@ -105,7 +106,7 @@
 @media only screen and (max-width: $sm-screen) {
 
     .order {
-        background-color: darkgray;
+        background-color: white;
 
     }
 
