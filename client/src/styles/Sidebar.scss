@@ -11,8 +11,9 @@ nav.side-bar {
     // margin: 0;
 }
 
-.first-half,
-.second-half {
+.first-part,
+.second-part,
+.third-part {
     display: flex;
     flex-direction: column;
     // align-items: flex-start;
@@ -30,8 +31,9 @@ nav.side-bar {
 
 }
 
-.side-bar>.first-half>a,
-.side-bar>.second-half>a {
+.side-bar>.first-part>a,
+.side-bar>.second-part>a,
+.side-bar>.third-part>a {
     font-family: $main-font;
     color: $main-color;
     margin: 0px;
@@ -46,8 +48,10 @@ nav.side-bar {
 
 }
 
-.first-half>a:hover,
-.second-half>a:hover {
+.first-part>a:hover,
+.second-part>a:hover,
+.third-part>a:hover
+ {
     background-color: $accent-color;
     color: white;
     text-decoration: none;
@@ -61,26 +65,31 @@ nav.side-bar {
     nav.side-bar {
         display: flex;
         flex-direction: column;
+        align-content: center;
+        // border: $test;
         margin-top: 1vh;
         z-index: inherit;
     }
 
-    .side-bar > .first-half,
-    .side-bar > .second-half {
+    .side-bar > .first-part,
+    .side-bar > .second-part,
+    .side-bar > .third-part {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-          height: 4rem;
+        height: 4rem;
         width: 100%;
         margin-left: 4vw;
+        // border: $test;
     }
 
-    .side-bar>.first-half>a,
-.side-bar>.second-half>a {
+    .side-bar>.first-part>a,
+.side-bar>.second-part>a,
+.side-bar>.third-part>a {
 
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 }
