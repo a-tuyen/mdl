@@ -2,7 +2,7 @@
 
 ///this is used for these pages: lead anodes, bricks&blocks, flashings&caps, pipe&tube, and sash weights ///
 
-.main {
+// .main {
     // border: $test;
     // display: flex;
     // flex-direction: column;
@@ -29,19 +29,22 @@
     //     margin-top: 4vh;
     //     margin-bottom: 1vh;
     // }
-}
+// }
 
 
 .list {
     // border: $test;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+    
+    // padding-left: 0 ;
     // width: 70%;
     // margin-left: 0%;
 
     ul {
         // border: $test;
-        // margin: 0;
+        margin: 0;
+        padding: 0;
         // margin-right: 3vw;
         margin-left: 0%;
         // padding: 0;
@@ -57,7 +60,7 @@
 
         li {
             // border: $test;
-            width: 90%;
+            width: 100%;
             display: list-item;
             // padding-right: 0vw;
             margin-left: 5vw;
@@ -82,6 +85,8 @@ h2 {
     height: 20vh;
  }
 
+
+
  @media only screen and (max-width: $sm-screen) {
 
     .main {
@@ -101,11 +106,11 @@ h2 {
         ul {
             // border: $test;
             display: flex;
-            // margin: 0;
-            margin-right: 3vw;
-            margin-left: 0%;
+            margin: 0;
+            // margin-right: 3vw;
+            // margin-left: 0%;
             padding: 0;
-            width: 100%;
+            // width: 100%;
             
             
             // h4 {   
@@ -117,9 +122,9 @@ h2 {
             li {
                 // border: $test;
                 width: 100%;
-                display: list-item;
+                // display: list-item;
                 // margin-right: 50px;
-                margin-left: 0vw;
+                // margin-left: 0vw;
                 // margin-right: 2vw;
             }
         }
@@ -142,6 +147,6 @@ h2 {
     //     height: 20vh;
     //  }
     
-
+ 
  }
 

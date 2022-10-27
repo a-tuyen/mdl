@@ -2,7 +2,7 @@ import '../styles/ProductsWithChart.scss'
 
 const PipeTube = () => {
     return (
-        <div className='main'>
+        <div className='container'>
             <h1>Extruded Pipe and Tube</h1>
             <h3>USED IN CHEMICAL PLANTS, NUCLEAR, HYDRO AND PLATING APPLICATIONS</h3>
             <p>Produced in our hydraulic extruder in long lengths, 8 feet is our standard length. We can produce pipe, sleeving and tubing in a variety of diameters, wall thicknesses and weights.</p>

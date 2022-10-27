@@ -1,20 +1,21 @@
 @import 'variables.scss';
 
-.main {
-    // border: $test;
+.container {
+    border: $test;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 100%;
     color: $main-color;
-    width: 60vw;
-    margin-left: 10vw;
-    margin-right: 24vw;
+    // width: 60vw;
+    // margin-left: 10vw;
+    // margin-right: 24vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
     text-align: left;
 
     p {
+        width: 75%;
         text-align: left;
         margin-top: 2vh;
         margin-bottom: 1vh;
@@ -22,6 +23,7 @@
     }
 
     h3 {
+        width: 75%;
         margin-top: 4vh;
         margin-bottom: 1vh;
     }

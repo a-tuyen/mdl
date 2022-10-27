@@ -2,7 +2,7 @@ import '../styles/ProductsWithChart.scss'
 
 const Bricks = () => {
     return (
-        <div className="main">
+        <div className="container">
             <h1>Bricks and Blocks</h1>
             <h3>IDEAL FOR NUCEAR AND MEDICAL RADIATION SHIELDING AND AS COUNTER-WEIGHTS</h3>
             <p>Our standard sizes are listed below and custom sizes are available upon request.</p>
