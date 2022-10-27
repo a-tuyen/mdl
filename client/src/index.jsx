@@ -46,9 +46,8 @@ root.render(
                   <section className='img-container'>
                     <div className='image-title'>
                       <a href='/products/lead'>
-                        <img src='https://user-images.githubusercontent.com/77664153/195461222-1e376680-ed6e-4ff0-8a42-3e9832aaa5f4.png' alt='MDL logo' />
+                        <img src='https://user-images.githubusercontent.com/77664153/195461222-1e376680-ed6e-4ff0-8a42-3e9832aaa5f4.png' alt='MDL logo' /></a>
                         <h2><a href='/products/lead'>LEAD</a></h2>
-                      </a>
                     </div>
                     <div className='image-title'>
                       <a href='/products/sacrificialanodes'><img src='https://user-images.githubusercontent.com/77664153/180872931-86c62ec8-ea39-4534-bacb-e0a5740202e5.png' alt='Reliance logo' /></a>
