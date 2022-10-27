@@ -1,5 +1,8 @@
 @import 'variables.scss';
 
+
+/// This is used for these pages: Brick&Blocks and Pipe&Tube ///
+
 .container {
     // border: $test;
     display: flex;
@@ -16,6 +19,7 @@
 
     h1 {
         width: 70%;
+        margin-bottom: 2vh;
 
     }
 
@@ -32,7 +36,15 @@
         margin-top: 4vh;
         margin-bottom: 1vh;
     }
+
+    table {
+        // border: $test;
+        margin-top: 5vh;
+        margin-top: 5vh;
+    }
 }
+
+
 
 .first-col {
     font-size: xx-large;
