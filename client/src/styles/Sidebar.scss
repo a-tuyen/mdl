@@ -50,8 +50,7 @@ nav.side-bar {
 
 .first-part>a:hover,
 .second-part>a:hover,
-.third-part>a:hover
- {
+.third-part>a:hover {
     background-color: $accent-color;
     color: white;
     text-decoration: none;
@@ -69,27 +68,31 @@ nav.side-bar {
         // border: $test;
         margin-top: 1vh;
         z-index: inherit;
+        width: 100%;
+        height: 20vh;
+        padding: 0;
     }
 
-    .side-bar > .first-part,
-    .side-bar > .second-part,
-    .side-bar > .third-part {
+    .side-bar>.first-part,
+    .side-bar>.second-part,
+    .side-bar>.third-part {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 4rem;
-        width: 100%;
+        height: 100%;
+        width: 100vw;
         margin-left: 4vw;
         // border: $test;
     }
 
     .side-bar>.first-part>a,
-.side-bar>.second-part>a,
-.side-bar>.third-part>a {
+    .side-bar>.second-part>a,
+    .side-bar>.third-part>a {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+
+    }
 }
