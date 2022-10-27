@@ -51,6 +51,7 @@ const Navigation = () => {
                     <div className={burger_class} ></div>
                 </div>
             </nav>
+            <hr></hr>
 
             <div className={menu_class}>
                 <ul className="menuLinks" >
