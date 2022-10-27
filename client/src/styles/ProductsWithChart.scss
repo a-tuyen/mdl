@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 .container {
-    border: $test;
+    // border: $test;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +14,13 @@
     margin-top: 3vh;
     text-align: left;
 
+    h1 {
+        width: 70%;
+
+    }
+
     p {
-        width: 75%;
+        width: 70%;
         text-align: left;
         margin-top: 2vh;
         margin-bottom: 1vh;
@@ -23,7 +28,7 @@
     }
 
     h3 {
-        width: 75%;
+        width: 70%;
         margin-top: 4vh;
         margin-bottom: 1vh;
     }
@@ -33,7 +38,7 @@
     font-size: xx-large;
     // border: $test;
     // font-weight: bold;
-    
+
 }
 
 table {
@@ -41,7 +46,7 @@ table {
     text-align: center;
     border-collapse: collapse;
     margin-top: 3vh;
-    
+
 
 
 
@@ -72,4 +77,29 @@ table {
 
 
 
+}
+
+@media only screen and (max-width: $sm-screen) {
+
+    .container {
+
+
+
+
+        h1 {
+            width: 80%;
+
+        }
+
+        p {
+            width: 80%;
+
+        }
+
+        h3 {
+            width: 80%;
+
+        }
+
+    }
 }
