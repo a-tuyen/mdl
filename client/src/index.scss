@@ -14,6 +14,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  // border: $test;
 
 }
 
@@ -52,7 +53,7 @@ h2 {
 ////for Product index page////
 
 article {
-  // border: $test;
+  border: $test;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -62,7 +63,11 @@ article {
 
   h1 {
     // border: $test;
-    margin-left: 22vw;
+    width: 100%;
+    // margin-left: 22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
 
@@ -115,7 +120,8 @@ article {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin-left: 5vw;
+    margin: 0;
+    // margin-left: 5vw;
   }
 
   article .img-container {
