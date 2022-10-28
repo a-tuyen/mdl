@@ -131,7 +131,7 @@ p.button1:hover {
 .burger-bar {
 
     display: flex;
-    // border: $test;
+    border: $test;
     justify-content: space-around;
     // position: absolute;
     // flex-direction: column;
@@ -145,7 +145,7 @@ p.button1:hover {
     padding-bottom: 0;
     // margin-top: -5px;
     // margin-bottom: -5px;
-    // float: left;
+    float: left;
     // margin: 3px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
