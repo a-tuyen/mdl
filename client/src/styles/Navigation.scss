@@ -271,6 +271,9 @@ burger-bar.clicked:nth-child(4) {
 .burger-bar.unclicked {
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+    // border: $test;
+    height: 100%;
+    width: 100%;
 }
 
 hr {
@@ -293,8 +296,8 @@ margin-top: 0;
 
     .burger-menu {
         display: flex;
-        height: 10%;
-        border: $test;
+        // height: 10%;
+        // border: $test;
         height: 7%;
         width: 8%;
         // margin-top: 1.25em;
