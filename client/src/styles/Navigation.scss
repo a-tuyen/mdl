@@ -255,9 +255,9 @@ p.button1:hover {
 }
 
 .burger-bar.clicked:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate(16px, -16px);
-    -moz-transform: rotate(-45deg) translate(16px, -16px);
-    -o-transform: rotate(-45deg) translate(16px, -16px);
+    -webkit-transform: rotate(-45deg) translate(18px, -18px);
+    -moz-transform: rotate(-45deg) translate(18px, -18px);
+    -o-transform: rotate(-45deg) translate(18px, -18px);
     transform: rotate(-45deg) translate(18px, -18px);
     width: 50px;
 }
@@ -421,19 +421,19 @@ margin-top: 0;
 }
 
 .burger-bar.clicked:nth-child(1) {
-    -webkit-transform: rotate(45deg) translate(4px, 9px);
-    -moz-transform: rotate(45deg) translate(4px, 9px);
-    -o-transform: rotate(45deg) translate(4px, 9px);
+    -webkit-transform: rotate(45deg) translate(6px, 11px);
+    -moz-transform: rotate(45deg) translate(6px, 11px);
+    -o-transform: rotate(45deg) translate(6px, 11px);
     transform: rotate(45deg) translate(6px, 11px);
     width: 40px;
 
 }
 
 .burger-bar.clicked:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate(9px, -15px);
-    -moz-transform: rotate(-45deg) translate(9px, -15px);
-    -o-transform: rotate(-45deg) translate(9px, -15px);
-    transform: rotate(-45deg) translate(9px, -15px);
+    -webkit-transform: rotate(-45deg) translate(10px, -15px);
+    -moz-transform: rotate(-45deg) translate(10px, -15px);
+    -o-transform: rotate(-45deg) translate(10px, -15px);
+    transform: rotate(-45deg) translate(10px, -15px);
     width: 40px;
 }
 
