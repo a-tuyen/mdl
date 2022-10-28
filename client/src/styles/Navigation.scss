@@ -294,7 +294,7 @@ margin-top: 0;
     .burger-menu {
         display: flex;
         height: 10%;
-        // border: $test;
+        border: $test;
         height: 7%;
         width: 8%;
         // margin-top: 1.25em;
@@ -320,11 +320,7 @@ margin-top: 0;
     .burger-menu:hover {
         cursor: pointer;
     }
-
-    .burger-bar {
-        width: 100px;
-        height: 50px;
-    }
+    
 
     img {
         width: 13vw;
