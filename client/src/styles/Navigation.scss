@@ -378,7 +378,7 @@ margin-top: 0;
         padding-left: 0%;
     }
 
-    a>h1.title {
+    a > h1.title {
         font-size: 7.5vw;
         padding-bottom: 1vw;
         // border: $test;
@@ -414,6 +414,7 @@ margin-top: 0;
     .burger-bar {
         position: relative;
         top: 2px;
+        border: none;
     }
     
 .burger-bar.clicked:nth-child(2) {
