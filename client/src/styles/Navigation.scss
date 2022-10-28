@@ -249,16 +249,16 @@ p.button1:hover {
 }
 
 .burger-bar.clicked:nth-child(2) {
-    top: 200px;
+    // top: 200px;
     width: 0%;
-    left: 50%;
+    left: 0%;
 }
 
 .burger-bar.clicked:nth-child(3) {
     -webkit-transform: rotate(-45deg) translate(16px, -16px);
     -moz-transform: rotate(-45deg) translate(16px, -16px);
     -o-transform: rotate(-45deg) translate(16px, -16px);
-    transform: rotate(-45deg) translate(16px, -16px);
+    transform: rotate(-45deg) translate(18px, -18px);
     width: 50px;
 }
 
@@ -415,16 +415,16 @@ margin-top: 0;
     }
     
 .burger-bar.clicked:nth-child(2) {
-    top: 200px;
+    // top: 200px;
     width: 0%;
-    left: 50%;
+    left: -25%
 }
 
 .burger-bar.clicked:nth-child(1) {
     -webkit-transform: rotate(45deg) translate(4px, 9px);
     -moz-transform: rotate(45deg) translate(4px, 9px);
     -o-transform: rotate(45deg) translate(4px, 9px);
-    transform: rotate(45deg) translate(4px, 9px);
+    transform: rotate(45deg) translate(6px, 11px);
     width: 40px;
 
 }
