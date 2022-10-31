@@ -1,42 +1,42 @@
 @import 'variables.scss';
 
-///this is used for these pages: lead anodes, bricks&blocks, flashings&caps, pipe&tube, and sash weights ///
+///this is used for these pages: lead anodes, flashings&caps and sash weights ///
 
-// .main {
+.main {
     // border: $test;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: flex-end;
-    // align-items: center;
-    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: center;
+    width: 100%;
     // width: 70%;
-    // color: $main-color;
+    color: $main-color;
     // width: 60vw;
-    // margin-left: 10vw ;
-    // margin-right: 24vw;
-    // margin-bottom: 5vh;
-    // margin-top: 3vh;
-    // text-align: left ;
+    margin-left: 10vw;
+    margin-right: 24vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    text-align: left;
 
-    // p {
-    //     text-align: left;
-    //     margin-top: 2vh;
-    //     margin-bottom: 1vh;
-        
-    // }
+    p {
+        text-align: left;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
 
-    // h3 {
-    //     margin-top: 4vh;
-    //     margin-bottom: 1vh;
-    // }
-// }
+    }
+
+    h3 {
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+    }
+}
 
 
 .list {
     // border: $test;
     display: flex;
     // justify-content: center;
-    
+
     // padding-left: 0 ;
     // width: 70%;
     // margin-left: 0%;
@@ -52,8 +52,8 @@
         display: flex;
         flex-direction: column;
         // align-self: flex-start;
-        
-        h4 {   
+
+        h4 {
             display: flex;
             justify-content: center;
         }
@@ -83,26 +83,52 @@ h2 {
 
 .img-reliance-logo {
     height: 20vh;
- }
+}
 
 
 
- @media only screen and (max-width: $sm-screen) {
+@media only screen and (max-width: $sm-screen) {
 
     .main {
-        // border: $test;
+
         display: flex;
-    //    align-content: center;
-        padding-left: 15vw;
+        // border: $test;
+        // flex-direction: column;
+        // align-items: flex-end;
+        // align-items: center;
+           width: 90%;
+        // color: $main-color;
+        // width: 60vw;
+        margin-left: 25vw;
+        // margin-right: 24vw;
+        // margin-bottom: 5vh;
+        // margin-top: 3vh;
+        // text-align: left;
+
+        // p {
+        //     text-align: left;
+        //     margin-top: 2vh;
+        //     margin-bottom: 1vh;
+
+        // }
+
+        // h3 {
+        //     margin-top: 4vh;
+        //     margin-bottom: 1vh;
+        // }
+
+
+    
+
     }
-    
-    
+
+
     .list {
         // border: $test;
         display: flex;
         // width: 100%;
         // margin-left: 0%;
-    
+
         ul {
             // border: $test;
             display: flex;
@@ -111,14 +137,14 @@ h2 {
             // margin-left: 0%;
             padding: 0;
             // width: 100%;
-            
-            
+
+
             // h4 {   
             //     border: $test;
             //     display: flex;
             //     justify-content: center;
             // }
-    
+
             li {
                 // border: $test;
                 width: 100%;
@@ -129,24 +155,23 @@ h2 {
             }
         }
     }
-    
-    
+
+
     // h2 {
     //     text-align: center;
     //     margin-top: 5vh;
     // }
-    
-    
-    .main > .img-sash-weight {
+
+
+    .main>.img-sash-weight {
         // border: $test;
         width: 50vw;
     }
-    
-    
+
+
     // .img-reliance-logo {
     //     height: 20vh;
     //  }
-    
- 
- }
 
+
+}
