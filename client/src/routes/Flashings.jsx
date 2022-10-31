@@ -1,4 +1,4 @@
-import '../styles/ProductsWithList.scss';
+import '../styles/ProductsWithColumns.scss';
 
 const Flashings = () => {
     return (
