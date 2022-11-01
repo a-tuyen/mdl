@@ -6,7 +6,6 @@
     // border: $test;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     align-items: center;
     width: 100%;
     // width: 70%;
@@ -34,12 +33,13 @@
 }
 
 
-.list {
+.main-section > .list {
     // border: $test;
     display: flex;
+    flex-direction: row;
     // width: 20%;
-    // justify-content: center;
-
+    justify-content: center;
+    margin-left: 30vw;
     // padding-left: 0 ;
     // width: 70%;
     // margin-left: 0%;
@@ -49,13 +49,13 @@
         margin: 0;
         padding: 0;
         // margin-right: 3vw;
-        margin-left: 0%;
-        // padding: 0;
-        width: 40%;
+            // padding: 0;
+        width: 50%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin-top: 2vh;
+
         // align-self: flex-start;
 
         h4 {
