@@ -1,6 +1,6 @@
 @import 'variables.scss';
 
-///this is used for these pages: lead anodes, flashings&caps and sash weights ///
+///this is used for these pages: lead anodes and sash weights ///
 
 .main {
     // border: $test;
@@ -41,19 +41,19 @@
 
     // padding-left: 0 ;
     // width: 70%;
-    // margin-left: 0%;
+    margin-top: 2vh;
 
     ul {
         // border: $test;
         margin: 0;
         padding: 0;
         // margin-right: 3vw;
-        // margin-left: 0%;
+        margin-left: 10%;
         // padding: 0;
-        width: 40%;
+        width: 30%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         // margin-top: 2vh;
         // align-self: flex-start;
 
@@ -67,8 +67,7 @@
             // width: 100%;
             display: list-item;
             // padding-right: 0vw;
-            margin-left: 15vw;
-            
+            margin-left: 3vw
         }
     }
 }
@@ -94,6 +93,7 @@ h2 {
 @media only screen and (max-width: $sm-screen) {
 
     .main {
+        // border: $test;
           width: 100%;
 
         p {
@@ -115,7 +115,7 @@ h2 {
         display: flex;
         flex-direction: column;
         // width: 100%;
-        margin-left: 20vw;
+        margin-left: 45%;
         margin-top: 2vh;
 
         ul {
