@@ -1,13 +1,15 @@
-import '../styles/StubsBends.scss';
+// import '../styles/StubsBends.scss';
+import '../styles/ProductsWithList.scss';
 
 const StubsBends = () => {
     return (
-        <div className='stubs-bends'>
+        // <div className='stubs-bends'>
+            <div className='main'>
             <h1>Stubs and Bends</h1>
             <h3>KNOWN FOR ITS RESILIENCY TO PINHOLE LEAKS AND DURABILITY, LEAD USE IN PLUMBING DATES BACK TO ANCIENT TIMES</h3>
             <p>Available with either ABS or MJ Metalloy.</p>
             <p>We carry the following sizes and are able to make custom sizes upon request:</p>
-            <div className='list'>
+            <div className='list-stubs'>
                 <ul className='left-list'>
                     <h4>LEAD STUBS</h4>
                     <li>We offer diameters of 4"/3" or 4"</li>
