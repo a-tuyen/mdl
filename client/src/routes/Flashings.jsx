@@ -2,7 +2,7 @@ import '../styles/ProductsWithColumns.scss';
 
 const Flashings = () => {
     return (
-        <div className="main">
+        <div className="main-section">
             <h1>Flashings and Caps</h1>
             <h3>USED IN ROOF CONSTRUCTION TO CREATE A DURABLE AND WEATHERTIGHT SEAL</h3>
             <p>We offer Pitched or Flat flashings.</p>

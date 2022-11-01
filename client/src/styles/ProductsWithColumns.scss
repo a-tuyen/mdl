@@ -2,7 +2,7 @@
 
 ///this is used for these pages: lead anodes, flashings&caps and sash weights ///
 
-.main {
+.main-section {
     // border: $test;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
 .list {
     // border: $test;
     display: flex;
+    // width: 20%;
     // justify-content: center;
 
     // padding-left: 0 ;
@@ -50,9 +51,10 @@
         // margin-right: 3vw;
         margin-left: 0%;
         // padding: 0;
-        width: 100%;
+        width: 40%;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         margin-top: 2vh;
         // align-self: flex-start;
 
@@ -66,7 +68,7 @@
             width: 100%;
             display: list-item;
             // padding-right: 0vw;
-            margin-left: 10vw;
+            // margin-left: 12vw;
             
         }
     }
@@ -92,7 +94,7 @@ h2 {
 
 @media only screen and (max-width: $sm-screen) {
 
-    .main {
+    .main-section {
           width: 100%;
 
         p {
@@ -109,10 +111,10 @@ h2 {
     }
 
 
-    .list {
+    .main-section > .list {
         // border: $test;
         display: flex;
-        // flex-direction: column;
+        flex-direction: row;
         // width: 100%;
         margin-top: 2vh;
 
@@ -123,7 +125,7 @@ h2 {
             // margin-right: 3vw;
             // margin-left: 0%;
             padding: 0;
-            margin-top: 2vh;
+            // margin-top: 2vh;
             // width: 100%;
 
 
@@ -151,7 +153,7 @@ h2 {
     // }
 
 
-    .main>.img-sash-weight {
+    .main-section > .img-sash-weight {
         // border: $test;
         width: 50vw;
     }
