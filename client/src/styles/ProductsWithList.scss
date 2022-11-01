@@ -33,7 +33,7 @@
     }
 }
 
-
+// babbit page has diff classname for list section //
 .main > .list {
     // border: $test;
     display: flex;
@@ -67,7 +67,8 @@
             // width: 100%;
             display: list-item;
             // padding-right: 0vw;
-            margin-left: 3vw
+            margin-left: 3vw;
+            white-space: nowrap;
         }
     }
 }
@@ -114,46 +115,47 @@ h2 {
         // border: $test;
         display: flex;
         flex-direction: column;
-        // width: 100%;
-        margin-left: 45%;
-        margin-top: 2vh;
+        align-items: center;
+        width: 100%;
+    //     margin-left: 45%;
+    //     margin-top: 2vh;
 
         ul {
             // border: $test;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin: 0;
-            // margin-right: 3vw;
-            // margin-left: 10%;
-            padding: 0;
-             width: 50%;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: flex-start;
+    //         margin: 0;
+    //         // margin-right: 3vw;
+            margin-left: 0;
+    //         padding: 0;
+    //          width: 50%;
             
 
 
-            // h4 {   
-            //     border: $test;
-            //     display: flex;
-            //     justify-content: center;
-            // }
+    //         // h4 {   
+    //         //     border: $test;
+    //         //     display: flex;
+    //         //     justify-content: center;
+    //         // }
 
             li {
-                // border: $test;
-                width: 100%;
-                // padding-left: 2vw;
-                // display: list-item;
-                // margin-right: 50px;
-                // margin-left: 0vw;
-                // margin-right: 2vw;
+    //             // border: $test;
+    //             width: 100%;
+    //             // padding-left: 2vw;
+    //             // display: list-item;
+    //             // margin-right: 50px;
+                margin-left: 0vw;
+    //             // margin-right: 2vw;
             }
         }
-    }
-
-
-    // h2 {
-    //     text-align: center;
-    //     margin-top: 5vh;
     // }
+
+
+    // // h2 {
+    // //     text-align: center;
+    // //     margin-top: 5vh;
+    // // }
 
 
     .main>.img-sash-weight {
@@ -166,5 +168,5 @@ h2 {
     //     height: 20vh;
     //  }
 
-
+    }
 }
