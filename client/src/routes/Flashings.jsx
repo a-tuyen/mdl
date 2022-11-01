@@ -8,7 +8,7 @@ const Flashings = () => {
             <p>We offer Pitched or Flat flashings.</p>
             <p>Our standard pitch is 7 ½" / 12" and our standard base is 12" x 12" x 3# sheet lead.</p>
             <p>We carry the following standard sizes for flashings and caps and are able to make custom sizes upon request.</p>
-            <div className='list'>
+            <div className='list-section'>
                 <ul>
                     <li>1"</li>
                     <li>1 ¼"</li>
