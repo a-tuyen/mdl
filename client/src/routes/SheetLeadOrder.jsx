@@ -15,16 +15,16 @@ const SheetLeadOrder = () => {
       <p>Please fill out the form below and we will be in touch</p>
       <form name="Order-Sheet-Lead" method="post">
         <input type="hidden" name="form-name" value="Order-Sheet-Lead" />
-        <section>
-          <div>
-            <label htmlFor="name">Full Name:</label>
-            <input type="text" name="name" required />
-          </div>
-          <div>
-            <label htmlFor="company">Company:</label>
-            <input type="text" name="company" />
-          </div>
-        </section>
+        {/* <section> */}
+        <div>
+          <label htmlFor="name">Full Name:</label>
+          <input type="text" name="name" required />
+        </div>
+        <div>
+          <label htmlFor="company">Company:</label>
+          <input type="text" name="company" />
+        </div>
+        {/* </section> */}
         <div>
           <label htmlFor="phone">Phone #:</label>
           <input type="phone" name="phone" required />
@@ -33,10 +33,9 @@ const SheetLeadOrder = () => {
           <label htmlFor="email">Email:</label>
           <input type="email" name="email" required />
         </div>
-        <fieldset>
+        {/* <fieldset> */}
 
         <h2>SELECT A SIZE</h2>
-
         <div className="dropdown">
           <label htmlFor="thickness">Thickness:</label>
           <select type="text" name="thickness">
@@ -49,36 +48,37 @@ const SheetLeadOrder = () => {
             <option value='6#'>6#/ft² - 3/32" - 2.4mm</option>
           </select>
         </div>
-        <div className="dimensions">
-          <div>
-            <label htmlFor="width">Width:</label>
-            <input type="number" name="width-inches" />
-            <label className="unit">inches</label>
-          </div>
-          <div>
-            <label htmlFor="length">Length:</label>
-            <input type="number" name="length-inches" />
-            <label className="unit">inches</label>
-          </div>
-          <div>
+        {/* <div className="dimensions"> */}
+        <div>
+          <label htmlFor="width">Width:</label>
+          <input type="number" name="width-inches" />
+          <label className="unit">inches</label>
+        </div>
+        <div>
+          <label htmlFor="length">Length:</label>
+          <input type="number" name="length-inches" />
+          <label className="unit">inches</label>
+        </div>
+        <div>
           <label htmlFor="quantity">Quantity Needed:</label>
           <input type="number" name="quantity-rolls" />
           <label className="unit">rolls</label>
         </div>
-        </div>
+        {/* </div> */}
         <h3>- Or Customize Your Size -</h3>
         <div>
-          <label htmlFor="custom">Custom Size:
-            (thickness x length x width)</label>
-            <input type="text" name="custom-size" />
-               </div>
-
-        <div className="quantity">
+          <div className="custom-label">
+          <label htmlFor="custom">Custom Size:</label>
+          <label>(thickness x length x width)</label>
+          </div>
+          <input type="text" name="custom-size" />
+        </div>
+        <div>
           <label htmlFor="quantity">Quantity Needed:</label>
           <input type="number" name="quantity-custom-rolls" />
           <label className="unit">rolls</label>
         </div>
-        </fieldset>
+        {/* </fieldset> */}
 
         <div>
           <label htmlFor="date">Date Needed By</label>
@@ -98,4 +98,4 @@ const SheetLeadOrder = () => {
 
 export default SheetLeadOrder;
 
-{/* <input class="form-control" placeholder="Mobile Number" name="mobile" id="mobile" autocomplete="mobile tel" value="(778) 316-9350"></input> */}
+{/* <input class="form-control" placeholder="Mobile Number" name="mobile" id="mobile" autocomplete="mobile tel" value="(778) 316-9350"></input> */ }

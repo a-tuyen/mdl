@@ -11,6 +11,13 @@
 //     justify-content: center;
 // }
 
+.order {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    // border: $test;
+}
 form {
     margin: 3rem;
     //  border: $test;
@@ -18,24 +25,31 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     // border: $test;
 
-
+div > .custom-label {
+    // border: $test;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+}
 
     div > .unit{
         // border: $test;
         display: flex;
-        margin-left: 0rem;
-        padding-left: 0.5rem
+        padding-left: 0.5vw;
+        // width: 100%;
     }
 
-    .dimensions {
-        display: flex;
-        flex-direction: column;
-        // border: $test;
-        padding-left: 180px;
+    // .dimensions {
+    //     display: flex;
+    //     flex-direction: column;
+    //     // border: $test;
 
-    }
+
+    // }
     
     div {
         // border: $test;
@@ -43,38 +57,28 @@ form {
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        width: 100%;
 
         label {
+
             // border: $test;
             font-family: $main-font;
             color: $main-color;
-            display: inline-block;
-            width: 10rem;
-            word-wrap: break-word;
-
-            // padding: 1vw;
-            // margin: 0.5rem;
-            // width: 8em;
             // display: inline-block;
-            // text-align: right;
-            // white-space: nowrap;
-            //   float:left;
-            //   width:10%;
-            //   text-align:right;
-            //   margin-right:5px;
-            //   vertical-align:middle;
-
-           
+            width: 15vw;
+            word-wrap: break-word;
+            text-align: end;
+          
         }
     }
 
-    .quantity {
-        display: flex;
-        // flex-direction: column;
-        // border: $test;
-        padding-left: 180px;
+    // .quantity {
+    //     display: flex;
+    //     // flex-direction: column;
+    //     // border: $test;
+    //     padding-left: 180px;
 
-    }
+    // }
     // input {
     //     width: 100px;
     // }
@@ -82,10 +86,20 @@ form {
 
 .dropdown>select {
     // background-color: red;
-    font-size: xx-large;
-    width: 20.5rem;
-    height: 3.25rem;
-    padding-left: 2rem;
+    font-size: large;
+    width: 25vw;
+    height: 5vh;
+    // padding-left: 5vw;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+
+    option {
+        // background-color: red;
+        font-size: large;
+    }
 }
 
 input,
@@ -93,42 +107,44 @@ textarea,
 select {
     border: 1px solid $main-color;
     border-radius: 3px;
-    height: 2.5rem;
-    width: 20rem;
-    margin: 0.5rem;
+    height: 4.5vh;
+    width: 20vw;
+    margin: 0.5vh;
     // border: $test;
     font-family: $main-font;
     font-size: large;
-    // padding-left: .5rem;
-    // display: table;
-    // float: left;
 
 
 }
 
 textarea {
     // vertical-align: middle;
-    width: 20rem;
-    height: 10rem;
+    width: 40vw;
+    height: 7rem;
     // display: table;
 }
 
 input:focus,
 textarea:focus {
-    border: 2px soild #11cfb5;
+    // border: 2px soild #11cfb5;
+    border: solid 2px red;
+
     // background-color: $accent-color;
 
 }
 
 button {
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $accent-color;
     color: white;
     width: 20rem;
     height: 2.5rem;
     border-radius: 20px;
     font-family: $header-font;
-    font-size: large;
+    font-size: x-large;
     margin-top: 2rem;
     // border: $test;
 
@@ -138,24 +154,14 @@ button {
 
 
 
-::placeholder {
-    font-family: $main-font;
-    font-size: xx-large;
-    padding-left: 0.25rem;
-    padding-top: .25rem;
-    // border: $test;
+// ::placeholder {
+//     font-family: $main-font;
+//     font-size: xx-large;
+//     padding-left: 0.25rem;
+//     padding-top: .25rem;
+//     // border: $test;
 
-}
-
-option {
-    font-size: xx-large;
-}
-
-optgroup select {
-    font-size: xx-large;
-
-
-}
+// }
 
 // fieldset > label {
 //     display: flex;
