@@ -1,14 +1,13 @@
 import { Outlet } from 'react-router-dom';
-import '../styles/ProductsWithList.scss';
+import '../styles/StubsBends.scss';
 
 const Lead = () => {
     return (
-        <div className="main">
-            <h1>LEAD</h1>
-
-            <h2>We offer a variety of lead and lead-based products and services</h2>
+        <div className="main-section">
+            <h1>Lead</h1>
+            <h3>WE OFFER A VARIETY OF LEAD AND LEAD-BASED PRODUCTS AND SERVICES</h3>
             <div className='list'>
-                <ul>
+                <ul className='left-list'>
                     <li>Anodes</li>
                     <li>Babbitt</li>
                     <li>Antimonial Lead</li>
@@ -21,7 +20,7 @@ const Lead = () => {
                     <li>Die Casting</li>
                     <li>Extrusions</li>
                 </ul>
-                <ul>
+                <ul className='right-list'>
                     <li>Ingots: Bars and Pigs</li>
                     <li>Roof Flashings & Spun Caps</li>
                     <li>Lead Shot</li>
