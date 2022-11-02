@@ -1,4 +1,5 @@
 import '../styles/Sheetlead.scss'
+// import '../styles/ProductsWithChart.scss'
 
 const SheetLead = () => {
     return (
@@ -7,9 +8,9 @@ const SheetLead = () => {
             <h3>COMMONLY USED FOR RADIATION SHIELDING AND SOUND PROOFING</h3>
             <p>Manufactured from refined pure leads that conforms to ASTM B-29, B-749 and Federal QQ-L-201F, QQ-L-171E specifications for lead.</p>
             <p>Our sheet lead is produced in-house by our skilled technicians on one of the most precise Lead Rolling Mills in the world today. Thickness can range from just 1/64" to 1" in thickness. We stock standard sizes of sheet lead such as 34" x 84" and 36" x 96" and are able to produce custom sizes upon request.</p>
-            <table>
+            <table className='table-sheet-lead'>
                 <tr>
-                    <th colSpan={'5'}>SHEET LEAD THICKNESS CHART</th>
+                    <th className='main-header' colSpan={'5'}>SHEET LEAD THICKNESS CHART</th>
                 </tr>
                 <tr>
                     <th>INCHES (DECIMAL)</th>

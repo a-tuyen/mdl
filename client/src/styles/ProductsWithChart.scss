@@ -40,11 +40,11 @@
         margin-bottom: 1vh;
     }
 
-    table {
-        // border: $test;
-        margin-top: 5vh;
-        margin-top: 5vh;
-    }
+    // table .main-table {
+    //     border: solid 2px red;
+    //     margin-top: 5vh;
+    //     margin-top: 5vh;
+    // }
 }
 
 
@@ -56,13 +56,15 @@
 
 }
 
-table {
-    border: $chart-border;
+.main-table {
+    // border: $chart-border;
     text-align: center;
     border-collapse: collapse;
     margin-top: 3vh;
+    // border: $test;
 
     th {
+        // border: solid 2px red;
         border: $chart-border;
         color: white;
         background-color: black;
