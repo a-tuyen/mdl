@@ -16,7 +16,7 @@
         margin-top: 2vh;
         margin-bottom: 1vh;
         width: 70%;
-        // border: $test
+
 
     }
 
@@ -24,20 +24,19 @@
         margin-top: 4vh;
         margin-bottom: 1vh;
         width: 70%;
-        // border: $test
+      
     }
 
     .table-sheet-lead {
-        // border: $test;
         text-align: center;
         border-collapse: collapse;
         margin-top: 3vh;
-        // border: solid 2px red;
+      
 
          .main-header {
             color: white;
             font-size: xx-large;
-            // border: solid 2px red;
+   
         }
     
         th {
@@ -61,7 +60,6 @@
 @media only screen and (max-width: $sm-screen) {
 
     .sheet-lead {
-        // border: $test;
           width: 100%;
 
         p {
@@ -85,11 +83,6 @@
             .main-header {
                 font-size: x-large;
 
-            }
-
-            th {
-                white-space: normal;
-                    
             }
         }
     }
