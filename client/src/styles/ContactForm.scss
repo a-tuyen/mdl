@@ -102,8 +102,6 @@ select {
     // border: $test;
     font-family: $main-font;
     font-size: large;
-
-
 }
 
 textarea {
@@ -208,10 +206,10 @@ button {
         margin-left: 2vw;
         margin-right: 2vw;
 
-        form>div,
-        form>fieldset {
+        form > div,
+        form > fieldset {
             // border: $test;
-            margin-left: 20vw;
+            margin-left: 0vw;
 
             div>.custom-label {
                 // border: $test;
@@ -219,7 +217,17 @@ button {
                 margin-left: 6.5%;
             }
         }
-
+        
+        input,
+        textarea,
+        select {
+            width: 40vw;
+         }
+         label {
+            // border:$test;
+            width:25vw;
+        }
+  
 
     }
 
