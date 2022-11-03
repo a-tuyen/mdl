@@ -1,33 +1,21 @@
 @import 'variables.scss';
 
-// .order {
-//     // border: 1px solid black;
-//     border-radius: 20px;
-//     width: 60%;
-//     display: flex;
-//     flex-direction: column;
-//     // align-self: center;
-//     // align-items: center;
-//     justify-content: center;
-// }
-
 .order {
+    border: $test;
     display: flex;
     flex-direction: column;
-    // align-items: flex-start;
-    // border: $test;
+
     background-color: lightgrey;
     margin-top: 0;
-    // width: 50%;
 
-.form-frame {
-    border: none;
-    margin: 3vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    background-color: white;
-    border-radius: 15px;
-}
+    .form-frame {
+        border: none;
+        margin: 3vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        background-color: white;
+        border-radius: 15px;
+    }
 
 }
 
@@ -54,12 +42,6 @@ form {
         font-family: $main-font;
     }
 
-    div>.unit {
-        // border: $test;
-        display: flex;
-        width: 30%;
-    }
-
     div {
         // border: $test;
         display: flex;
@@ -80,25 +62,27 @@ form {
             text-align: end;
 
         }
+
+        .unit {
+            // border: $test;
+            display: flex;
+            width: 30%;
+        }
+    
     }
 }
 
 .dropdown>select {
-    // background-color: red;
     font-size: large;
     width: 20.65vw;
     height: 5vh;
-    // padding-left: 5vw;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
     text-align: center;
 
     option {
-        // background-color: red;
         font-size: large;
+        background-color: $light-accent;
     }
+    
 }
 
 input,
@@ -127,7 +111,8 @@ textarea {
 input:focus,
 textarea:focus {
     // border: 2px soild #11cfb5;
-    border: solid 2px red;
+    background-color: $light-accent;
+    border: solid 2px $accent-color;
 
     // background-color: $accent-color;
 
@@ -182,3 +167,20 @@ button {
         // border: $test;
     }
 }
+
+@media only screen and (max-width: $med-screen) {
+
+.order > .form-frame {
+    border: $test;
+    border: none;
+    // margin: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    // background-color: white;
+    // border-radius: 15px;
+
+}
+}
+
+
+@media only screen and (max-width: $sm-screen) {}
