@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 .order {
-    border: $test;
+    // border: $test;
     display: flex;
     flex-direction: column;
 
@@ -15,6 +15,11 @@
         margin-right: 20vw;
         background-color: white;
         border-radius: 15px;
+
+        h1 {
+            margin-right: 3vw;
+            margin-left: 3vw;
+        }
     }
 
 }
@@ -68,7 +73,7 @@ form {
             display: flex;
             width: 30%;
         }
-    
+
     }
 }
 
@@ -82,7 +87,7 @@ form {
         font-size: large;
         background-color: $light-accent;
     }
-    
+
 }
 
 input,
@@ -170,17 +175,52 @@ button {
 
 @media only screen and (max-width: $med-screen) {
 
-.order > .form-frame {
-    border: $test;
-    border: none;
-    // margin: 3vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    // background-color: white;
-    // border-radius: 15px;
+    .order>.form-frame {
+        // border: $test;
+        border: none;
+        // margin: 3vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        // background-color: white;
+        // border-radius: 15px;
+
+        form>div,
+        form>fieldset {
+            // border: $test;
+            margin-left: 15vw;
+
+            div>.custom-label {
+                // border: $test;
+                width: 20%;
+                margin-left: 6.5%;
+            }
+        }
+
+    }
 
 }
+
+
+@media only screen and (max-width: $sm-screen) {
+    .order>.form-frame {
+        border: $test;
+        border: none;
+        margin-left: 2vw;
+        margin-right: 2vw;
+
+        form>div,
+        form>fieldset {
+            // border: $test;
+            margin-left: 20vw;
+
+            div>.custom-label {
+                // border: $test;
+                width: 20%;
+                margin-left: 6.5%;
+            }
+        }
+
+
+    }
+
 }
-
-
-@media only screen and (max-width: $sm-screen) {}
