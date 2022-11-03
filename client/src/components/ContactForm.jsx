@@ -6,10 +6,10 @@ const ContactForm = () => {
 
   return (
     <div className="order">
+      <div className='form-frame'>
       <h1>Send Us A Message</h1>
       <p>Please fill out the form below and we will be in touch</p>
       <form name="contact" method="post">
-
         <input type="hidden" name="form-name" value="contact" />
         <div>
           <label htmlFor="name">Name:</label>
@@ -33,6 +33,7 @@ const ContactForm = () => {
         </div>
         <button type="submit">Send</button>
       </form>
+      </div>
     </div>
   );
 };
