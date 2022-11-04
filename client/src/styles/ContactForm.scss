@@ -259,6 +259,7 @@ input {
 
 
 @media only screen and (max-width: $sm-screen) {
+    
     .order>.form-frame {
         // border: $test;
         border: none;
@@ -267,18 +268,22 @@ input {
 
         form>div {
             // border: $test;
-            margin-left: 0vw;
+            margin-left: 10vw;
+
 
         }
 
         form>fieldset>div {
             // border: $test;
-            margin-left: 2.5vw;
-
+            // margin-left: 2.5vw;
+           
+            select {
+                width: 42vw;
+            }
             .custom-label {
                 // border: $test;
-                width: 20%;
-                margin-left: 5%;
+                width: 19%;
+                // margin-left: 5%;
             }
 
         }
@@ -298,7 +303,7 @@ input {
 
     .order-submit {
         // border: $test;
-        margin-left: 23vw;
+        margin-left: 25vw;
         width: 45vw;
     }
 
