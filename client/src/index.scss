@@ -1,6 +1,8 @@
 @import './styles/variables';
 
 
+
+
 body {
   display: flex;
   flex-direction: column ;
@@ -11,10 +13,11 @@ body {
   font-size: large;
   padding: 0%;
   margin: 0%;
-  width: 100%;
+  width: 103.5vw;
   height: 100%;
   box-sizing: border-box;
   // border: $test;
+  // background-size : cover;
 
 }
 
