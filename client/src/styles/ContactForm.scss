@@ -86,17 +86,18 @@ form {
     label {
         // border: $test;
         width: 32%;
-        padding-right: 1vw ;
+        padding-right: 1vw;
     }
 }
 
-.dropdown > select {
+.dropdown>select {
     font-size: large;
     width: 21.25vw;
     height: 7.5vh;
     text-align: center;
     // border: $test;
     margin-left: 0;
+
     option {
         font-size: large;
         background-color: $light-accent;
@@ -154,8 +155,7 @@ fieldset {
 
     div {
         // border: $test;
-        margin-left:.75vw
-    
+        margin-left: .75vw
     }
 }
 
@@ -228,9 +228,10 @@ button {
 
     }
 
-input {
-    height: 1.5rem;
-}
+    input {
+        height: 1.5rem;
+    }
+
     .order-submit {
         // border: $test;
         margin-left: 18vw;
@@ -242,11 +243,11 @@ input {
         margin-left: 0vw;
         width: 100%;
         // padding-left: 0;
-    
+
         label {
             // border: $test;
             width: 25%;
-            padding-right: 1vw ;
+            padding-right: 1vw;
         }
 
         select {
@@ -259,7 +260,7 @@ input {
 
 
 @media only screen and (max-width: $sm-screen) {
-    
+
     .order>.form-frame {
         // border: $test;
         border: none;
@@ -273,37 +274,57 @@ input {
 
         }
 
-        form>fieldset>div {
-            // border: $test;
-            // margin-left: 2.5vw;
-           
-            select {
-                width: 42vw;
-            }
-            .custom-label {
-                // border: $test;
-                width: 19%;
-                // margin-left: 5%;
+        form {
+
+            div {
+                margin-left: 20.5vw;
             }
 
-        }
+            input,
+            textarea {
+                width: 40vw;
+   
+            }
 
-        input,
-        textarea,
-        select {
-            width: 40vw;
-        }
+            fieldset {
 
-        label {
-            // border:$test;
-            width: 25vw;
-        }
+                .custom-input {
+                    // border: $test;
+                    margin-left: 0;
+                }
 
+                div {
+
+                    select {
+                        width: 42vw;
+                    }
+
+                    .custom-label {
+                        // border: $test;
+                        width: 33%;
+                        margin-left: 0%;
+                    }
+
+                }
+
+                input,
+                textarea,
+                select {
+                    width: 40vw;
+                }
+
+                label {
+                    // border:$test;
+                    width: 25vw;
+                }
+
+            }
+        }
     }
 
     .order-submit {
         // border: $test;
-        margin-left: 25vw;
+        margin-left: 20vw;
         width: 45vw;
     }
 
