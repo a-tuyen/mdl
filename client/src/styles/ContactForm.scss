@@ -90,13 +90,13 @@ form {
     }
 }
 
-.dropdown>select {
+.dropdown > select {
     font-size: large;
     width: 21.25vw;
     height: 7.5vh;
     text-align: center;
     // border: $test;
-
+    margin-left: 0;
     option {
         font-size: large;
         background-color: $light-accent;
@@ -119,9 +119,9 @@ select {
     font-size: large;
 }
 
-select {
-    margin-left: 0;
-}
+// select {
+//     margin-left: 0;
+// }
 
 textarea {
     // vertical-align: middle;
@@ -251,6 +251,7 @@ input {
 
         select {
             // border: $test;
+            height: 2.5rem;
             width: 22vw
         }
     }
