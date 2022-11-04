@@ -189,7 +189,7 @@ button {
 
         form > fieldset > div {
             // border: $test;
-            margin-left: 6vw;
+            margin-left: 6.75vw;
 
             .custom-label {
                 // border: $test;
@@ -211,21 +211,27 @@ button {
 
 @media only screen and (max-width: $sm-screen) {
     .order>.form-frame {
-        border: $test;
+        // border: $test;
         border: none;
         margin-left: 2vw;
         margin-right: 2vw;
 
-        form > div,
-        form > fieldset {
+        form > div {
             // border: $test;
             margin-left: 0vw;
 
-            div>.custom-label {
+            }
+
+        form > fieldset > div {
+            // border: $test;
+            margin-left: 2.5vw;
+
+            .custom-label {
                 // border: $test;
                 width: 20%;
-                margin-left: 6.5%;
+                margin-left: 5%;
             }
+
         }
         
         input,
