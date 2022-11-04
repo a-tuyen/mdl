@@ -228,10 +228,31 @@ button {
 
     }
 
+input {
+    height: 1.5rem;
+}
     .order-submit {
         // border: $test;
         margin-left: 18vw;
         width: 25vw;
+    }
+
+    .dropdown {
+        // border: $test;
+        margin-left: 0vw;
+        width: 100%;
+        // padding-left: 0;
+    
+        label {
+            // border: $test;
+            width: 25%;
+            padding-right: 1vw ;
+        }
+
+        select {
+            // border: $test;
+            width: 22vw
+        }
     }
 }
 
