@@ -182,16 +182,21 @@ button {
         // background-color: white;
         // border-radius: 15px;
 
-        form>div,
-        form>fieldset {
+        form > div {
             // border: $test;
-            margin-left: 15vw;
+            margin-left: 16vw;
+        }
 
-            div>.custom-label {
+        form > fieldset > div {
+            // border: $test;
+            margin-left: 6vw;
+
+            .custom-label {
                 // border: $test;
                 width: 20%;
-                margin-left: 6.5%;
+                margin-left: 7%;
             }
+
         }
 
     }
