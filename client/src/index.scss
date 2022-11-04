@@ -1,6 +1,9 @@
 @import './styles/variables';
 
-
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 
 body {
@@ -13,7 +16,7 @@ body {
   font-size: large;
   padding: 0%;
   margin: 0%;
-  width: 103.5vw;
+  width: 100vw;
   height: 100%;
   box-sizing: border-box;
   // border: $test;
