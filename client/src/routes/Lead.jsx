@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import '../styles/StubsBends.scss';
+import '../styles/ProductsWithConvertedList.scss';
 
 const Lead = () => {
     return (

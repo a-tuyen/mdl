@@ -1,5 +1,4 @@
-import '../styles/StubsBends.scss';
-// import '../styles/ProductsWithList.scss';
+import '../styles/ProductsWithConvertedList.scss';
 
 const StubsBends = () => {
     return (
