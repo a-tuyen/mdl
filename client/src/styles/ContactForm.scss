@@ -1,12 +1,21 @@
 @import 'variables.scss';
 
+* {
+    margin-right: 0;
+    padding-right: 0;
+}
+
 .order {
     // border: $test;
     display: flex;
     flex-direction: column;
-
     background-color: lightgrey;
     margin-top: 0;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+
+    
 
     .form-frame {
         border: none;

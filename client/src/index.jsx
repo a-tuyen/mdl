@@ -80,9 +80,10 @@ root.render(
             <Route index element={
               <div>
                 <h1>Place an order</h1>
+                <hr></hr>
                 <div className="order-type">
                   <a href='/order/sheetlead'><h2>SHEET LEAD</h2></a>
-                  <a href='/order/other'><h2>OTHER LEAD PRODUCTS</h2></a>
+                  <a href='/order/other'><h2>REQUEST A QUOTE</h2></a>
                 </div>
               </div>
             } />
