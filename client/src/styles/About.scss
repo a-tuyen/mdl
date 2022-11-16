@@ -5,21 +5,15 @@
     font-family: $main-font;
     color: $main-color;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 8vh;
 
-
-    .main-section {
-        // border: $test;
-        margin-top: 6vh;
-        display: flex;
-        flex-direction: row;
+        // // border: $test;
+        margin-top: 5vh;
         justify-content: center;
-        align-items: center;
-        width: 100%;
-        flex-direction: row;
-       
+        align-items: flex-start;
+      
        
         .robot {
             // border: $test;
@@ -34,15 +28,16 @@
             // border: $test;
             display: flex;
             flex-direction: column;
-            width: 20rem;
+            width: 30vw;
+            padding: 0;
             text-align: left;
-            // margin-bottom: 10vh;
+
 
             h1{
                 margin: 2vw
             }
 
-        }
+        
 
 
     }
@@ -50,28 +45,35 @@
 
 @media only screen and (max-width: $med-screen) {
 
-    .about .main-section {
+    .about {
         display: flex;
         flex-direction: column;
         align-items: center;
+        // border: $test;
 }
 
-.about .main-section .robot {
+.about > .text {
+    // border: $test;
+    width: 70%
+}
+
+.about > .robot {
     width: 40vw;
-    height:auto
+    height:auto;
+    margin-top: 5vh;
 }
     
 }
 
-@media only screen and (max-width: $med-screen) {
+@media only screen and (max-width: $sm-screen) {
     
-    .about .main-section .robot {
+    .about > .robot {
         width: 60vw;
         height:auto;
         margin-left: 0px;  
     }
 
-    .about .main-section .text {
+    .about > .text {
         width: 70vw;
   
     }
