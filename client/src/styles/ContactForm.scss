@@ -15,7 +15,7 @@
     margin-right: 0;
     padding-right: 0;
 
-    
+
 
     .form-frame {
         border: none;
@@ -181,7 +181,7 @@ button {
     font-family: $header-font;
     font-size: x-large;
     margin-top: 2rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .order-submit {
@@ -229,7 +229,7 @@ button {
 
             textarea {
                 // border: $test;
-                width:30vw;
+                width: 30vw;
             }
         }
 
@@ -288,75 +288,75 @@ button {
 
 @media only screen and (max-width: $sm-screen) {
 
-    .order {
-        width: 100%;
-    }
+    // .order {
+    //     width: 100%;
+    // }
 
-    .order>.form-frame {
-        border: $test;
-        border: none;
-        margin-left: 2vw;
-        margin-right: 2vw;
-
-        form>div {
-            // border: $test;
-            margin-left: 10vw;
+    // .order>.form-frame {
+    //     border: none;
+    //     margin-left: 2vw;
+    //     margin-right: 2vw;
 
 
-        }
+    //     form>div {
 
-        form {
+    //         margin-left: 20.5vw;
 
-            div {
-                margin-left: 20.5vw;
-            }
+    //         input {
+    //             width: 40vw;
+    //             // border: $test;
 
-            input,
-            textarea {
-                width: 40vw;
-   
-            }
+    //         }
 
-            fieldset {
+    //         textarea {
+    //             width: 45vw;
+    //             // border: $test;
+    //         }
+    //     }
 
-                .custom-input {
-                    // border: $test;
-                    margin-left: 0;
-                }
+    //     fieldset {
 
-                div {
+    //         .custom-input {
+    //             // border: $test;
+    //             margin-left: 0;
+    //         }
 
-                    select {
-                        width: 42vw;
-                    }
+    //         div {
 
-                    .custom-label {
-                        // border: $test;
-                        width: 33%;
-                        margin-left: 0%;
-                    }
+    //             select {
+    //                 width: 42vw;
+    //                 border: $test;
+    //             }
 
-                }
+    //             .custom-label {
+    //                 // border: $test;
+    //                 width: 30%;
+    //                 margin-left: 0%;
+    //             }
 
-                input,
-                textarea,
-                select {
-                    width: 40vw;
-                }
+    //         }
 
-                label {
-                    // border:$test;
-                    width: 25vw;
-                }
+    //         input,
+    //         textarea,
+    //         select {
+    //             width: 40vw;
 
-            }
-        }
-    }
+    //         }
 
-    .order-submit {
-        // border: $test;
-        margin-left: 20vw;
-        width: 45vw;
-    }
+
+
+    //         label {
+    //             // border:$test;
+    //             width: 25vw;
+    //         }
+
+    //     }
+    // }
+
+    // .order-submit {
+    //     // border: $test;
+    //     margin-left: 20vw;
+    //     width: 45vw;
+    // }
 
 }
