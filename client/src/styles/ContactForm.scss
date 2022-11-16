@@ -181,8 +181,7 @@ button {
     font-family: $header-font;
     font-size: x-large;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    // margin-left: 20%;
+    margin-bottom: 1.25rem;
 }
 
 .order-submit {
@@ -287,77 +286,77 @@ button {
 }
 
 
-// @media only screen and (max-width: $sm-screen) {
+@media only screen and (max-width: $sm-screen) {
 
-//     .order {
-//         width: 100%;
-//     }
+    .order {
+        width: 100%;
+    }
 
-//     .order>.form-frame {
-//         border: $test;
-//         border: none;
-//         margin-left: 2vw;
-//         margin-right: 2vw;
+    .order>.form-frame {
+        border: $test;
+        border: none;
+        margin-left: 2vw;
+        margin-right: 2vw;
 
-//         form>div {
-//             // border: $test;
-//             margin-left: 10vw;
+        form>div {
+            // border: $test;
+            margin-left: 10vw;
 
 
-//         }
+        }
 
-//         form {
+        form {
 
-//             div {
-//                 margin-left: 20.5vw;
-//             }
+            div {
+                margin-left: 20.5vw;
+            }
 
-//             input,
-//             textarea {
-//                 width: 40vw;
+            input,
+            textarea {
+                width: 40vw;
    
-//             }
+            }
 
-//             fieldset {
+            fieldset {
 
-//                 .custom-input {
-//                     // border: $test;
-//                     margin-left: 0;
-//                 }
+                .custom-input {
+                    // border: $test;
+                    margin-left: 0;
+                }
 
-//                 div {
+                div {
 
-//                     select {
-//                         width: 42vw;
-//                     }
+                    select {
+                        width: 42vw;
+                    }
 
-//                     .custom-label {
-//                         // border: $test;
-//                         width: 33%;
-//                         margin-left: 0%;
-//                     }
+                    .custom-label {
+                        // border: $test;
+                        width: 33%;
+                        margin-left: 0%;
+                    }
 
-//                 }
+                }
 
-//                 input,
-//                 textarea,
-//                 select {
-//                     width: 40vw;
-//                 }
+                input,
+                textarea,
+                select {
+                    width: 40vw;
+                }
 
-//                 label {
-//                     // border:$test;
-//                     width: 25vw;
-//                 }
+                label {
+                    // border:$test;
+                    width: 25vw;
+                }
 
-//             }
-//         }
-//     }
+            }
+        }
+    }
 
-//     .order-submit {
-//         // border: $test;
-//         margin-left: 20vw;
-//         width: 45vw;
-//     }
+    .order-submit {
+        // border: $test;
+        margin-left: 20vw;
+        width: 45vw;
+    }
 
-// }
+}
