@@ -57,7 +57,7 @@
 }
 
 
-@media only screen and (max-width: $sm-screen) {
+@media only screen and (max-width: $med-screen) {
 
     .sheet-lead {
           width: 100%;
@@ -76,8 +76,8 @@
 
         .table-sheet-lead {
         
-            margin-left: 1vw;
-            margin-right: 1vw;
+            margin-left: 3vw;
+            margin-right: 3vw;
 
 
             .main-header {

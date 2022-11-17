@@ -222,6 +222,23 @@ p.button1:hover {
 
 }
 
+/* ----- animations--------- */
+/* clicked */
+// .burger-bar.clicked:nth-child(1) {
+//     transform: rotate(45deg) translate(0.05em, 1.4em);
+//     transition: ease-out 0.5s;
+// }
+
+// .burger-bar.clicked:nth-child(2) {
+//     transform: scale(0.1);
+//     transition: ease-out 0.5s;
+// }
+
+// .burger-bar.clicked:nth-child(3) {
+//     transform: rotate(135deg) translate(.4em, 1em);
+//     transition: ease-out 0.5s;
+// }
+
 .burger-bar.clicked:nth-child(1) {
     -webkit-transform: rotate(45deg) translate(10px, 9px);
     -moz-transform: rotate(45deg) translate(10px, 9px);
@@ -274,6 +291,7 @@ padding: 0;
 
         min-height: 4%;
         padding-bottom: 5vw;
+        // margin-bottom: 5vw;
 
     }
 
@@ -333,6 +351,10 @@ padding: 0;
     .menuLinks {
         width: 130px;
         // border: $test;
+    }
+
+    hr {
+        margin-bottom: 2vw;
     }
 
 }
