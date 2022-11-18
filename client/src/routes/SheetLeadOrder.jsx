@@ -15,7 +15,7 @@ const SheetLeadOrder = () => {
         <h1> Place A Sheet Lead Order</h1>
         <p>Please fill out the form below and we will be in touch</p>
 
-        <form name="Order-Sheet-Lead" method="post">
+        <form name="Order-Sheet-Lead" method="post" action="/order/thankyou">
           <input type="hidden" name="form-name" value="Order-Sheet-Lead" />
           <div>
             <label htmlFor="name">Full Name:</label>
