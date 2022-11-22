@@ -82,8 +82,8 @@ root.render(
                 <h1>Place an order</h1>
                 {/* <hr></hr> */}
                 <ul className="order-type">
-                  <li><h2><a href='/order/sheetlead'><li>SHEET LEAD</li></a></h2></li>
-                  <li><a href='/order/other'><h2>REQUEST A QUOTE</h2></a></li>
+                  <li><h2><a href='/order/sheetlead'><li>- SHEET LEAD ORDER -</li></a></h2></li>
+                  <li><a href='/order/other'><h2>- REQUEST A QUOTE -</h2></a></li>
                 </ul>
               </div>
             } />

@@ -129,10 +129,10 @@ div .order-page {
     // text-decoration: underline;
   }
 
-  ul {
+  ul.order-type {
     // border: $test;
     list-style-type: circle;
-    display: list-item;
+    display: list-item !important;
 
 
   }
