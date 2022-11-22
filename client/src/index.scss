@@ -119,8 +119,33 @@ article {
   }
 }
 
+/// for place an order page ///
 
-@media only screen and (max-width: $sm-screen) {
+div .order-page {
+  // border: $test;
+
+  h1 {
+    padding-bottom: 4vh;
+    // text-decoration: underline;
+  }
+
+  ul {
+    // border: $test;
+    list-style-type: circle;
+    display: list-item;
+
+
+  }
+
+  ul > li {
+    // border: $test;
+    display: list-item;
+    list-style-type: circle;
+
+  }
+}
+
+@media only screen and (max-width: $med-screen) {
 
   html
 {

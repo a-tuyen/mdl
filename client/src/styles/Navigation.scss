@@ -82,8 +82,9 @@ a>h1.title {
     padding: 0px;
     padding-right: 2vh;
     padding-left: 2vh;
-    background-color: $menu-bg;
+    background-color: $accent-color;
     border: $menu-border;
+    color: white;
 }
 
 p.button1 {
@@ -113,7 +114,7 @@ p.button1:hover {
 }
 
 .dropdown-content p:hover {
-    background-color: $accent-color;
+    background-color: $main-color;
     color: white;
 }
 

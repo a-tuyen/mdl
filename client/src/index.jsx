@@ -78,13 +78,13 @@ root.render(
           </Route>
           <Route path='order' element={<Order />} >
             <Route index element={
-              <div>
+              <div className='order-page'>
                 <h1>Place an order</h1>
-                <hr></hr>
-                <div className="order-type">
-                  <a href='/order/sheetlead'><h2>SHEET LEAD</h2></a>
-                  <a href='/order/other'><h2>REQUEST A QUOTE</h2></a>
-                </div>
+                {/* <hr></hr> */}
+                <ul className="order-type">
+                  <li><h2><a href='/order/sheetlead'><li>SHEET LEAD</li></a></h2></li>
+                  <li><a href='/order/other'><h2>REQUEST A QUOTE</h2></a></li>
+                </ul>
               </div>
             } />
             <Route path='sheetlead' element={<SheetLeadOrder />} />
