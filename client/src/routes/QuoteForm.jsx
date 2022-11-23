@@ -7,8 +7,8 @@ const QuoteForm = () => {
   return (
     <div className="order">
       <div className='form-frame'>
-        <h1>Send Us A Message</h1>
-        <p>Please fill out the form below and we will be in touch</p>
+        <h1>Request A Quote</h1>
+        <p>Please fill out the form with your project details and we will be in touch</p>
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <div>
@@ -28,7 +28,7 @@ const QuoteForm = () => {
             <input type="email" name="email" required />
           </div>
           <div>
-            <label htmlFor="message">Project details:</label>
+            <label htmlFor="message">Project Details:</label>
             <textarea name="message" required />
           </div>
           <button type="submit">Send</button>

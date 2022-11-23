@@ -24,6 +24,7 @@ import Order from './routes/Order'
 import OrderSubmission from './components/OrderSubmission';
 import ContactSubmission from './components/ContactSubmission';
 import ContactForm from './components/ContactForm';
+import QuoteForm from './routes/QuoteForm';
 
 
 
@@ -88,7 +89,7 @@ root.render(
               </div>
             } />
             <Route path='sheetlead' element={<SheetLeadOrder />} />
-            <Route path='quote' element={<SheetLeadOrder />} />
+            <Route path='quote' element={<QuoteForm />} />
 
             <Route path='thankyou' element={<OrderSubmission />} />
           </Route>
