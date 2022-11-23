@@ -83,11 +83,13 @@ root.render(
                 {/* <hr></hr> */}
                 <ul className="order-type">
                   <li><h2><a href='/order/sheetlead'><li>- SHEET LEAD ORDER -</li></a></h2></li>
-                  <li><a href='/order/other'><h2>- REQUEST A QUOTE -</h2></a></li>
+                  <li><a href='/order/quote'><h2>- REQUEST A QUOTE -</h2></a></li>
                 </ul>
               </div>
             } />
             <Route path='sheetlead' element={<SheetLeadOrder />} />
+            <Route path='quote' element={<SheetLeadOrder />} />
+
             <Route path='thankyou' element={<OrderSubmission />} />
           </Route>
           <Route path='contact' element={<Order />} >
