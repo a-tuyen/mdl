@@ -9,7 +9,7 @@ const QuoteForm = () => {
       <div className='form-frame'>
         <h1>Request A Quote</h1>
         <p>Please fill out the form with your project details and we will be in touch</p>
-        <form name="contact" method="post">
+        <form name="quote" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <div>
             <label htmlFor="name">Name:</label>
