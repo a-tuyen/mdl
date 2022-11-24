@@ -9,8 +9,8 @@ const QuoteForm = () => {
       <div className='form-frame'>
         <h1>Request A Quote</h1>
         <p>Please fill out the form with your project details and we will be in touch</p>
-        <form name="quote" method="post">
-          <input type="hidden" name="form-name" value="quote" />
+        <form name="Quote-Request" method="post">
+          <input type="hidden" name="form-name" value="Quote-Request" />
           <div>
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" required />
@@ -28,8 +28,8 @@ const QuoteForm = () => {
             <input type="email" name="email" required />
           </div>
           <div>
-            <label htmlFor="message">Project Details:</label>
-            <textarea name="message" required />
+            <label htmlFor="project-details">Project Details:</label>
+            <textarea name="project-details" required />
           </div>
           <button type="submit">Send</button>
         </form>
