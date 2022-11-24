@@ -10,7 +10,7 @@ const QuoteForm = () => {
         <h1>Request A Quote</h1>
         <p>Please fill out the form with your project details and we will be in touch</p>
         <form name="quote" method="post">
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="quote" />
           <div>
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" required />
