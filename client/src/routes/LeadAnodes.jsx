@@ -20,6 +20,7 @@ const LeadAnodes = () => {
                     <li>Bismuth (Bi)</li>
                     <li>Aluminum (Al)</li>
                 </ul>
+                <img className= 'grid-anode' src='https://user-images.githubusercontent.com/77664153/204403704-9ba90130-e12a-4c0f-b35f-0eb6b4cb2aca.png' />
             </div>
 
         </div>
