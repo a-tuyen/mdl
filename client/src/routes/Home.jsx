@@ -15,7 +15,7 @@ const Home = () => {
       <h1>Our Brands and Products</h1>
       <div className='products'>
         <div className='section'>
-           <a href='/products/lead'>
+          <a href='/products/lead'>
             <img src="https://user-images.githubusercontent.com/77664153/193941443-ee28bda5-bd00-496a-a331-c73e90cf396d.png" alt='diagonal side view of rolls of sheet lead on a shelf' />
           </a>
         </div>
