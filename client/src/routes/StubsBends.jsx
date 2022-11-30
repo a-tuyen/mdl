@@ -13,15 +13,15 @@ const StubsBends = () => {
                     <h4>LEAD STUBS</h4>
                     <li>We offer diameters of 4"/3" or 4"</li>
                     <li>Lengths range from 8" and up</li>
+                    <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
                 </ul>
                 <ul className='right-list'>
                     <h4>LEAD BENDS</h4>
                     <li>We offer diameters of 4"/3" or 4"</li>
                     <li>Lengths range from 8" x 8" to 8" x 18"</li>
+                    <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
                 </ul>
-            </div>
-            <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
-      
+            </div>   
         </div>
     );
 };

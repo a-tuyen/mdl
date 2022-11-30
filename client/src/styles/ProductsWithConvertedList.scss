@@ -107,7 +107,9 @@ h2 {
 
 
 img.bends {
-    width: 40vw;
+    width: 20vw;
+    margin-top: 2vw;
+    // border:$test;
 }
 
 @media only screen and (max-width: $med-screen) {
@@ -156,5 +158,15 @@ img.bends {
             }
         }
 
+    }
+
+    img.bends {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
+        // align-items: center;
+        width: 40vw;
+        margin-top: 2vw;
+        // border:$test;
     }
 }
