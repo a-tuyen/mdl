@@ -20,6 +20,8 @@ const StubsBends = () => {
                     <li>Lengths range from 8" x 8" to 8" x 18"</li>
                 </ul>
             </div>
+            <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
+      
         </div>
     );
 };
