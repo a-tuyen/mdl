@@ -23,6 +23,7 @@ const SilFos = () => {
                     <li>Slow Flow</li>
                 </ul>
             </div>
+            <img className='silfos' src='https://user-images.githubusercontent.com/77664153/205181386-f16e8bf3-d5da-43eb-8838-7b73a214fbb5.png' />
         </div>
     );
 };
