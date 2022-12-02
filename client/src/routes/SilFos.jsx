@@ -13,17 +13,17 @@ const SilFos = () => {
                 <ul>
                     <h4>Sil-Fos 5 (5% Ag) - Available in 1.5mm (5/64") and 2.5mm (7/64") Diameter</h4>
                     <li>Designed primarily for those applications where close fit-ups cannot be maintained.  It has the ability to fill gaps and form fillets without adversely affecting joint strength.</li>
-                    <li>Recommended joint clearance:  .003 to .005 (.076mm to .127mm).</li>
+                    <li>Recommended joint clearance:  0.003" to 0.005" (0.076mm to 0.127mm).</li>
                     <li>Slow Flow</li>
                 </ul>
                 <ul>
                     <h4>Sil-Fos 15 (15% Ag) - Available in 1.5mm (5/64") and 2.5mm (7/64") Diameter</h4>
                     <li>For use where close fit-ups cannot be maintained and joint ductility is important.</li>
-                    <li>Recommended joint clearance: .002 to .005 (.051mm to .127mm).</li>
+                    <li>Recommended joint clearance: 0.002" to 0.005" (0.051mm to 0.127mm).</li>
                     <li>Slow Flow</li>
                 </ul>
             </div>
-            <img className='silfos' src='https://user-images.githubusercontent.com/77664153/205181386-f16e8bf3-d5da-43eb-8838-7b73a214fbb5.png' />
+            <img className='silfos' src='https://user-images.githubusercontent.com/77664153/205364391-320430ef-d5a7-431b-b08f-aa0890a6d95e.png' />
         </div>
     );
 };
