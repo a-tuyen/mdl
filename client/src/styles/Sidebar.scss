@@ -6,9 +6,10 @@ nav.side-bar {
     justify-content: flex-start;
     height: 100%;
     margin-top: 20vh;
+    // border: $test;
+    margin-left: 1vw;
+    
 
-    // padding: 0;
-    // margin: 0;
 }
 
 .first-part,
@@ -25,7 +26,7 @@ nav.side-bar {
     // top: 0;
 
     // padding-top: 40px;
-    font-family: $main-font;
+    // font-family: $main-font;
     margin-top: 0;
     // padding: 0%;
 
@@ -37,7 +38,8 @@ nav.side-bar {
     font-family: $main-font;
     color: $main-color;
     margin: 0px;
-    padding: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-right: 1vw;
     padding-left: 1vw;
     border: $menu-border;
