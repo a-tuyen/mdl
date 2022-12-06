@@ -112,6 +112,13 @@ img.bends {
     // border:$test;
 }
 
+img.stubs {
+    width: 8vw;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    // border:$test;
+}
+
 @media only screen and (max-width: $med-screen) {
 
     .main-section {
@@ -161,12 +168,16 @@ img.bends {
     }
 
     img.bends {
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: center;
-        // align-items: center;
         width: 40vw;
         margin-top: 2vw;
         // border:$test;
     }
+
+    img.stubs {
+        width: 18vw;
+        margin-top: 2vw;
+        margin-left: 12vw;
+        // border:$test;
+    }
+
 }

@@ -23,7 +23,10 @@ const Flashings = () => {
                     <li>8"</li>
                 </ul>
             </div>
-            <img className='img-flashing' src='https://user-images.githubusercontent.com/77664153/203849648-a94655c4-cb94-470c-94fe-a7d5deffe69d.png'></img>
+            <div>
+                <img className='img-flashing' src='https://user-images.githubusercontent.com/77664153/206000783-e5b7c2f0-5d45-48f2-9983-371f63e93c36.png'></img>
+                <img className='img-flashing' src='https://user-images.githubusercontent.com/77664153/205998008-208db160-bf2d-4be7-a547-93cd78a5cc85.png'></img>
+            </div>
         </div>
     );
 };

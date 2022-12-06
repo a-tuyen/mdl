@@ -13,13 +13,13 @@ const StubsBends = () => {
                     <h4>LEAD STUBS</h4>
                     <li>We offer diameters of 4"/3" or 4"</li>
                     <li>Lengths range from 8" and up</li>
-                    <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
+                    <img className='stubs'src='https://user-images.githubusercontent.com/77664153/206001711-7fb67b6e-c361-49a0-a9e1-77f31967b0c8.png' />
                 </ul>
                 <ul className='right-list'>
                     <h4>LEAD BENDS</h4>
                     <li>We offer diameters of 4"/3" or 4"</li>
                     <li>Lengths range from 8" x 8" to 8" x 18"</li>
-                    <img className='bends'src='https://user-images.githubusercontent.com/77664153/204883396-92005f80-6ddb-4806-9b2c-1e5890ba084b.png' />
+                    <img className='bends'src='https://user-images.githubusercontent.com/77664153/205996625-7c07b1a0-786e-4b08-87a3-78c94cbdf8e0.png' />
                 </ul>
             </div>   
         </div>
