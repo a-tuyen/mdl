@@ -46,8 +46,7 @@ root.render(
                   <h1>Products</h1>
                   <section className='img-container'>
                     <div className='image-title'>
-                      <a href='/products/lead'>
-                        <img src='https://user-images.githubusercontent.com/77664153/195461222-1e376680-ed6e-4ff0-8a42-3e9832aaa5f4.png' alt='MDL logo' /></a>
+                      <a href='/products/lead'><img src='https://user-images.githubusercontent.com/77664153/195461222-1e376680-ed6e-4ff0-8a42-3e9832aaa5f4.png' alt='MDL logo' /></a>
                         <h2><a href='/products/lead'>LEAD</a></h2>
                     </div>
                     <div className='image-title'>

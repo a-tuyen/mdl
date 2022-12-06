@@ -102,7 +102,7 @@ article {
 
     h2 {
       margin-top: 0%;
-      margin-bottom: 10vh;
+      margin-bottom: 1wvh;
       // padding-bottom: 10%;
       font-family: $header-font;
       font-weight: 400;
@@ -175,6 +175,7 @@ div .order-page {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-bottom: 20vw;
   
   
   }
@@ -187,20 +188,23 @@ div .order-page {
     align-items: center;
     padding-bottom: 0;
 
+
   }
 
   .image-title > a > img {
     width: 40vw;
     height: auto;
-    // border: $test;
-    margin: 0;
+    border: $test;
+    margin-top: 0;
+    // margin-bottom: 10vw;
+    
   }
 
 
   .image-title > h2 > a {
     // border: $test;
     font-size: xx-large;
-    margin-bottom: 5vh;
+    // margin-bottom: 20vw;
   
 
   }
