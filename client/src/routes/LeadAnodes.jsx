@@ -20,7 +20,7 @@ const LeadAnodes = () => {
                     <li>Aluminum (Al)</li>
                 </ul>
             </div>
-            <img className= 'grid-anode' src='https://user-images.githubusercontent.com/77664153/204403704-9ba90130-e12a-4c0f-b35f-0eb6b4cb2aca.png' />
+            <img className= 'grid-anode' src='https://user-images.githubusercontent.com/77664153/205996675-00db4a40-0b65-4780-8eeb-0c5269c9dfbc.png' alt='three cylindrical basket grid anodes' />
         </div>
     );
 };
