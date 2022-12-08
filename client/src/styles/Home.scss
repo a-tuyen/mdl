@@ -1,18 +1,5 @@
 @import 'variables.scss';
 
-    // // border: $test;
-    // display: flex;
-    // flex-direction: column;
-    // // align-items: flex-end;
-    // align-items: center;
-    // width: 70%;
-    // color: $main-color;
-    // width: 60vw;
-    // margin-left: 10vw ;
-    // margin-right: 24vw;
-    // margin-bottom: 5vh;
-    // margin-top: 3vh;
-    // text-align: left ;
 
 .paragraph {
     // font-family: $main-font;
@@ -28,6 +15,7 @@
     p {
         width: 50vw;
 
+
     }
 
     a {
@@ -35,12 +23,24 @@
         text-underline-offset: 0.25em;
     }
 
-}
+    .web-size {
+        // border: $test;
+        width: 75vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
 
-.paragraph>img {
-    width: 70vw;
-    margin-top: 5vh;
-    border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+
+        }
+    }
+
+    .mobile-size {
+        display: none;
+    }
+
 }
 
 h1 {
@@ -97,7 +97,6 @@ a>h2 {
 
     .Home {
         width: 100vw;
-        // border: $test;
         margin: 0;
     }
 
@@ -107,38 +106,48 @@ a>h2 {
 
         width: 100vw;
         // border: $test;
-    }
+    
 
+        .mobile-size {
+            display: flex;
+            justify-content: center;
+            width: 95vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            // border: $test;
 
-    .paragraph>p {
-        width: 80vw;
-
-
-    }
-
-    .paragraph>img {
-        // border: $test;
-        width: 180%;
-        // width: auto;
-        height: 10%;
-        display: flex;
-        margin-left: 0;
-        margin-right: 70%;
-        margin-bottom: 3vw;
-        border-radius: 0;
-
-    }
-
-    .products {
-        display: flex;
-        flex-direction: column;
-
-        a>img {
-            width: 70vw;
-            margin: 2.5rem;
+            img {
+                width: 100%;
+            }
         }
 
+        .web-size {
+            display: none;
+            border: $test;
+            width: 75vw;
+            margin-top: 3vw;
+            margin-bottom: 3vw;
+
     }
+}
+
+
+.paragraph>p {
+    width: 80vw;
+
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+
+    a>img {
+        width: 70vw;
+        margin: 2.5rem;
+    }
+
+}
 
 
 
