@@ -4,7 +4,6 @@
     // border: $test;
     display: flex;
     flex-direction: column;
-    // align-items: flex-end;
     align-items: center;
     width: 70%;
     color: $main-color;
@@ -16,7 +15,10 @@
     text-align: left;
 }
 
-
 .img-maxum-logo {
     margin-top: 5vh;
+}
+
+@media only screen and (max-width: $med-screen) {
+
 }
