@@ -106,7 +106,6 @@ a>h2 {
 
         width: 100vw;
         // border: $test;
-    
 
         .mobile-size {
             display: flex;
@@ -128,27 +127,20 @@ a>h2 {
             margin-top: 3vw;
             margin-bottom: 3vw;
 
-    }
-}
-
-
-.paragraph>p {
-    width: 80vw;
-
-
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-
-    a>img {
-        width: 70vw;
-        margin: 2.5rem;
+        }
     }
 
-}
+    .paragraph>p {
+        width: 80vw;
+    }
 
+    .products {
+        display: flex;
+        flex-direction: column;
 
-
+        a>img {
+            width: 70vw;
+            margin: 2.5rem;
+        }
+    }
 }
