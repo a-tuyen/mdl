@@ -87,7 +87,7 @@ const SheetLeadOrder = () => {
           </div>
           <div>
             <label htmlFor="notes">Additional Notes:</label>
-            <textarea name="notes" required />
+            <textarea name="notes"/>
           </div>
           <div>
             <button className="order-submit" type="submit">Submit</button>
