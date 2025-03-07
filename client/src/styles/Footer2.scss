@@ -15,12 +15,21 @@
 
     .side-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
+        justify-content: space-between;
         padding-left: 0%;
         padding-right: 6%;
         background-color: $dark-main-color;
         margin-left: 4%;
+
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-start;
+        // padding-left: 0%;
+        // padding-right: 6%;
+        // background-color: $dark-main-color;
+        // margin-left: 4%;
 
         h2 {
             letter-spacing: 1px;
@@ -79,6 +88,26 @@
 
 }
 
+.madeincanada {
+    background-color: $main-color;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 75%;
+
+    img {
+        width: 10%;
+        height: 40%
+    }
+
+    span {
+        font-family: Train One;
+        font-size: large;
+        width: 10%;
+        text-align: left;
+    }
+}
+
 .submit {
     // border: $test;
     display: flex;
@@ -105,12 +134,33 @@
 .footer2 {
     background-color:$dark-main-color;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
 
         .side-section {
             margin-left: 0;
             margin-right: 0;
+
+        }
+    }
+
+    .madeincanada {
+        // background-color: green;
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    
+        img {
+            width: 20%;
+            height: 90%;
+            padding-right: 3px;
+        }
+    
+        span {
+            font-family: Train One;
+            font-size: medium;
+            width: 25%;
+            text-align: left;
         }
     }
 

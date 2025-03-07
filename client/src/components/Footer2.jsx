@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <div className='footer2'>
             <section className='side-section'>
-                <ul >
-                <h2>WE ARE HERE TO HELP</h2>
+                <ul>
+                    <h2>WE ARE HERE TO HELP</h2>
                     <li> <img src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png" alt='rotary telephone icon' />
                         <p>1 (877) 420 3731</p>
                     </li>
@@ -22,7 +22,10 @@ const Footer = () => {
                 </ul>
 
             </section>
-
+            <div className='madeincanada'>
+                <img src="/made-in-canada-logo-mdl.png" alt='maple leaf icon with waves of the mdl colours going through it' />
+                <span>PROUDLY MADE IN CANADA</span>
+            </div>
 
             <div className='submit'><button className='order'><a href='/order'>Place an order</a></button></div>
         </div>
