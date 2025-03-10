@@ -96,14 +96,14 @@
     width: 75%;
 
     img {
-        width: 10%;
-        height: 40%
+        width: 7%;
+        height: 30%
     }
 
     span {
         font-family: Train One;
         font-size: large;
-        width: 10%;
+        width: 8%;
         text-align: left;
     }
 }
@@ -145,15 +145,18 @@
     }
 
     .madeincanada {
-        // background-color: green;
+        background-color: $dark-main-color;
         display: flex;
         justify-content: start;
         width: 100%;
+        padding-top:5px;
     
         img {
             width: 20%;
             height: 90%;
             padding-right: 3px;
+            padding-left: 5px;
+
         }
     
         span {
