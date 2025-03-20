@@ -10,7 +10,7 @@ const About = () => {
           <p>All our products are locally made in Burnaby, BC, by our team of skilled technicians. </p>
           <p>We are a proud member of the North American Die Casting Association.</p>
         </div>
-        <img className='robot' src='/MDL-badge.jpg' alt='picture of the badge on a Metal Distributors Uniform' />
+        <img className='robot' src='https://user-images.githubusercontent.com/77664153/185462150-c89b5ca0-150f-401f-833d-d9201def1c99.jpg' alt='robot made from anodes' />
       </div>
     // </div>
   );

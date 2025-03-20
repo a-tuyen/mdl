@@ -93,18 +93,26 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 75%;
+    width: 100%;
+
 
     img {
         width: 7%;
-        height: 30%
+        max-width: 100px;
+        height: 30%;
+        
     }
 
-    span {
-        font-family: Train One;
-        font-size: large;
+    .logo-text {
+        display: flex;
+        flex-direction: column;
         width: 8%;
-        text-align: left;
+        span {
+            font-family: Train One;
+            font-size: large;
+            
+            text-align: left;
+        }
     }
 }
 
@@ -131,8 +139,8 @@
 
 
 @media only screen and (max-width: $sm-screen) {
-.footer2 {
-    background-color:$dark-main-color;
+    .footer2 {
+        background-color: $dark-main-color;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,8 +157,8 @@
         display: flex;
         justify-content: start;
         width: 100%;
-        padding-top:5px;
-    
+        padding-top: 5px;
+
         img {
             width: 20%;
             height: 90%;
@@ -158,13 +166,17 @@
             padding-left: 5px;
 
         }
-    
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        
         span {
             font-family: Train One;
             font-size: medium;
             width: 25%;
             text-align: left;
         }
-    }
+    }}
 
 }

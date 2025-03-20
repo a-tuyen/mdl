@@ -24,7 +24,11 @@ const Footer = () => {
             </section>
             <div className='madeincanada'>
                 <img src="/made-in-canada-logo-mdl.png" alt='maple leaf icon with waves of the mdl colours going through it' />
-                <span>PROUDLY MADE IN CANADA</span>
+                <div className='logo-text'>
+                    <span>PROUDLY</span>
+                    <span>MADE IN</span>
+                    <span>CANADA</span>
+                </div>
             </div>
 
             <div className='submit'><button className='order'><a href='/order'>Place an order</a></button></div>
